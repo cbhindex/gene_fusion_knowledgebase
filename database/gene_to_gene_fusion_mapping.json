@@ -1,0 +1,3219 @@
+[
+  {
+    "gene": "ABL1",
+    "partner_genes": [
+      "BCR",
+      "GAB1"
+    ]
+  },
+  {
+    "gene": "ACKR3",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "ACSL4",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "ACTA2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "ACTB",
+    "partner_genes": [
+      "FOSB",
+      "GLI1",
+      "MITF",
+      "NR4A3"
+    ]
+  },
+  {
+    "gene": "ACTG1",
+    "partner_genes": [
+      "MITF"
+    ]
+  },
+  {
+    "gene": "ACTG2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "ACVR2A",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "ADCK2",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "ADGRF5",
+    "partner_genes": [
+      "THBS1"
+    ]
+  },
+  {
+    "gene": "AGAP3",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "AGFG1",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "AHRR",
+    "partner_genes": [
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "ALK",
+    "partner_genes": [
+      "ACTG2",
+      "AP3D1",
+      "CARS1",
+      "CASC15",
+      "CLIP2",
+      "CLTC",
+      "COL1A1",
+      "COL1A2",
+      "DCTN1",
+      "DES",
+      "EML4",
+      "ETV6",
+      "FCHSD2",
+      "FLNA",
+      "FMR1",
+      "FN1",
+      "FXR1",
+      "IGFBP5",
+      "KANK2",
+      "LRRFIP2",
+      "MLPH",
+      "MPRIP",
+      "MSN",
+      "NRP2",
+      "PLEKHH2",
+      "PPFIBP1",
+      "PPP1CB",
+      "PRKAR1A",
+      "PRKAR2A",
+      "RANBP2",
+      "RRBP1",
+      "SEC31A",
+      "SPECC1L",
+      "SQSTM1",
+      "SYN3",
+      "TFG",
+      "THBS1",
+      "TIMP3",
+      "TLN2",
+      "TNS1",
+      "TPM3",
+      "VCL"
+    ]
+  },
+  {
+    "gene": "ANXA2P2",
+    "partner_genes": [
+      "EIF2AK4"
+    ]
+  },
+  {
+    "gene": "AP3D1",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "ARGFXP1",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "ARID2",
+    "partner_genes": [
+      "MRPS30"
+    ]
+  },
+  {
+    "gene": "ASCC2",
+    "partner_genes": [
+      "GGNBP2"
+    ]
+  },
+  {
+    "gene": "ASPN",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "ASPSCR1",
+    "partner_genes": [
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "ATF1",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "ATF7IP",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "ATG7",
+    "partner_genes": [
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "AXL",
+    "partner_genes": [
+      "CIC"
+    ]
+  },
+  {
+    "gene": "BCOR",
+    "partner_genes": [
+      "CCNB3",
+      "ITD",
+      "MAML3",
+      "ZC3H7B"
+    ]
+  },
+  {
+    "gene": "BCORL1",
+    "partner_genes": [
+      "CREBBP"
+    ]
+  },
+  {
+    "gene": "BCR",
+    "partner_genes": [
+      "ABL1"
+    ]
+  },
+  {
+    "gene": "BEND2",
+    "partner_genes": [
+      "NIPBL"
+    ]
+  },
+  {
+    "gene": "BMAL2",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "BMPR2",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "BNC2",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "BOC",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "BRAF",
+    "partner_genes": [
+      "ADCK2",
+      "AGAP3",
+      "CUX1",
+      "DAAM1",
+      "DST",
+      "EGFR",
+      "EPB41L2",
+      "ERC1",
+      "FOXN3",
+      "KIAA1549",
+      "MCC",
+      "NRF1",
+      "OSBP",
+      "ROBO1",
+      "SEPTIN7",
+      "SND1",
+      "TEX41",
+      "TOM1L2",
+      "TRIM24",
+      "TRIP11"
+    ]
+  },
+  {
+    "gene": "BRD4",
+    "partner_genes": [
+      "NUTM1"
+    ]
+  },
+  {
+    "gene": "C12orf42",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "C3orf62",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "CALD1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "CAMTA1",
+    "partner_genes": [
+      "WWTR1"
+    ]
+  },
+  {
+    "gene": "CARMN",
+    "partner_genes": [
+      "NR4A3"
+    ]
+  },
+  {
+    "gene": "CARS1",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "CASC15",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "CAV1",
+    "partner_genes": [
+      "MET"
+    ]
+  },
+  {
+    "gene": "CCNB3",
+    "partner_genes": [
+      "BCOR",
+      "RRAGB"
+    ]
+  },
+  {
+    "gene": "CD44",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "CD96",
+    "partner_genes": [
+      "CSF1"
+    ]
+  },
+  {
+    "gene": "CDC42SE1",
+    "partner_genes": [
+      "USP2"
+    ]
+  },
+  {
+    "gene": "CDH11",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "CDH9",
+    "partner_genes": [
+      "ZFHX3"
+    ]
+  },
+  {
+    "gene": "CDK5RAP2",
+    "partner_genes": [
+      "KANK1"
+    ]
+  },
+  {
+    "gene": "CDX1",
+    "partner_genes": [
+      "IRF2BP2",
+      "SQSTM1"
+    ]
+  },
+  {
+    "gene": "CHCHD7",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "CHD7",
+    "partner_genes": [
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "CHD9",
+    "partner_genes": [
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "CIC",
+    "partner_genes": [
+      "AXL",
+      "CITED1",
+      "DUX4",
+      "DUX4L8",
+      "EWSR1",
+      "FOXO4",
+      "LEUTX",
+      "NUTM1",
+      "NUTM2A",
+      "SYK"
+    ]
+  },
+  {
+    "gene": "CITED1",
+    "partner_genes": [
+      "CIC",
+      "SRF"
+    ]
+  },
+  {
+    "gene": "CITED2",
+    "partner_genes": [
+      "ESR1",
+      "PRDM10",
+      "VGLL2"
+    ]
+  },
+  {
+    "gene": "CLIP2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "CLTC",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "COL12A1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "COL14A1",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "COL1A1",
+    "partner_genes": [
+      "ALK",
+      "PDGFB",
+      "PLAG1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "COL1A2",
+    "partner_genes": [
+      "ALK",
+      "MIR29B1",
+      "PDGFB",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "COL3A1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "COL4A1",
+    "partner_genes": [
+      "VEGFD"
+    ]
+  },
+  {
+    "gene": "COL6A2",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "COL6A3",
+    "partner_genes": [
+      "CSF1",
+      "PDGFD"
+    ]
+  },
+  {
+    "gene": "COX6C",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "CREB1",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "CREB3L1",
+    "partner_genes": [
+      "EWSR1",
+      "FUS",
+      "PAX5"
+    ]
+  },
+  {
+    "gene": "CREB3L2",
+    "partner_genes": [
+      "FUS"
+    ]
+  },
+  {
+    "gene": "CREB3L3",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "CREBBP",
+    "partner_genes": [
+      "BCORL1"
+    ]
+  },
+  {
+    "gene": "CREM",
+    "partner_genes": [
+      "EWSR1",
+      "FUS",
+      "MITF",
+      "SMARCA2",
+      "SMARCA4"
+    ]
+  },
+  {
+    "gene": "CRTC1",
+    "partner_genes": [
+      "TRIM11"
+    ]
+  },
+  {
+    "gene": "CSF1",
+    "partner_genes": [
+      "CD96",
+      "COL6A3",
+      "FBN1",
+      "FN1",
+      "KCNMA1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "CTBP1",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "CTDSP2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "CTNNB1",
+    "partner_genes": [
+      "GREB1",
+      "PLAG1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "CTSB",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "CUX1",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "CYP2E1",
+    "partner_genes": [
+      "MTG1"
+    ]
+  },
+  {
+    "gene": "DAAM1",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "DCN",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "DCTN1",
+    "partner_genes": [
+      "ALK",
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "DDIT3",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "DDX6",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "DES",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "DLEU2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "DST",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "DUX4",
+    "partner_genes": [
+      "CIC"
+    ]
+  },
+  {
+    "gene": "DUX4L8",
+    "partner_genes": [
+      "CIC"
+    ]
+  },
+  {
+    "gene": "DVL2",
+    "partner_genes": [
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "DYRK2",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "E2F6",
+    "partner_genes": [
+      "FKBP4"
+    ]
+  },
+  {
+    "gene": "EEF1A1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "EGF",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "EGFR",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "EGR1",
+    "partner_genes": [
+      "GRIA1"
+    ]
+  },
+  {
+    "gene": "EIF2AK4",
+    "partner_genes": [
+      "ANXA2P2"
+    ]
+  },
+  {
+    "gene": "EIF4A1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "EIF4A2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "EIF5A",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "EMILIN2",
+    "partner_genes": [
+      "PDGFD"
+    ]
+  },
+  {
+    "gene": "EML4",
+    "partner_genes": [
+      "ALK",
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "EP300",
+    "partner_genes": [
+      "PRRX1",
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "EP400",
+    "partner_genes": [
+      "HMGA2",
+      "PHF1"
+    ]
+  },
+  {
+    "gene": "EPB41L2",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "EPC1",
+    "partner_genes": [
+      "PHC2",
+      "PHF1"
+    ]
+  },
+  {
+    "gene": "ERC1",
+    "partner_genes": [
+      "BRAF",
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "ERG",
+    "partner_genes": [
+      "EWSR1",
+      "FUS",
+      "NIPBL"
+    ]
+  },
+  {
+    "gene": "ESR1",
+    "partner_genes": [
+      "CITED2",
+      "NCOA2",
+      "NCOA3"
+    ]
+  },
+  {
+    "gene": "ETV4",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "ETV5",
+    "partner_genes": [
+      "FUS"
+    ]
+  },
+  {
+    "gene": "ETV6",
+    "partner_genes": [
+      "ALK",
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "EWSR1",
+    "partner_genes": [
+      "ATF1",
+      "CIC",
+      "CREB1",
+      "CREB3L1",
+      "CREB3L3",
+      "CREM",
+      "CTBP1",
+      "DDIT3",
+      "ERG",
+      "ETV4",
+      "FEV",
+      "FLI1",
+      "GFI1B",
+      "KLF15",
+      "NACC1",
+      "NF2",
+      "NFATC2",
+      "NR4A3",
+      "PATZ1",
+      "PBX1",
+      "PBX3",
+      "POU5F1",
+      "SMAD3",
+      "SMARCA5",
+      "TFCP2",
+      "UBP1",
+      "WT1",
+      "ZNF444"
+    ]
+  },
+  {
+    "gene": "EZHIP",
+    "partner_genes": [
+      "MBTD1"
+    ]
+  },
+  {
+    "gene": "FBN1",
+    "partner_genes": [
+      "CSF1",
+      "PDGFD"
+    ]
+  },
+  {
+    "gene": "FCHSD2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "FEV",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "FGD6",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "FGF1",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "FGF14-AS1",
+    "partner_genes": [
+      "RB1"
+    ]
+  },
+  {
+    "gene": "FGFR1",
+    "partner_genes": [
+      "FN1",
+      "PLAG1",
+      "TLN1",
+      "USP33",
+      "ZBTB47"
+    ]
+  },
+  {
+    "gene": "FGFR2",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "FGFR3",
+    "partner_genes": [
+      "FN1",
+      "TACC3"
+    ]
+  },
+  {
+    "gene": "FILIP1L",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "FKBP4",
+    "partner_genes": [
+      "E2F6"
+    ]
+  },
+  {
+    "gene": "FLI1",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "FLNA",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "FMR1",
+    "partner_genes": [
+      "ALK",
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "FN1",
+    "partner_genes": [
+      "ACVR2A",
+      "AGFG1",
+      "ALK",
+      "BMPR2",
+      "CSF1",
+      "EGF",
+      "FGF1",
+      "FGFR1",
+      "FGFR2",
+      "FGFR3",
+      "MALAT1",
+      "MERTK",
+      "NTRK1",
+      "PRG4",
+      "ROS1",
+      "TEK",
+      "TGFA",
+      "TIMP1"
+    ]
+  },
+  {
+    "gene": "FNBP4",
+    "partner_genes": [
+      "MTCH2"
+    ]
+  },
+  {
+    "gene": "FOS",
+    "partner_genes": [
+      "LMNA",
+      "VIM"
+    ]
+  },
+  {
+    "gene": "FOSB",
+    "partner_genes": [
+      "ACTB",
+      "SERPINE1",
+      "WWTR1",
+      "ZFP36"
+    ]
+  },
+  {
+    "gene": "FOSL1",
+    "partner_genes": [
+      "NUDT11",
+      "VAMP3"
+    ]
+  },
+  {
+    "gene": "FOXN3",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "FOXO1",
+    "partner_genes": [
+      "GATA6",
+      "MEIS1",
+      "OGT",
+      "PAX3",
+      "PAX7",
+      "SRF"
+    ]
+  },
+  {
+    "gene": "FOXO3",
+    "partner_genes": [
+      "OGT"
+    ]
+  },
+  {
+    "gene": "FOXO4",
+    "partner_genes": [
+      "CIC",
+      "MEIS2",
+      "OGT"
+    ]
+  },
+  {
+    "gene": "FOXR1",
+    "partner_genes": [
+      "PHF1"
+    ]
+  },
+  {
+    "gene": "FOXR2",
+    "partner_genes": [
+      "PHF1"
+    ]
+  },
+  {
+    "gene": "FRMD6",
+    "partner_genes": [
+      "PLAG1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "FUS",
+    "partner_genes": [
+      "ATF1",
+      "CREB3L1",
+      "CREB3L2",
+      "CREM",
+      "DDIT3",
+      "ERG",
+      "ETV5",
+      "FEV",
+      "FLI1",
+      "NACC1",
+      "NFATC2",
+      "NR4A3",
+      "TFCP2"
+    ]
+  },
+  {
+    "gene": "FXR1",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "GAB1",
+    "partner_genes": [
+      "ABL1"
+    ]
+  },
+  {
+    "gene": "GAB2",
+    "partner_genes": [
+      "TEK"
+    ]
+  },
+  {
+    "gene": "GALNT15",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "GATA6",
+    "partner_genes": [
+      "FOXO1"
+    ]
+  },
+  {
+    "gene": "GEM",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "GFI1B",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "GGNBP2",
+    "partner_genes": [
+      "ASCC2"
+    ]
+  },
+  {
+    "gene": "GLI1",
+    "partner_genes": [
+      "ACTB",
+      "MALAT1",
+      "PAMR1",
+      "PTCH1",
+      "TUBA1B",
+      "TXNIP"
+    ]
+  },
+  {
+    "gene": "GLI2",
+    "partner_genes": [
+      "PTCH1"
+    ]
+  },
+  {
+    "gene": "GLI3",
+    "partner_genes": [
+      "JAZF1"
+    ]
+  },
+  {
+    "gene": "GOPC",
+    "partner_genes": [
+      "ROS1"
+    ]
+  },
+  {
+    "gene": "GPAT4",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "GREB1",
+    "partner_genes": [
+      "CTNNB1",
+      "NCOA1",
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "GRIA1",
+    "partner_genes": [
+      "EGR1"
+    ]
+  },
+  {
+    "gene": "GRIP1",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "GTF2A1",
+    "partner_genes": [
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "GTF2I",
+    "partner_genes": [
+      "NCOA2",
+      "RALGPS1"
+    ]
+  },
+  {
+    "gene": "HAPSTR1",
+    "partner_genes": [
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "HAS2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "HBEGF",
+    "partner_genes": [
+      "RBM27"
+    ]
+  },
+  {
+    "gene": "HDLBP",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "HEY1",
+    "partner_genes": [
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "HMBOX1",
+    "partner_genes": [
+      "NRG1"
+    ]
+  },
+  {
+    "gene": "HMGA2",
+    "partner_genes": [
+      "ACKR3",
+      "BNC2",
+      "C12orf42",
+      "COL14A1",
+      "COX6C",
+      "DCN",
+      "DYRK2",
+      "EP400",
+      "FGD6",
+      "GRIP1",
+      "LHFPL6",
+      "LINC03041",
+      "LPP",
+      "NCOR2",
+      "NEGR1",
+      "NFIB",
+      "PLCZ1",
+      "RAD51B",
+      "SETBP1",
+      "YAP1"
+    ]
+  },
+  {
+    "gene": "HNRNPC",
+    "partner_genes": [
+      "PLAG1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "HSPA8",
+    "partner_genes": [
+      "NR4A3"
+    ]
+  },
+  {
+    "gene": "ICA1L",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "IGF1R",
+    "partner_genes": [
+      "THBS1"
+    ]
+  },
+  {
+    "gene": "IGFBP5",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "INO80D",
+    "partner_genes": [
+      "PAX3"
+    ]
+  },
+  {
+    "gene": "INSR",
+    "partner_genes": [
+      "THBS1"
+    ]
+  },
+  {
+    "gene": "IRF2BP2",
+    "partner_genes": [
+      "CDX1",
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "ITD",
+    "partner_genes": [
+      "BCOR"
+    ]
+  },
+  {
+    "gene": "JAZF1",
+    "partner_genes": [
+      "GLI3",
+      "PHF1",
+      "SUZ12",
+      "YWHAE"
+    ]
+  },
+  {
+    "gene": "KANK1",
+    "partner_genes": [
+      "CDK5RAP2"
+    ]
+  },
+  {
+    "gene": "KANK2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "KANSL1",
+    "partner_genes": [
+      "KAT6A",
+      "KAT6B"
+    ]
+  },
+  {
+    "gene": "KANSL1L",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "KAT6A",
+    "partner_genes": [
+      "KANSL1"
+    ]
+  },
+  {
+    "gene": "KAT6B",
+    "partner_genes": [
+      "KANSL1"
+    ]
+  },
+  {
+    "gene": "KATNBL1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "KCNMA1",
+    "partner_genes": [
+      "CSF1"
+    ]
+  },
+  {
+    "gene": "KDM2A",
+    "partner_genes": [
+      "WWTR1"
+    ]
+  },
+  {
+    "gene": "KHDRBS1",
+    "partner_genes": [
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "KIAA1549",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "KIF1A",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "KLF10",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "KLF15",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "KMT2A",
+    "partner_genes": [
+      "YAP1"
+    ]
+  },
+  {
+    "gene": "KMT2D",
+    "partner_genes": [
+      "PRRX1"
+    ]
+  },
+  {
+    "gene": "KRT10",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "LEUTX",
+    "partner_genes": [
+      "CIC"
+    ]
+  },
+  {
+    "gene": "LHFPL6",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "LIFR",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "LINC03041",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "LMNA",
+    "partner_genes": [
+      "FOS",
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "LPAR1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "LPP",
+    "partner_genes": [
+      "HMGA2",
+      "RREB1"
+    ]
+  },
+  {
+    "gene": "LRRFIP2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "LTBP1",
+    "partner_genes": [
+      "VWA8"
+    ]
+  },
+  {
+    "gene": "LTK",
+    "partner_genes": [
+      "MYH10",
+      "MYH9"
+    ]
+  },
+  {
+    "gene": "LUM",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MALAT1",
+    "partner_genes": [
+      "FN1",
+      "GLI1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MAML1",
+    "partner_genes": [
+      "NR1D1"
+    ]
+  },
+  {
+    "gene": "MAML2",
+    "partner_genes": [
+      "NR1D1",
+      "PTBP1",
+      "YAP1"
+    ]
+  },
+  {
+    "gene": "MAML3",
+    "partner_genes": [
+      "BCOR",
+      "NR1D1",
+      "PAX3"
+    ]
+  },
+  {
+    "gene": "MAMLD1",
+    "partner_genes": [
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "MAP4",
+    "partner_genes": [
+      "RAF1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MBTD1",
+    "partner_genes": [
+      "EZHIP"
+    ]
+  },
+  {
+    "gene": "MCC",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "MEAF6",
+    "partner_genes": [
+      "PHF1",
+      "SUZ12"
+    ]
+  },
+  {
+    "gene": "MED12",
+    "partner_genes": [
+      "PRDM10"
+    ]
+  },
+  {
+    "gene": "MEF2D",
+    "partner_genes": [
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "MEG3",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "MEIS1",
+    "partner_genes": [
+      "FOXO1",
+      "NCOA1",
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "MEIS2",
+    "partner_genes": [
+      "FOXO4"
+    ]
+  },
+  {
+    "gene": "MERTK",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "MET",
+    "partner_genes": [
+      "CAV1"
+    ]
+  },
+  {
+    "gene": "MGA",
+    "partner_genes": [
+      "NUTM1"
+    ]
+  },
+  {
+    "gene": "MIR143",
+    "partner_genes": [
+      "NOTCH1",
+      "NOTCH2",
+      "NOTCH3"
+    ]
+  },
+  {
+    "gene": "MIR22HG",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MIR29B1",
+    "partner_genes": [
+      "COL1A2"
+    ]
+  },
+  {
+    "gene": "MIR99AHG",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "MITF",
+    "partner_genes": [
+      "ACTB",
+      "ACTG1",
+      "CREM"
+    ]
+  },
+  {
+    "gene": "MLPH",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "MN1",
+    "partner_genes": [
+      "PATZ1"
+    ]
+  },
+  {
+    "gene": "MPRIP",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "MRPS30",
+    "partner_genes": [
+      "ARID2"
+    ]
+  },
+  {
+    "gene": "MRTFB",
+    "partner_genes": [
+      "RREB1",
+      "SRF",
+      "TEAD1",
+      "ZFTA"
+    ]
+  },
+  {
+    "gene": "MSN",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "MT-ND4",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "MTCH2",
+    "partner_genes": [
+      "FNBP4"
+    ]
+  },
+  {
+    "gene": "MTG1",
+    "partner_genes": [
+      "CYP2E1"
+    ]
+  },
+  {
+    "gene": "MTUS1",
+    "partner_genes": [
+      "NRG1"
+    ]
+  },
+  {
+    "gene": "MXD4",
+    "partner_genes": [
+      "NUTM1"
+    ]
+  },
+  {
+    "gene": "MXI1",
+    "partner_genes": [
+      "NUTM1"
+    ]
+  },
+  {
+    "gene": "MYADM",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MYH10",
+    "partner_genes": [
+      "LTK"
+    ]
+  },
+  {
+    "gene": "MYH9",
+    "partner_genes": [
+      "LTK",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "MYOCD",
+    "partner_genes": [
+      "PLAG1",
+      "SRF"
+    ]
+  },
+  {
+    "gene": "NAB2",
+    "partner_genes": [
+      "STAT6"
+    ]
+  },
+  {
+    "gene": "NACC1",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "NCALD",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "NCOA1",
+    "partner_genes": [
+      "GREB1",
+      "MEIS1",
+      "PAX3",
+      "PRRX1",
+      "SRF",
+      "ZFTA"
+    ]
+  },
+  {
+    "gene": "NCOA2",
+    "partner_genes": [
+      "AHRR",
+      "ESR1",
+      "GREB1",
+      "GTF2A1",
+      "GTF2I",
+      "HEY1",
+      "MEIS1",
+      "PAX3",
+      "PRRX1",
+      "SRF",
+      "TEAD1",
+      "VGLL2",
+      "ZFP64"
+    ]
+  },
+  {
+    "gene": "NCOA3",
+    "partner_genes": [
+      "ESR1",
+      "SRF",
+      "ZFP64"
+    ]
+  },
+  {
+    "gene": "NCOA4",
+    "partner_genes": [
+      "RET"
+    ]
+  },
+  {
+    "gene": "NCOR2",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "NEDD4",
+    "partner_genes": [
+      "SS18"
+    ]
+  },
+  {
+    "gene": "NEGR1",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "NF1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "NF2",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "NFATC2",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "NFATC3",
+    "partner_genes": [
+      "SRSF7"
+    ]
+  },
+  {
+    "gene": "NFIB",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "NFIX",
+    "partner_genes": [
+      "STAT6"
+    ]
+  },
+  {
+    "gene": "NFKBIE",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "NIPBL",
+    "partner_genes": [
+      "BEND2",
+      "ERG"
+    ]
+  },
+  {
+    "gene": "NKTR",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "NONO",
+    "partner_genes": [
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "NOTCH1",
+    "partner_genes": [
+      "MIR143",
+      "ROS1"
+    ]
+  },
+  {
+    "gene": "NOTCH2",
+    "partner_genes": [
+      "MIR143",
+      "PDE4DIP"
+    ]
+  },
+  {
+    "gene": "NOTCH3",
+    "partner_genes": [
+      "MIR143"
+    ]
+  },
+  {
+    "gene": "NR1D1",
+    "partner_genes": [
+      "MAML1",
+      "MAML2",
+      "MAML3",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "NR4A3",
+    "partner_genes": [
+      "ACTB",
+      "CARMN",
+      "EWSR1",
+      "FUS",
+      "HSPA8",
+      "PGR",
+      "SLCO5A1",
+      "TFG"
+    ]
+  },
+  {
+    "gene": "NRF1",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "NRG1",
+    "partner_genes": [
+      "HMBOX1",
+      "MTUS1",
+      "PPHLN1"
+    ]
+  },
+  {
+    "gene": "NRP2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "NTRK1",
+    "partner_genes": [
+      "DCTN1",
+      "FN1",
+      "HAPSTR1",
+      "IRF2BP2",
+      "LMNA",
+      "MEF2D",
+      "NUMA1",
+      "SARM1",
+      "TPM3",
+      "TPM4",
+      "TPR"
+    ]
+  },
+  {
+    "gene": "NTRK3",
+    "partner_genes": [
+      "EML4",
+      "ETV6",
+      "KHDRBS1",
+      "RBPMS",
+      "SPECC1L",
+      "STRN",
+      "STRN3",
+      "TFG",
+      "TMTC2",
+      "VIM"
+    ]
+  },
+  {
+    "gene": "NUDCD3",
+    "partner_genes": [
+      "ROS1"
+    ]
+  },
+  {
+    "gene": "NUDT11",
+    "partner_genes": [
+      "FOSL1"
+    ]
+  },
+  {
+    "gene": "NUDT3",
+    "partner_genes": [
+      "RAD51B"
+    ]
+  },
+  {
+    "gene": "NUMA1",
+    "partner_genes": [
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "NUP160",
+    "partner_genes": [
+      "SLC43A3"
+    ]
+  },
+  {
+    "gene": "NUTM1",
+    "partner_genes": [
+      "BRD4",
+      "CIC",
+      "MGA",
+      "MXD4",
+      "MXI1"
+    ]
+  },
+  {
+    "gene": "NUTM2A",
+    "partner_genes": [
+      "CIC",
+      "YWHAE"
+    ]
+  },
+  {
+    "gene": "NUTM2B",
+    "partner_genes": [
+      "YWHAE"
+    ]
+  },
+  {
+    "gene": "NUTM2E",
+    "partner_genes": [
+      "YWHAE"
+    ]
+  },
+  {
+    "gene": "OGA",
+    "partner_genes": [
+      "TGFBR3"
+    ]
+  },
+  {
+    "gene": "OGT",
+    "partner_genes": [
+      "FOXO1",
+      "FOXO3",
+      "FOXO4"
+    ]
+  },
+  {
+    "gene": "OMD",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "OSBP",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "PAFAH1B1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PALLD",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PAMR1",
+    "partner_genes": [
+      "GLI1"
+    ]
+  },
+  {
+    "gene": "PATZ1",
+    "partner_genes": [
+      "EWSR1",
+      "MN1"
+    ]
+  },
+  {
+    "gene": "PAX3",
+    "partner_genes": [
+      "FOXO1",
+      "INO80D",
+      "MAML3",
+      "NCOA1",
+      "NCOA2",
+      "WWTR1"
+    ]
+  },
+  {
+    "gene": "PAX5",
+    "partner_genes": [
+      "CREB3L1"
+    ]
+  },
+  {
+    "gene": "PAX7",
+    "partner_genes": [
+      "FOXO1",
+      "PPARGC1A"
+    ]
+  },
+  {
+    "gene": "PAX8",
+    "partner_genes": [
+      "PPARG"
+    ]
+  },
+  {
+    "gene": "PBX1",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "PBX3",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "PCMTD1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "PDE4DIP",
+    "partner_genes": [
+      "NOTCH2"
+    ]
+  },
+  {
+    "gene": "PDGFB",
+    "partner_genes": [
+      "COL1A1",
+      "COL1A2"
+    ]
+  },
+  {
+    "gene": "PDGFD",
+    "partner_genes": [
+      "COL6A3",
+      "EMILIN2",
+      "FBN1",
+      "TNC"
+    ]
+  },
+  {
+    "gene": "PDGFRA",
+    "partner_genes": [
+      "USP35",
+      "USP8"
+    ]
+  },
+  {
+    "gene": "PDGFRB",
+    "partner_genes": [
+      "SPARC"
+    ]
+  },
+  {
+    "gene": "PDLIM7",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PDZRN3",
+    "partner_genes": [
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "PFN1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PGR",
+    "partner_genes": [
+      "NR4A3"
+    ]
+  },
+  {
+    "gene": "PHC2",
+    "partner_genes": [
+      "EPC1"
+    ]
+  },
+  {
+    "gene": "PHF1",
+    "partner_genes": [
+      "EP400",
+      "EPC1",
+      "FOXR1",
+      "FOXR2",
+      "JAZF1",
+      "MEAF6",
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "PI15",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "PIK3CA",
+    "partner_genes": [
+      "TFG"
+    ]
+  },
+  {
+    "gene": "PKM",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PLAG1",
+    "partner_genes": [
+      "ACTA2",
+      "BOC",
+      "CD44",
+      "CHCHD7",
+      "COL1A1",
+      "COL3A1",
+      "CTDSP2",
+      "CTNNB1",
+      "CTSB",
+      "DDX6",
+      "DLEU2",
+      "EEF1A1",
+      "EIF4A2",
+      "FGFR1",
+      "FRMD6",
+      "GEM",
+      "GPAT4",
+      "HAS2",
+      "HNRNPC",
+      "KANSL1L",
+      "KATNBL1",
+      "KLF10",
+      "LIFR",
+      "MEG3",
+      "MIR99AHG",
+      "MT-ND4",
+      "MYOCD",
+      "NCALD",
+      "NKTR",
+      "PCMTD1",
+      "PI15",
+      "PPP2R2A",
+      "PTK2",
+      "PUM1",
+      "RAB2A",
+      "RAD51B",
+      "SDCBP",
+      "SRSF3",
+      "TGFBR3",
+      "TRIM13",
+      "TRPS1",
+      "YWHAZ",
+      "ZEB1"
+    ]
+  },
+  {
+    "gene": "PLCZ1",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "PLEKHH2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "POU5F1",
+    "partner_genes": [
+      "EWSR1",
+      "SS18"
+    ]
+  },
+  {
+    "gene": "PPARG",
+    "partner_genes": [
+      "PAX8"
+    ]
+  },
+  {
+    "gene": "PPARGC1A",
+    "partner_genes": [
+      "PAX7",
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "PPFIBP1",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "PPHLN1",
+    "partner_genes": [
+      "NRG1"
+    ]
+  },
+  {
+    "gene": "PPP1CB",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "PPP2R2A",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "PPP6R3",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "PRDM10",
+    "partner_genes": [
+      "CITED2",
+      "MED12"
+    ]
+  },
+  {
+    "gene": "PRG4",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "PRKAR1A",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "PRKAR2A",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "PRRX1",
+    "partner_genes": [
+      "EP300",
+      "KMT2D",
+      "NCOA1",
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "PTBP1",
+    "partner_genes": [
+      "MAML2"
+    ]
+  },
+  {
+    "gene": "PTCH1",
+    "partner_genes": [
+      "GLI1",
+      "GLI2"
+    ]
+  },
+  {
+    "gene": "PTK2",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "PTPRG",
+    "partner_genes": [
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "PUM1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "QKI",
+    "partner_genes": [
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "RAB2A",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "RAD51B",
+    "partner_genes": [
+      "HMGA2",
+      "NUDT3",
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "RAF1",
+    "partner_genes": [
+      "ATG7",
+      "ERC1",
+      "FMR1",
+      "MAP4",
+      "PDZRN3",
+      "PTPRG",
+      "QKI",
+      "SPPL2A"
+    ]
+  },
+  {
+    "gene": "RALA",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "RALGPS1",
+    "partner_genes": [
+      "GTF2I"
+    ]
+  },
+  {
+    "gene": "RANBP2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "RB1",
+    "partner_genes": [
+      "FGF14-AS1",
+      "RNASEH2B"
+    ]
+  },
+  {
+    "gene": "RBM27",
+    "partner_genes": [
+      "HBEGF"
+    ]
+  },
+  {
+    "gene": "RBPMS",
+    "partner_genes": [
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "RELA",
+    "partner_genes": [
+      "SRF"
+    ]
+  },
+  {
+    "gene": "RET",
+    "partner_genes": [
+      "NCOA4",
+      "TRIM27",
+      "VCL"
+    ]
+  },
+  {
+    "gene": "RLIM",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "RNASEH2B",
+    "partner_genes": [
+      "RB1"
+    ]
+  },
+  {
+    "gene": "ROBO1",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "ROS1",
+    "partner_genes": [
+      "FN1",
+      "GOPC",
+      "NOTCH1",
+      "NUDCD3",
+      "TFG",
+      "TPR"
+    ]
+  },
+  {
+    "gene": "RRAGB",
+    "partner_genes": [
+      "CCNB3"
+    ]
+  },
+  {
+    "gene": "RRBP1",
+    "partner_genes": [
+      "ALK",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "RREB1",
+    "partner_genes": [
+      "LPP",
+      "MRTFB"
+    ]
+  },
+  {
+    "gene": "SARM1",
+    "partner_genes": [
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "SDCBP",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "SEC23IP",
+    "partner_genes": [
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "SEC31A",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "SEC61G",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "SEPTIN7",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "SERPINE1",
+    "partner_genes": [
+      "FOSB"
+    ]
+  },
+  {
+    "gene": "SETBP1",
+    "partner_genes": [
+      "HMGA2"
+    ]
+  },
+  {
+    "gene": "SETD5",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "SFPQ",
+    "partner_genes": [
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "SLC43A3",
+    "partner_genes": [
+      "NUP160"
+    ]
+  },
+  {
+    "gene": "SLCO5A1",
+    "partner_genes": [
+      "NR4A3"
+    ]
+  },
+  {
+    "gene": "SMAD3",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "SMARCA2",
+    "partner_genes": [
+      "CREM"
+    ]
+  },
+  {
+    "gene": "SMARCA4",
+    "partner_genes": [
+      "CREM"
+    ]
+  },
+  {
+    "gene": "SMARCA5",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "SND1",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "SPARC",
+    "partner_genes": [
+      "PDGFRB",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "SPECC1L",
+    "partner_genes": [
+      "ALK",
+      "NTRK3",
+      "TERT"
+    ]
+  },
+  {
+    "gene": "SPPL2A",
+    "partner_genes": [
+      "RAF1"
+    ]
+  },
+  {
+    "gene": "SPTAN1",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "SPTBN1",
+    "partner_genes": [
+      "YWHAQ"
+    ]
+  },
+  {
+    "gene": "SQSTM1",
+    "partner_genes": [
+      "ALK",
+      "CDX1"
+    ]
+  },
+  {
+    "gene": "SRF",
+    "partner_genes": [
+      "ARGFXP1",
+      "BMAL2",
+      "C3orf62",
+      "CITED1",
+      "FOXO1",
+      "ICA1L",
+      "MRTFB",
+      "MYOCD",
+      "NCOA1",
+      "NCOA2",
+      "NCOA3",
+      "NFKBIE",
+      "RELA",
+      "STAT6"
+    ]
+  },
+  {
+    "gene": "SRSF3",
+    "partner_genes": [
+      "PLAG1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "SRSF7",
+    "partner_genes": [
+      "NFATC3"
+    ]
+  },
+  {
+    "gene": "SS18",
+    "partner_genes": [
+      "NEDD4",
+      "POU5F1",
+      "SSX1",
+      "SSX2",
+      "SSX4"
+    ]
+  },
+  {
+    "gene": "SSX1",
+    "partner_genes": [
+      "SS18"
+    ]
+  },
+  {
+    "gene": "SSX2",
+    "partner_genes": [
+      "SS18"
+    ]
+  },
+  {
+    "gene": "SSX4",
+    "partner_genes": [
+      "SS18"
+    ]
+  },
+  {
+    "gene": "STAT6",
+    "partner_genes": [
+      "NAB2",
+      "NFIX",
+      "SRF"
+    ]
+  },
+  {
+    "gene": "STRN",
+    "partner_genes": [
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "STRN3",
+    "partner_genes": [
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "SUZ12",
+    "partner_genes": [
+      "JAZF1",
+      "MEAF6"
+    ]
+  },
+  {
+    "gene": "SYK",
+    "partner_genes": [
+      "CIC"
+    ]
+  },
+  {
+    "gene": "SYN3",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "TACC3",
+    "partner_genes": [
+      "FGFR3"
+    ]
+  },
+  {
+    "gene": "TCF12",
+    "partner_genes": [
+      "VGLL3"
+    ]
+  },
+  {
+    "gene": "TEAD1",
+    "partner_genes": [
+      "MRTFB",
+      "NCOA2",
+      "TOX"
+    ]
+  },
+  {
+    "gene": "TEK",
+    "partner_genes": [
+      "FN1",
+      "GAB2"
+    ]
+  },
+  {
+    "gene": "TERT",
+    "partner_genes": [
+      "SPECC1L"
+    ]
+  },
+  {
+    "gene": "TEX41",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "TFCP2",
+    "partner_genes": [
+      "EWSR1",
+      "FUS"
+    ]
+  },
+  {
+    "gene": "TFE3",
+    "partner_genes": [
+      "ASPSCR1",
+      "DVL2",
+      "NONO",
+      "PHF1",
+      "SFPQ",
+      "WWTR1",
+      "YAP1"
+    ]
+  },
+  {
+    "gene": "TFG",
+    "partner_genes": [
+      "ALK",
+      "NR4A3",
+      "NTRK3",
+      "PIK3CA",
+      "ROS1"
+    ]
+  },
+  {
+    "gene": "TGFA",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "TGFBR3",
+    "partner_genes": [
+      "OGA",
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "THBS1",
+    "partner_genes": [
+      "ADGRF5",
+      "ALK",
+      "IGF1R",
+      "INSR"
+    ]
+  },
+  {
+    "gene": "THBS2",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "TIMP1",
+    "partner_genes": [
+      "FN1"
+    ]
+  },
+  {
+    "gene": "TIMP3",
+    "partner_genes": [
+      "ALK",
+      "ZCCHC7"
+    ]
+  },
+  {
+    "gene": "TLN1",
+    "partner_genes": [
+      "FGFR1"
+    ]
+  },
+  {
+    "gene": "TLN2",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "TMTC2",
+    "partner_genes": [
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "TNC",
+    "partner_genes": [
+      "PDGFD",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "TNS1",
+    "partner_genes": [
+      "ALK"
+    ]
+  },
+  {
+    "gene": "TOM1L2",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "TOX",
+    "partner_genes": [
+      "TEAD1"
+    ]
+  },
+  {
+    "gene": "TPM3",
+    "partner_genes": [
+      "ALK",
+      "NTRK1"
+    ]
+  },
+  {
+    "gene": "TPM4",
+    "partner_genes": [
+      "NTRK1",
+      "USP6"
+    ]
+  },
+  {
+    "gene": "TPR",
+    "partner_genes": [
+      "NTRK1",
+      "ROS1"
+    ]
+  },
+  {
+    "gene": "TRIM11",
+    "partner_genes": [
+      "CRTC1"
+    ]
+  },
+  {
+    "gene": "TRIM13",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "TRIM24",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "TRIM27",
+    "partner_genes": [
+      "RET"
+    ]
+  },
+  {
+    "gene": "TRIP11",
+    "partner_genes": [
+      "BRAF"
+    ]
+  },
+  {
+    "gene": "TRPS1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "TUBA1B",
+    "partner_genes": [
+      "GLI1"
+    ]
+  },
+  {
+    "gene": "TXNIP",
+    "partner_genes": [
+      "GLI1"
+    ]
+  },
+  {
+    "gene": "UBC",
+    "partner_genes": [
+      "USP6"
+    ]
+  },
+  {
+    "gene": "UBP1",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "USP2",
+    "partner_genes": [
+      "CDC42SE1"
+    ]
+  },
+  {
+    "gene": "USP33",
+    "partner_genes": [
+      "FGFR1"
+    ]
+  },
+  {
+    "gene": "USP35",
+    "partner_genes": [
+      "PDGFRA"
+    ]
+  },
+  {
+    "gene": "USP6",
+    "partner_genes": [
+      "ACSL4",
+      "ASPN",
+      "ATF7IP",
+      "CALD1",
+      "CDH11",
+      "COL12A1",
+      "COL1A1",
+      "COL1A2",
+      "COL6A2",
+      "CSF1",
+      "CTNNB1",
+      "EIF4A1",
+      "EIF5A",
+      "FILIP1L",
+      "FRMD6",
+      "GALNT15",
+      "HDLBP",
+      "HNRNPC",
+      "KIF1A",
+      "KRT10",
+      "LPAR1",
+      "LUM",
+      "MALAT1",
+      "MAP4",
+      "MIR22HG",
+      "MYADM",
+      "MYH9",
+      "NF1",
+      "NR1D1",
+      "OMD",
+      "PAFAH1B1",
+      "PALLD",
+      "PDLIM7",
+      "PFN1",
+      "PKM",
+      "PPP6R3",
+      "RALA",
+      "RLIM",
+      "RRBP1",
+      "SEC61G",
+      "SETD5",
+      "SPARC",
+      "SPTAN1",
+      "SRSF3",
+      "THBS2",
+      "TNC",
+      "TPM4",
+      "UBC"
+    ]
+  },
+  {
+    "gene": "USP8",
+    "partner_genes": [
+      "PDGFRA"
+    ]
+  },
+  {
+    "gene": "VAMP3",
+    "partner_genes": [
+      "FOSL1"
+    ]
+  },
+  {
+    "gene": "VCL",
+    "partner_genes": [
+      "ALK",
+      "RET"
+    ]
+  },
+  {
+    "gene": "VEGFD",
+    "partner_genes": [
+      "COL4A1"
+    ]
+  },
+  {
+    "gene": "VGLL2",
+    "partner_genes": [
+      "CITED2",
+      "NCOA2"
+    ]
+  },
+  {
+    "gene": "VGLL3",
+    "partner_genes": [
+      "CHD7",
+      "CHD9",
+      "EP300",
+      "MAMLD1",
+      "PPARGC1A",
+      "SEC23IP",
+      "TCF12"
+    ]
+  },
+  {
+    "gene": "VIM",
+    "partner_genes": [
+      "FOS",
+      "NTRK3"
+    ]
+  },
+  {
+    "gene": "VWA8",
+    "partner_genes": [
+      "LTBP1"
+    ]
+  },
+  {
+    "gene": "WT1",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  },
+  {
+    "gene": "WWTR1",
+    "partner_genes": [
+      "CAMTA1",
+      "FOSB",
+      "KDM2A",
+      "PAX3",
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "YAP1",
+    "partner_genes": [
+      "HMGA2",
+      "KMT2A",
+      "MAML2",
+      "TFE3"
+    ]
+  },
+  {
+    "gene": "YWHAE",
+    "partner_genes": [
+      "JAZF1",
+      "NUTM2A",
+      "NUTM2B",
+      "NUTM2E"
+    ]
+  },
+  {
+    "gene": "YWHAQ",
+    "partner_genes": [
+      "SPTBN1"
+    ]
+  },
+  {
+    "gene": "YWHAZ",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "ZBTB47",
+    "partner_genes": [
+      "FGFR1"
+    ]
+  },
+  {
+    "gene": "ZC3H7B",
+    "partner_genes": [
+      "BCOR"
+    ]
+  },
+  {
+    "gene": "ZCCHC7",
+    "partner_genes": [
+      "TIMP3"
+    ]
+  },
+  {
+    "gene": "ZEB1",
+    "partner_genes": [
+      "PLAG1"
+    ]
+  },
+  {
+    "gene": "ZFHX3",
+    "partner_genes": [
+      "CDH9"
+    ]
+  },
+  {
+    "gene": "ZFP36",
+    "partner_genes": [
+      "FOSB"
+    ]
+  },
+  {
+    "gene": "ZFP64",
+    "partner_genes": [
+      "NCOA2",
+      "NCOA3"
+    ]
+  },
+  {
+    "gene": "ZFTA",
+    "partner_genes": [
+      "MRTFB",
+      "NCOA1"
+    ]
+  },
+  {
+    "gene": "ZNF444",
+    "partner_genes": [
+      "EWSR1"
+    ]
+  }
+]

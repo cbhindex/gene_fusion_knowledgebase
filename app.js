@@ -1,0 +1,406 @@
+const state = {
+  aliasLookup: {},
+  searchIndex: null,
+  ready: false,
+};
+
+const elements = {
+  form: document.getElementById('search-form'),
+  mode: document.getElementById('search-mode'),
+  input: document.getElementById('search-input'),
+  suggestions: document.getElementById('suggestions'),
+  results: document.getElementById('results'),
+  statusBanner: document.getElementById('status-banner'),
+  hint: document.getElementById('search-hint'),
+  cardTemplate: document.getElementById('card-template'),
+};
+
+function normalizeWhitespace(value) {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function normalizeGeneToken(token) {
+  return normalizeWhitespace(token).replace(/[\[\](){}.,;]+$/g, '');
+}
+
+function canonicalizeGene(token) {
+  const cleaned = normalizeGeneToken(token);
+  if (!cleaned) {
+    return { original: cleaned, canonical: '', changed: false };
+  }
+  const canonical = state.aliasLookup[cleaned.toUpperCase()] || cleaned;
+  return { original: cleaned, canonical, changed: canonical !== cleaned };
+}
+
+function inferMode(query) {
+  const trimmed = normalizeWhitespace(query);
+  if (!trimmed) {
+    return 'auto';
+  }
+  if (looksLikeFusion(trimmed)) {
+    return 'fusion';
+  }
+  if (state.aliasLookup[trimmed.toUpperCase()] || state.searchIndex.gene_key_lookup[trimmed.toLowerCase()]) {
+    return 'gene';
+  }
+  if (state.searchIndex.diagnosis_key_lookup[trimmed.toLowerCase()]) {
+    return 'diagnosis';
+  }
+  const hasWhitespace = /\s/.test(trimmed);
+  return hasWhitespace ? 'diagnosis' : 'gene';
+}
+
+function looksLikeFusion(query) {
+  return query.includes('::') || query.includes('--') || query.includes(':') || /^\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*-\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*$/.test(query);
+}
+
+function normalizeFusionInput(query) {
+  const trimmed = normalizeWhitespace(query).replace(/[–—]/g, '-');
+  let separator = null;
+  let parts = null;
+
+  if (trimmed.includes('::')) {
+    separator = '::';
+    parts = trimmed.split('::');
+  } else if (trimmed.includes('--')) {
+    separator = '--';
+    parts = trimmed.split('--');
+  } else if (/^\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*:\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*$/.test(trimmed)) {
+    separator = ':';
+    parts = trimmed.split(':');
+  } else if (/^\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*-\s*[A-Za-z0-9][A-Za-z0-9.-]*\s*$/.test(trimmed)) {
+    separator = '-';
+    parts = trimmed.split('-');
+  }
+
+  if (!parts || parts.length !== 2) {
+    return null;
+  }
+
+  const left = canonicalizeGene(parts[0]);
+  const right = canonicalizeGene(parts[1]);
+  if (!left.canonical || !right.canonical) {
+    return null;
+  }
+
+  const displayFusion = `${left.canonical}::${right.canonical}`;
+  const searchKey = [left.canonical, right.canonical].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' })).join('::');
+  const normalizedPieces = [];
+  if (separator !== '::') {
+    normalizedPieces.push(`separator normalized to ::`);
+  }
+  if (left.changed) {
+    normalizedPieces.push(`${left.original} -> ${left.canonical}`);
+  }
+  if (right.changed) {
+    normalizedPieces.push(`${right.original} -> ${right.canonical}`);
+  }
+  return {
+    raw: trimmed,
+    displayFusion,
+    searchKey,
+    normalizedMessage: normalizedPieces.length ? `Input normalized: ${trimmed} -> ${displayFusion}` : '',
+  };
+}
+
+function levenshtein(a, b) {
+  const left = a.toLowerCase();
+  const right = b.toLowerCase();
+  const matrix = Array.from({ length: left.length + 1 }, () => new Array(right.length + 1).fill(0));
+  for (let i = 0; i <= left.length; i += 1) matrix[i][0] = i;
+  for (let j = 0; j <= right.length; j += 1) matrix[0][j] = j;
+  for (let i = 1; i <= left.length; i += 1) {
+    for (let j = 1; j <= right.length; j += 1) {
+      const cost = left[i - 1] === right[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + cost,
+      );
+    }
+  }
+  return matrix[left.length][right.length];
+}
+
+function rankCandidates(query, candidates, limit = 6) {
+  const normalizedQuery = normalizeWhitespace(query).toLowerCase();
+  if (!normalizedQuery) return [];
+  return candidates
+    .map((candidate) => {
+      const label = typeof candidate === 'string' ? candidate : candidate.label;
+      const type = typeof candidate === 'string' ? 'item' : candidate.type;
+      const target = typeof candidate === 'string' ? candidate : candidate.target || candidate.label;
+      const lower = label.toLowerCase();
+      let score = levenshtein(normalizedQuery, lower);
+      if (lower.startsWith(normalizedQuery)) score -= 3;
+      if (lower.includes(normalizedQuery)) score -= 2;
+      return { label, type, target, score };
+    })
+    .sort((a, b) => a.score - b.score || a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }))
+    .slice(0, limit);
+}
+
+function getAutocompleteItems(mode, query) {
+  if (!state.ready) return [];
+  const trimmed = normalizeWhitespace(query);
+  if (!trimmed) return [];
+
+  if (mode === 'gene') {
+    const genes = state.searchIndex.suggestions.genes.map((value) => ({ label: value, type: 'gene', target: value }));
+    const aliases = state.searchIndex.suggestions.aliases.map((item) => ({ label: item.alias, type: 'alias', target: item.alias }));
+    return rankCandidates(trimmed, [...genes, ...aliases]);
+  }
+
+  if (mode === 'diagnosis') {
+    return rankCandidates(trimmed, state.searchIndex.suggestions.diagnoses.map((value) => ({ label: value, type: 'diagnosis', target: value })));
+  }
+
+  if (mode === 'fusion') {
+    if (!trimmed.includes('::')) return [];
+    return rankCandidates(trimmed, state.searchIndex.suggestions.fusions.map((value) => ({ label: value, type: 'fusion', target: value })));
+  }
+
+  const combined = [
+    ...state.searchIndex.suggestions.genes.map((value) => ({ label: value, type: 'gene', target: value })),
+    ...state.searchIndex.suggestions.aliases.map((item) => ({ label: item.alias, type: 'alias', target: item.alias })),
+    ...state.searchIndex.suggestions.diagnoses.map((value) => ({ label: value, type: 'diagnosis', target: value })),
+  ];
+  if (trimmed.includes('::')) {
+    combined.push(...state.searchIndex.suggestions.fusions.map((value) => ({ label: value, type: 'fusion', target: value })));
+  }
+  return rankCandidates(trimmed, combined);
+}
+
+function setStatus(message, isError = false) {
+  if (!message) {
+    elements.statusBanner.hidden = true;
+    elements.statusBanner.textContent = '';
+    return;
+  }
+  elements.statusBanner.hidden = false;
+  elements.statusBanner.textContent = message;
+  elements.statusBanner.style.borderColor = isError ? 'rgba(183, 79, 45, 0.4)' : '';
+}
+
+function clearResults() {
+  elements.results.innerHTML = '';
+}
+
+function createCard(kicker, title, note = '') {
+  const fragment = elements.cardTemplate.content.cloneNode(true);
+  const card = fragment.querySelector('.result-card');
+  card.querySelector('.card-kicker').textContent = kicker;
+  card.querySelector('.card-title').textContent = title;
+  const noteEl = card.querySelector('.card-note');
+  if (note) {
+    noteEl.hidden = false;
+    noteEl.textContent = note;
+  }
+  return card;
+}
+
+function appendListSection(card, title, items, emptyMessage) {
+  const section = document.createElement('section');
+  section.className = 'result-section';
+  const heading = document.createElement('h3');
+  heading.textContent = title;
+  section.appendChild(heading);
+
+  if (!items.length) {
+    const empty = document.createElement('p');
+    empty.className = 'list-empty';
+    empty.textContent = emptyMessage;
+    section.appendChild(empty);
+  } else {
+    const list = document.createElement('ul');
+    list.className = 'token-list';
+    items.forEach((item) => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      list.appendChild(li);
+    });
+    section.appendChild(list);
+  }
+  card.querySelector('.card-body').appendChild(section);
+}
+
+function appendDidYouMean(card, items) {
+  if (!items.length) return;
+  const section = document.createElement('section');
+  section.className = 'result-section';
+  const heading = document.createElement('h3');
+  heading.textContent = 'Did you mean';
+  section.appendChild(heading);
+  const wrap = document.createElement('div');
+  wrap.className = 'did-you-mean';
+  items.forEach((item) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = item.label;
+    button.addEventListener('click', () => {
+      elements.input.value = item.target;
+      if (item.type === 'gene' || item.type === 'diagnosis' || item.type === 'fusion') {
+        elements.mode.value = item.type;
+      }
+      executeSearch();
+    });
+    wrap.appendChild(button);
+  });
+  section.appendChild(wrap);
+  card.querySelector('.card-body').appendChild(section);
+}
+
+function showNotFound(query, note, mode) {
+  clearResults();
+  const card = createCard('No Match', 'No exact match found', note || '');
+  appendListSection(card, 'Query', [query], '');
+  appendDidYouMean(card, getAutocompleteItems(mode, query));
+  elements.results.appendChild(card);
+}
+
+function searchGene(query) {
+  const canonicalized = canonicalizeGene(query);
+  const key = state.searchIndex.gene_key_lookup[canonicalized.canonical.toLowerCase()] || canonicalized.canonical;
+  const record = state.searchIndex.gene_lookup[key];
+  if (!record) {
+    showNotFound(query, canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${canonicalized.canonical}` : '', 'gene');
+    return;
+  }
+  clearResults();
+  const note = canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${record.gene}` : '';
+  const card = createCard('Gene', record.gene, note);
+  if (record.aliases.length) {
+    appendListSection(card, 'Known Aliases', record.aliases, 'No aliases recorded');
+  }
+  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found');
+  appendListSection(card, 'Fusion Partner Genes', record.partner_genes, 'No partner genes found');
+  elements.results.appendChild(card);
+}
+
+function searchDiagnosis(query) {
+  const normalized = normalizeWhitespace(query);
+  const key = state.searchIndex.diagnosis_key_lookup[normalized.toLowerCase()];
+  const record = key ? state.searchIndex.diagnosis_lookup[key] : null;
+  if (!record) {
+    showNotFound(query, '', 'diagnosis');
+    return;
+  }
+  clearResults();
+  const card = createCard('Diagnosis', record.diagnosis);
+  appendListSection(card, 'Related Genes', record.genes, 'No genes found');
+  appendListSection(card, 'Related Fusions', record.fusions, 'No fusions found');
+  elements.results.appendChild(card);
+}
+
+function searchFusion(query) {
+  const normalized = normalizeFusionInput(query);
+  if (!normalized) {
+    showNotFound(query, '', 'fusion');
+    return;
+  }
+  const record = state.searchIndex.fusion_lookup[normalized.searchKey];
+  if (!record) {
+    showNotFound(query, normalized.normalizedMessage, 'fusion');
+    return;
+  }
+  clearResults();
+  const card = createCard('Fusion', record.fusion, normalized.normalizedMessage);
+  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found');
+  appendListSection(card, 'Observed Fusion Labels', record.observed_fusions, 'No observed labels found');
+  elements.results.appendChild(card);
+}
+
+function executeSearch() {
+  if (!state.ready) return;
+  const rawQuery = elements.input.value;
+  const trimmed = normalizeWhitespace(rawQuery);
+  if (!trimmed) {
+    setStatus('Enter a gene, diagnosis, or fusion to search.', true);
+    clearResults();
+    hideSuggestions();
+    return;
+  }
+  hideSuggestions();
+  setStatus('');
+  const mode = elements.mode.value === 'auto' ? inferMode(trimmed) : elements.mode.value;
+  if (mode === 'gene') {
+    searchGene(trimmed);
+    return;
+  }
+  if (mode === 'diagnosis') {
+    searchDiagnosis(trimmed);
+    return;
+  }
+  searchFusion(trimmed);
+}
+
+function hideSuggestions() {
+  elements.suggestions.hidden = true;
+  elements.suggestions.innerHTML = '';
+  elements.input.setAttribute('aria-expanded', 'false');
+}
+
+function renderSuggestions(items) {
+  if (!items.length) {
+    hideSuggestions();
+    return;
+  }
+  elements.suggestions.innerHTML = '';
+  items.forEach((item) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'suggestion-item';
+    button.setAttribute('role', 'option');
+    button.innerHTML = `<span>${item.label}</span><span class="suggestion-type">${item.type}</span>`;
+    button.addEventListener('click', () => {
+      elements.input.value = item.target;
+      hideSuggestions();
+      elements.input.focus();
+    });
+    elements.suggestions.appendChild(button);
+  });
+  elements.suggestions.hidden = false;
+  elements.input.setAttribute('aria-expanded', 'true');
+}
+
+function updateAutocomplete() {
+  const items = getAutocompleteItems(elements.mode.value, elements.input.value);
+  renderSuggestions(items);
+}
+
+async function loadData() {
+  try {
+    const [aliasResponse, indexResponse] = await Promise.all([
+      fetch('./database/alias_lookup.json'),
+      fetch('./database/search_index.json'),
+    ]);
+    state.aliasLookup = await aliasResponse.json();
+    state.searchIndex = await indexResponse.json();
+    state.ready = true;
+    setStatus('Search index loaded.');
+  } catch (error) {
+    console.error(error);
+    setStatus('Failed to load search data. Serve this folder with a local web server and try again.', true);
+  }
+}
+
+elements.form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  executeSearch();
+});
+
+elements.input.addEventListener('input', updateAutocomplete);
+elements.mode.addEventListener('change', () => {
+  elements.hint.textContent = elements.mode.value === 'fusion'
+    ? 'Fusion autocomplete appears after :: in fusion mode.'
+    : 'Type to search. Suggestions update as you enter text.';
+  updateAutocomplete();
+});
+
+document.addEventListener('click', (event) => {
+  if (!elements.suggestions.contains(event.target) && event.target !== elements.input) {
+    hideSuggestions();
+  }
+});
+
+loadData();

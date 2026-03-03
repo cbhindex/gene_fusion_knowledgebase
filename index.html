@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gene Fusion Knowledgebase</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Static Search Portal</p>
+          <h1>Gene Fusion Knowledgebase</h1>
+          <p class="hero-text">
+            Search by gene, diagnosis, or fusion. Results stay on the same page and use canonicalized gene names.
+          </p>
+        </div>
+
+        <form id="search-form" class="search-panel" autocomplete="off">
+          <label class="field-label" for="search-mode">Search Type</label>
+          <div class="search-row">
+            <select id="search-mode" name="mode" aria-label="Search mode">
+              <option value="auto">Auto</option>
+              <option value="gene">Gene</option>
+              <option value="diagnosis">Diagnosis</option>
+              <option value="fusion">Fusion</option>
+            </select>
+            <div class="search-input-wrap">
+              <input
+                id="search-input"
+                name="query"
+                type="text"
+                placeholder="Enter gene, diagnosis, or fusion"
+                spellcheck="false"
+                aria-autocomplete="list"
+                aria-expanded="false"
+                aria-controls="suggestions"
+              />
+              <div id="suggestions" class="suggestions" role="listbox" hidden></div>
+            </div>
+            <button type="submit">Search</button>
+          </div>
+          <p id="search-hint" class="search-hint">
+            Fusion autocomplete appears after <code>::</code> in fusion mode.
+          </p>
+        </form>
+      </section>
+
+      <section id="status-banner" class="status-banner" hidden></section>
+      <section id="results" class="results-grid"></section>
+    </main>
+
+    <template id="card-template">
+      <article class="result-card">
+        <div class="card-head">
+          <p class="card-kicker"></p>
+          <h2 class="card-title"></h2>
+        </div>
+        <p class="card-note" hidden></p>
+        <div class="card-body"></div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

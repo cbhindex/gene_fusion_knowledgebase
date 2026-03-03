@@ -1,0 +1,286 @@
+:root {
+  --bg: #f4efe7;
+  --panel: rgba(255, 251, 245, 0.92);
+  --panel-strong: #fffaf2;
+  --ink: #1f1812;
+  --muted: #6f6257;
+  --line: rgba(63, 41, 24, 0.14);
+  --accent: #b74f2d;
+  --accent-soft: rgba(183, 79, 45, 0.12);
+  --shadow: 0 20px 40px rgba(63, 41, 24, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(183, 79, 45, 0.16), transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(38, 111, 95, 0.12), transparent 24%),
+    linear-gradient(180deg, #f9f4ec 0%, var(--bg) 100%);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.page-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 56px;
+}
+
+.hero-panel {
+  display: grid;
+  gap: 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.hero-copy h1 {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.98;
+}
+
+.hero-text {
+  margin: 14px 0 0;
+  max-width: 70ch;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.search-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.field-label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr) 128px;
+  gap: 12px;
+  align-items: start;
+}
+
+select,
+input,
+button {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  font: inherit;
+}
+
+select,
+input {
+  background: var(--panel-strong);
+  padding: 0 16px;
+  color: var(--ink);
+}
+
+input:focus,
+select:focus,
+button:focus,
+.suggestion-item:focus {
+  outline: 2px solid rgba(183, 79, 45, 0.36);
+  outline-offset: 2px;
+}
+
+button {
+  background: var(--accent);
+  color: #fff8f1;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  filter: brightness(0.96);
+}
+
+.search-input-wrap {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: grid;
+  gap: 6px;
+  padding: 10px;
+  border-radius: 18px;
+  background: rgba(255, 250, 242, 0.98);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.suggestion-item {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  padding: 10px 12px;
+  min-height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.suggestion-item:hover {
+  background: var(--accent-soft);
+  border-color: rgba(183, 79, 45, 0.22);
+}
+
+.suggestion-type {
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+  color: var(--accent);
+  background: rgba(183, 79, 45, 0.1);
+  border-radius: 999px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.search-hint,
+.status-banner,
+.card-note,
+.list-empty {
+  color: var(--muted);
+}
+
+.status-banner {
+  margin-top: 20px;
+  padding: 14px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 250, 242, 0.8);
+}
+
+.results-grid {
+  margin-top: 24px;
+  display: grid;
+  gap: 18px;
+}
+
+.result-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+.card-head {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.card-kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-title {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+}
+
+.card-note {
+  margin: 0 0 16px;
+}
+
+.result-section + .result-section {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.result-section h3 {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.token-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.token-list li,
+.did-you-mean button {
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 12px;
+}
+
+.did-you-mean {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.did-you-mean button {
+  cursor: pointer;
+  color: var(--ink);
+}
+
+@media (max-width: 840px) {
+  .page-shell {
+    width: min(100% - 20px, 1120px);
+    padding-top: 20px;
+  }
+
+  .hero-panel {
+    padding: 18px;
+    border-radius: 22px;
+  }
+
+  .search-row {
+    grid-template-columns: 1fr;
+  }
+}

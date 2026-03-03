@@ -1,0 +1,3282 @@
+[
+  {
+    "gene": "ABL1",
+    "diagnoses": [
+      "Angiofibroma of soft tissue",
+      "GAB1::ABL1 fusion-positive spindle cell neoplasm",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "ACKR3",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "ACSL4",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "ACTA2",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "ACTB",
+    "diagnoses": [
+      "Cutaneous clear cell tumour",
+      "Gastroblastoma",
+      "GLI1-altered mesenchymal tumours",
+      "Pseudomyogenic haemangioendothelioma",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "ACTG1",
+    "diagnoses": [
+      "Cutaneous clear cell tumour"
+    ]
+  },
+  {
+    "gene": "ACTG2",
+    "diagnoses": [
+      "Leiomyosarcoma",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "ACVR2A",
+    "diagnoses": [
+      "Synovial chondromatosis"
+    ]
+  },
+  {
+    "gene": "ADCK2",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "ADGRF5",
+    "diagnoses": [
+      "Acral fibrochondromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "AGAP3",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "AGFG1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms"
+    ]
+  },
+  {
+    "gene": "AHRR",
+    "diagnoses": [
+      "Angiofibroma of soft tissue"
+    ]
+  },
+  {
+    "gene": "ALK",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Epithelioid fibrous histiocytoma",
+      "Epithelioid inflammatory myofibroblastic sarcoma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Inflammatory myofibroblastic tumour",
+      "Leiomyosarcoma",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Non-neural granular cell tumour",
+      "Perineurioma",
+      "Uterine inflammatory myofibroblastic tumor",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "ANXA2P2",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "AP3D1",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "ARGFXP1",
+    "diagnoses": [
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "ARID2",
+    "diagnoses": [
+      "Intimal sarcoma"
+    ]
+  },
+  {
+    "gene": "ASCC2",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "ASPN",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "ASPSCR1",
+    "diagnoses": [
+      "Alveolar soft part sarcoma",
+      "PEComa"
+    ]
+  },
+  {
+    "gene": "ATF1",
+    "diagnoses": [
+      "Angiomatoid fibrous histiocytoma",
+      "Angiosarcoma",
+      "Clear cell sarcoma of soft tissue",
+      "FET-CREB epithelioid mesenchymal tumours",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "ATF7IP",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "ATG7",
+    "diagnoses": [
+      "Glomus tumour"
+    ]
+  },
+  {
+    "gene": "AXL",
+    "diagnoses": [
+      "CIC-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "BCOR",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney",
+      "High-grade endometrial stromal sarcoma",
+      "Ossifying fibromyxoid tumour",
+      "Sarcomas with BCOR genetic alterations"
+    ]
+  },
+  {
+    "gene": "BCORL1",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "BCR",
+    "diagnoses": [
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "BEND2",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "BMAL2",
+    "diagnoses": [
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "BMPR2",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms"
+    ]
+  },
+  {
+    "gene": "BNC2",
+    "diagnoses": [
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "BOC",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "BRAF",
+    "diagnoses": [
+      "Angiosarcoma",
+      "BRAF-altered spindle cell sarcomas",
+      "Hybrid nerve sheath tumour",
+      "Infantile fibrosarcoma",
+      "Kinase-altered spindle cell neoplasms",
+      "Lipofibromatosis",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Perineurioma",
+      "Phosphaturic mesenchymal tumour",
+      "Phyllodes tumour",
+      "Pleomorphic hyalinizing angiectatic tumour of soft parts"
+    ]
+  },
+  {
+    "gene": "BRD4",
+    "diagnoses": [
+      "NUTM1-rearranged neoplasms"
+    ]
+  },
+  {
+    "gene": "C12orf42",
+    "diagnoses": [
+      "Deep (aggressive) angiomyxoma"
+    ]
+  },
+  {
+    "gene": "C3orf62",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "CALD1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "CAMTA1",
+    "diagnoses": [
+      "Epithelioid haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "CARMN",
+    "diagnoses": [
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "CARS1",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "CASC15",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "CAV1",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "CCNB3",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Sarcomas with BCOR genetic alterations"
+    ]
+  },
+  {
+    "gene": "CD44",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "CD96",
+    "diagnoses": [
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "CDC42SE1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "CDH11",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "CDH9",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CDK5RAP2",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CDX1",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Mesenchymal chondrosarcoma",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CHCHD7",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis",
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "CHD7",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CHD9",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CIC",
+    "diagnoses": [
+      "CIC-rearranged sarcoma",
+      "CIC/ATXN1-rearranged sarcoma",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "CITED1",
+    "diagnoses": [
+      "CIC-rearranged sarcoma",
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "CITED2",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Superficial CD34-positive pleomorphic fibroblastic tumour",
+      "Undifferentiated pleomorphic sarcoma",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "CLIP2",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour"
+    ]
+  },
+  {
+    "gene": "CLTC",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "COL12A1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "COL14A1",
+    "diagnoses": [
+      "Keratin-positive giant cell-rich tumour"
+    ]
+  },
+  {
+    "gene": "COL1A1",
+    "diagnoses": [
+      "Adult fibrosarcoma",
+      "Aneurysmal bone cyst",
+      "Dermatofibrosarcoma protuberans",
+      "Epithelioid fibrous histiocytoma",
+      "Fibroma of tendon sheath",
+      "Giant cell fibroblastoma",
+      "Kinase-rearranged uterine sarcomas",
+      "Lipoblastoma and lipoblastomatosis",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "COL1A2",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Calcified chondroid mesenchymal neoplasms",
+      "Dermatofibrosarcoma protuberans",
+      "Epithelioid fibrous histiocytoma",
+      "Fibroma of tendon sheath",
+      "Giant cell fibroblastoma",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "COL3A1",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "COL4A1",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "COL6A2",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "COL6A3",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "COX6C",
+    "diagnoses": [
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "CREB1",
+    "diagnoses": [
+      "Angiomatoid fibrous histiocytoma",
+      "Clear cell sarcoma of soft tissue",
+      "FET-CREB epithelioid mesenchymal tumours",
+      "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion"
+    ]
+  },
+  {
+    "gene": "CREB3L1",
+    "diagnoses": [
+      "Low-grade fibromyxoid sarcoma",
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "CREB3L2",
+    "diagnoses": [
+      "Low-grade fibromyxoid sarcoma",
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "CREB3L3",
+    "diagnoses": [
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "CREBBP",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "CREM",
+    "diagnoses": [
+      "Clear cell sarcoma of soft tissue",
+      "Clear cell tumour with melanocytic differentiation and MITF::CREM fusion",
+      "Cutaneous clear cell tumour",
+      "Ectomesenchymal chondromyxoid tumor",
+      "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
+      "FET-CREB epithelioid mesenchymal tumours",
+      "Sclerosing epithelioid fibrosarcoma",
+      "Tumours with SMARCA2/4::CREM fusions"
+    ]
+  },
+  {
+    "gene": "CRTC1",
+    "diagnoses": [
+      "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion"
+    ]
+  },
+  {
+    "gene": "CSF1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "CTBP1",
+    "diagnoses": [
+      "Gastroblastoma"
+    ]
+  },
+  {
+    "gene": "CTDSP2",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "CTNNB1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "CTNNB1-rearranged endometrial stromal tumour",
+      "Fibroma of tendon sheath",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "CTSB",
+    "diagnoses": [
+      "Cellular angiofibroma"
+    ]
+  },
+  {
+    "gene": "CUX1",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas",
+      "Infantile fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "CYP2E1",
+    "diagnoses": [
+      "Angiomyofibroblastoma"
+    ]
+  },
+  {
+    "gene": "DAAM1",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "DCN",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "DCTN1",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Epithelioid fibrous histiocytoma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Non-neural granular cell tumour",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "DDIT3",
+    "diagnoses": [
+      "Myxoid liposarcoma"
+    ]
+  },
+  {
+    "gene": "DDX6",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "DES",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "DLEU2",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "DST",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "DUX4",
+    "diagnoses": [
+      "CIC-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "DUX4L8",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "DVL2",
+    "diagnoses": [
+      "PEComa"
+    ]
+  },
+  {
+    "gene": "DYRK2",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "E2F6",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "EEF1A1",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "EGF",
+    "diagnoses": [
+      "Calcifying aponeurotic fibroma",
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "EGFR",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "EGR1",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "EIF2AK4",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "EIF4A1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "EIF4A2",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "EIF5A",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "EMILIN2",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma"
+    ]
+  },
+  {
+    "gene": "EML4",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Epithelioid fibrous histiocytoma",
+      "Infantile fibrosarcoma",
+      "Inflammatory myofibroblastic tumour",
+      "Kinase-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "EP300",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "PRRX1-rearranged fibroblastic tumour",
+      "Spindle cell rhabdomyosarcoma with head and neck predilection"
+    ]
+  },
+  {
+    "gene": "EP400",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "EPB41L2",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "EPC1",
+    "diagnoses": [
+      "Composite haemangioendothelioma",
+      "Low-grade endometrial stromal sarcoma",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "ERC1",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas",
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "ERG",
+    "diagnoses": [
+      "Ewing sarcoma",
+      "Superficial FET-ETS neurocristic tumour",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "ESR1",
+    "diagnoses": [
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "ETV4",
+    "diagnoses": [
+      "Ewing sarcoma"
+    ]
+  },
+  {
+    "gene": "ETV5",
+    "diagnoses": [
+      "Superficial FET-ETS neurocristic tumour"
+    ]
+  },
+  {
+    "gene": "ETV6",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Infantile fibrosarcoma",
+      "Inflammatory myofibroblastic tumour"
+    ]
+  },
+  {
+    "gene": "EWSR1",
+    "diagnoses": [
+      "Angiofibroma of soft tissue",
+      "Angiomatoid fibrous histiocytoma",
+      "Angiosarcoma",
+      "CIC/ATXN1-rearranged sarcoma",
+      "Clear cell sarcoma of soft tissue",
+      "Desmoplastic small round cell tumour",
+      "Ectomesenchymal chondromyxoid tumor",
+      "Ewing sarcoma",
+      "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
+      "EWSR1::WT1 Fusions Neoplasm",
+      "Extraskeletal myxoid chondrosarcoma",
+      "FET-CREB epithelioid mesenchymal tumours",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Gastroblastoma",
+      "High-grade endometrial stromal sarcoma-like tumour in male patient",
+      "Low-grade fibromyxoid sarcoma",
+      "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Myxoid liposarcoma",
+      "NFATC2-rearranged sarcoma",
+      "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
+      "PATZ1-rearranged sarcoma",
+      "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
+      "Sclerosing epithelioid fibrosarcoma",
+      "SMAD3-rearranged fibroblastic tumour",
+      "Superficial FET-ETS neurocristic tumour",
+      "TFCP2-rearranged rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "EZHIP",
+    "diagnoses": [
+      "Low-grade endometrial stromal sarcoma"
+    ]
+  },
+  {
+    "gene": "FBN1",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "FCHSD2",
+    "diagnoses": [
+      "Inflammatory myofibroblastic tumour"
+    ]
+  },
+  {
+    "gene": "FEV",
+    "diagnoses": [
+      "Ewing sarcoma",
+      "High-grade endometrial stromal sarcoma-like tumour in male patient"
+    ]
+  },
+  {
+    "gene": "FGD6",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "FGF1",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "FGF14-AS1",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "FGFR1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Phosphaturic mesenchymal tumour",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "FGFR2",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Phosphaturic mesenchymal tumour",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "FGFR3",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Phyllodes tumour"
+    ]
+  },
+  {
+    "gene": "FILIP1L",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "FKBP4",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "FLI1",
+    "diagnoses": [
+      "Ewing sarcoma",
+      "High-grade endometrial stromal sarcoma-like tumour in male patient",
+      "Superficial FET-ETS neurocristic tumour"
+    ]
+  },
+  {
+    "gene": "FLNA",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Epithelioid fibrous histiocytoma",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "FMR1",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "FN1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Calcifying aponeurotic fibroma",
+      "Chondroid synoviocytic neoplasm",
+      "Lipofibromatosis",
+      "Myopericytoma, including myofibroma",
+      "Phosphaturic mesenchymal tumour",
+      "Soft tissue chondroma",
+      "Synovial chondromatosis",
+      "Tenosynovial giant cell tumour",
+      "Uterine inflammatory myofibroblastic tumor",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "FNBP4",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "FOS",
+    "diagnoses": [
+      "Epithelioid haemangioma",
+      "Proliferative fasciitis and proliferative myositis"
+    ]
+  },
+  {
+    "gene": "FOSB",
+    "diagnoses": [
+      "Epithelioid haemangioma",
+      "Pseudomyogenic haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "FOSL1",
+    "diagnoses": [
+      "Desmoplastic fibroblastoma"
+    ]
+  },
+  {
+    "gene": "FOXN3",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "FOXO1",
+    "diagnoses": [
+      "A distinctive subset of well-differentiated rhabdomyosarcoma with SRF fusion",
+      "Alveolar rhabdomyosarcoma",
+      "Biphenotipic sinonasal sarcoma",
+      "Cutaneous epithelioid angiomatous nodule",
+      "Embryonal rhabdomyosarcoma",
+      "Epithelioid haemangioma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
+    ]
+  },
+  {
+    "gene": "FOXO3",
+    "diagnoses": [
+      "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
+    ]
+  },
+  {
+    "gene": "FOXO4",
+    "diagnoses": [
+      "CIC-rearranged sarcoma",
+      "High-Grade Uterine Sarcoma with MEIS2::FOXO4 Fusion",
+      "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
+    ]
+  },
+  {
+    "gene": "FOXR1",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "FOXR2",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "FRMD6",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "FUS",
+    "diagnoses": [
+      "Angiomatoid fibrous histiocytoma",
+      "Extraskeletal myxoid chondrosarcoma",
+      "FET-CREB epithelioid mesenchymal tumours",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "High-grade endometrial stromal sarcoma-like tumour in male patient",
+      "Low-grade fibromyxoid sarcoma",
+      "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions",
+      "Myxoid liposarcoma",
+      "NFATC2-rearranged sarcoma",
+      "Sclerosing epithelioid fibrosarcoma",
+      "Superficial FET-ETS neurocristic tumour",
+      "TFCP2-rearranged rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "FXR1",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "GAB1",
+    "diagnoses": [
+      "Angiofibroma of soft tissue",
+      "GAB1::ABL1 fusion-positive spindle cell neoplasm",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "GAB2",
+    "diagnoses": [
+      "Angiosarcoma"
+    ]
+  },
+  {
+    "gene": "GALNT15",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "GATA6",
+    "diagnoses": [
+      "Cutaneous epithelioid angiomatous nodule",
+      "Epithelioid haemangioma"
+    ]
+  },
+  {
+    "gene": "GEM",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "GFI1B",
+    "diagnoses": [
+      "Angiofibroma of soft tissue"
+    ]
+  },
+  {
+    "gene": "GGNBP2",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "GLI1",
+    "diagnoses": [
+      "Gastroblastoma",
+      "GLI1-altered mesenchymal tumours",
+      "Plexiform fibromyxoma"
+    ]
+  },
+  {
+    "gene": "GLI2",
+    "diagnoses": [
+      "Gastroblastoma"
+    ]
+  },
+  {
+    "gene": "GLI3",
+    "diagnoses": [
+      "Low-grade endometrial stromal sarcoma-like tumour in male patients"
+    ]
+  },
+  {
+    "gene": "GOPC",
+    "diagnoses": [
+      "Angiosarcoma"
+    ]
+  },
+  {
+    "gene": "GPAT4",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "GREB1",
+    "diagnoses": [
+      "CTNNB1-rearranged endometrial stromal tumour",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "GRIA1",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "GRIP1",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "GTF2A1",
+    "diagnoses": [
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "GTF2I",
+    "diagnoses": [
+      "Angiofibroma of soft tissue",
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "HAPSTR1",
+    "diagnoses": [
+      "Kinase-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "HAS2",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "HBEGF",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "HDLBP",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "HEY1",
+    "diagnoses": [
+      "Mesenchymal chondrosarcoma"
+    ]
+  },
+  {
+    "gene": "HMBOX1",
+    "diagnoses": [
+      "NRG1 fusion-positive high-grade spindle cell sarcoma"
+    ]
+  },
+  {
+    "gene": "HMGA2",
+    "diagnoses": [
+      "Deep (aggressive) angiomyxoma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Giant cell tumour of soft tissue",
+      "Keratin-positive giant cell-rich tumour",
+      "Lipoblastoma and lipoblastomatosis",
+      "Lipoma",
+      "Myolipoma of soft tissue",
+      "Tenosynovial giant cell tumour",
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "HNRNPC",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Lipoblastoma and lipoblastomatosis",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "HSPA8",
+    "diagnoses": [
+      "Extraskeletal myxoid chondrosarcoma"
+    ]
+  },
+  {
+    "gene": "ICA1L",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "IGF1R",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "IGFBP5",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "INO80D",
+    "diagnoses": [
+      "Biphenotipic sinonasal sarcoma"
+    ]
+  },
+  {
+    "gene": "INSR",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "IRF2BP2",
+    "diagnoses": [
+      "Kinase-rearranged uterine sarcomas",
+      "Mesenchymal chondrosarcoma"
+    ]
+  },
+  {
+    "gene": "ITD",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney"
+    ]
+  },
+  {
+    "gene": "JAZF1",
+    "diagnoses": [
+      "Endometrial stromal nodule",
+      "Leiomyosarcoma",
+      "Low-grade endometrial stromal sarcoma",
+      "Low-grade endometrial stromal sarcoma-like tumour in male patients"
+    ]
+  },
+  {
+    "gene": "KANK1",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "KANK2",
+    "diagnoses": [
+      "Leiomyosarcoma",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "KANSL1",
+    "diagnoses": [
+      "Uterine KAT6A/B::KANSL1-rearranged sarcomas"
+    ]
+  },
+  {
+    "gene": "KANSL1L",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "KAT6A",
+    "diagnoses": [
+      "Uterine KAT6A/B::KANSL1-rearranged sarcomas"
+    ]
+  },
+  {
+    "gene": "KAT6B",
+    "diagnoses": [
+      "Uterine KAT6A/B::KANSL1-rearranged sarcomas"
+    ]
+  },
+  {
+    "gene": "KATNBL1",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "KCNMA1",
+    "diagnoses": [
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "KDM2A",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "KHDRBS1",
+    "diagnoses": [
+      "Angiosarcoma"
+    ]
+  },
+  {
+    "gene": "KIAA1549",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas",
+      "Phosphaturic mesenchymal tumour",
+      "Phyllodes tumour"
+    ]
+  },
+  {
+    "gene": "KIF1A",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "KLF10",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "KLF15",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "KMT2A",
+    "diagnoses": [
+      "KMT2A-rearranged sarcoma",
+      "Low-grade fibromyxoid sarcoma",
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "KMT2D",
+    "diagnoses": [
+      "Low-grade fibromyxoid sarcoma",
+      "PRRX1-rearranged fibroblastic tumour",
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "KRT10",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "LEUTX",
+    "diagnoses": [
+      "CIC-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "LHFPL6",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "LIFR",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "LINC03041",
+    "diagnoses": [
+      "Myolipoma of soft tissue"
+    ]
+  },
+  {
+    "gene": "LMNA",
+    "diagnoses": [
+      "Epithelioid haemangioma",
+      "Infantile fibrosarcoma",
+      "Kinase-rearranged uterine sarcomas",
+      "Leiomyosarcoma",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "LPAR1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "LPP",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Lipoma",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "LRRFIP2",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "LTBP1",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "LTK",
+    "diagnoses": [
+      "Spindle cell neoplasm with novel LTK fusion"
+    ]
+  },
+  {
+    "gene": "LUM",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "MALAT1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm",
+      "Fibroma of tendon sheath",
+      "Gastroblastoma",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "Plexiform fibromyxoma"
+    ]
+  },
+  {
+    "gene": "MAML1",
+    "diagnoses": [
+      "NR1D1-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "MAML2",
+    "diagnoses": [
+      "Composite haemangioendothelioma",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Nodular necrotizing fibroblastic sarcoma",
+      "NR1D1-rearranged sarcoma",
+      "Papillary intralymphatic angioendothelioma",
+      "Retiform haemangioendothelioma",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "MAML3",
+    "diagnoses": [
+      "Alveolar rhabdomyosarcoma",
+      "Biphenotipic sinonasal sarcoma",
+      "NR1D1-rearranged sarcoma",
+      "Sarcomas with BCOR genetic alterations"
+    ]
+  },
+  {
+    "gene": "MAMLD1",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "MAP4",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Kinase-altered spindle cell neoplasms",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "MBTD1",
+    "diagnoses": [
+      "Low-grade endometrial stromal sarcoma"
+    ]
+  },
+  {
+    "gene": "MCC",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "MEAF6",
+    "diagnoses": [
+      "Low-grade endometrial stromal sarcoma",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "MED12",
+    "diagnoses": [
+      "Superficial CD34-positive pleomorphic fibroblastic tumour",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "MEF2D",
+    "diagnoses": [
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "MEG3",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "MEIS1",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
+      "TFCP2-rearranged rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "MEIS2",
+    "diagnoses": [
+      "High-Grade Uterine Sarcoma with MEIS2::FOXO4 Fusion"
+    ]
+  },
+  {
+    "gene": "MERTK",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "MET",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "MGA",
+    "diagnoses": [
+      "NUTM1-rearranged neoplasms"
+    ]
+  },
+  {
+    "gene": "MIR143",
+    "diagnoses": [
+      "Glomus tumour"
+    ]
+  },
+  {
+    "gene": "MIR22HG",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "MIR29B1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms"
+    ]
+  },
+  {
+    "gene": "MIR99AHG",
+    "diagnoses": [
+      "Cellular angiofibroma"
+    ]
+  },
+  {
+    "gene": "MITF",
+    "diagnoses": [
+      "Clear cell tumour with melanocytic differentiation and MITF::CREM fusion",
+      "Cutaneous clear cell tumour"
+    ]
+  },
+  {
+    "gene": "MLPH",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "MN1",
+    "diagnoses": [
+      "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population"
+    ]
+  },
+  {
+    "gene": "MPRIP",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "MRPS30",
+    "diagnoses": [
+      "Intimal sarcoma"
+    ]
+  },
+  {
+    "gene": "MRTFB",
+    "diagnoses": [
+      "Chondroid lipoma",
+      "Ectomesenchymal chondromyxoid tumor",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "SRF-rearranged myoid neoplasm",
+      "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor"
+    ]
+  },
+  {
+    "gene": "MSN",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "MT-ND4",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "MTCH2",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "MTG1",
+    "diagnoses": [
+      "Angiomyofibroblastoma"
+    ]
+  },
+  {
+    "gene": "MTUS1",
+    "diagnoses": [
+      "NRG1 fusion-positive high-grade spindle cell sarcoma"
+    ]
+  },
+  {
+    "gene": "MXD4",
+    "diagnoses": [
+      "NUTM1-rearranged colorectal sarcoma",
+      "NUTM1-rearranged neoplasms"
+    ]
+  },
+  {
+    "gene": "MXI1",
+    "diagnoses": [
+      "NUTM1-rearranged neoplasms"
+    ]
+  },
+  {
+    "gene": "MYADM",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "MYH10",
+    "diagnoses": [
+      "Spindle cell neoplasm with novel LTK fusion"
+    ]
+  },
+  {
+    "gene": "MYH9",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "Spindle cell neoplasm with novel LTK fusion"
+    ]
+  },
+  {
+    "gene": "MYOCD",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma",
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "NAB2",
+    "diagnoses": [
+      "Solitary fibrous tumour",
+      "Teratocarcinoma-like and Adamantinoma-like Head and neck neoplasm harboring NAB2::STAT6"
+    ]
+  },
+  {
+    "gene": "NACC1",
+    "diagnoses": [
+      "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions"
+    ]
+  },
+  {
+    "gene": "NCALD",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "NCOA1",
+    "diagnoses": [
+      "A distinctive subset of well-differentiated rhabdomyosarcoma with SRF fusion",
+      "Alveolar rhabdomyosarcoma",
+      "Biphenotipic sinonasal sarcoma",
+      "Chondroid lipoma",
+      "PRRX1-rearranged fibroblastic tumour",
+      "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "NCOA2",
+    "diagnoses": [
+      "Alveolar rhabdomyosarcoma",
+      "Angiofibroma of soft tissue",
+      "CNS embryonal rhabdomyosarcoma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Hybrid nerve sheath tumour",
+      "Mesenchymal chondrosarcoma",
+      "Perineurioma",
+      "PRRX1-rearranged fibroblastic tumour",
+      "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
+      "SRF-rearranged myoid neoplasm",
+      "TFCP2-rearranged rhabdomyosarcoma",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "NCOA3",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm",
+      "Uterine tumour resembling ovarian sex cord tumour"
+    ]
+  },
+  {
+    "gene": "NCOA4",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "NCOR2",
+    "diagnoses": [
+      "Giant cell tumour of soft tissue",
+      "Keratin-positive giant cell-rich tumour",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "NEDD4",
+    "diagnoses": [
+      "SS18::NEDD4 sarcomas"
+    ]
+  },
+  {
+    "gene": "NEGR1",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "NF1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "NF2",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "NFATC2",
+    "diagnoses": [
+      "Angiosarcoma",
+      "NFATC2-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "NFATC3",
+    "diagnoses": [
+      "Ossifying spindled and epithelioid cell tumor (OSET)"
+    ]
+  },
+  {
+    "gene": "NFIB",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "NFIX",
+    "diagnoses": [
+      "Solitary fibrous tumour"
+    ]
+  },
+  {
+    "gene": "NFKBIE",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "NIPBL",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour",
+      "Tenosynovial giant cell tumour"
+    ]
+  },
+  {
+    "gene": "NKTR",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "NONO",
+    "diagnoses": [
+      "PEComa"
+    ]
+  },
+  {
+    "gene": "NOTCH1",
+    "diagnoses": [
+      "Angiosarcoma",
+      "Glomus tumour"
+    ]
+  },
+  {
+    "gene": "NOTCH2",
+    "diagnoses": [
+      "Glomus tumour",
+      "Intimal sarcoma"
+    ]
+  },
+  {
+    "gene": "NOTCH3",
+    "diagnoses": [
+      "Glomus tumour"
+    ]
+  },
+  {
+    "gene": "NR1D1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "NR1D1-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "NR4A3",
+    "diagnoses": [
+      "Extraskeletal myxoid chondrosarcoma",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "NRF1",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "NRG1",
+    "diagnoses": [
+      "NRG1 fusion-positive high-grade spindle cell sarcoma"
+    ]
+  },
+  {
+    "gene": "NRP2",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "NTRK1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Infantile fibrosarcoma",
+      "Kinase-altered spindle cell neoplasms",
+      "Kinase-rearranged uterine sarcomas",
+      "Leiomyosarcoma",
+      "Phyllodes tumour",
+      "Soft tissue chondroma",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "NTRK3",
+    "diagnoses": [
+      "Adult fibrosarcoma",
+      "Angiosarcoma",
+      "Epithelioid fibrous histiocytoma",
+      "Infantile fibrosarcoma",
+      "Inflammatory myofibroblastic tumour",
+      "Kinase-rearranged uterine sarcomas",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "NUDCD3",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "NUDT11",
+    "diagnoses": [
+      "Desmoplastic fibroblastoma"
+    ]
+  },
+  {
+    "gene": "NUDT3",
+    "diagnoses": [
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "NUMA1",
+    "diagnoses": [
+      "Kinase-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "NUP160",
+    "diagnoses": [
+      "Angiosarcoma"
+    ]
+  },
+  {
+    "gene": "NUTM1",
+    "diagnoses": [
+      "CIC-rearranged sarcoma",
+      "NUTM1-rearranged colorectal sarcoma",
+      "NUTM1-rearranged neoplasms"
+    ]
+  },
+  {
+    "gene": "NUTM2A",
+    "diagnoses": [
+      "CIC-rearranged sarcoma",
+      "High-grade endometrial stromal sarcoma"
+    ]
+  },
+  {
+    "gene": "NUTM2B",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney",
+      "High-grade endometrial stromal sarcoma",
+      "Soft Tissue Sarcoma with YWHAE-NUTM2B Fusion"
+    ]
+  },
+  {
+    "gene": "NUTM2E",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney"
+    ]
+  },
+  {
+    "gene": "OGA",
+    "diagnoses": [
+      "Pleomorphic hyalinizing angiectatic tumour of soft parts"
+    ]
+  },
+  {
+    "gene": "OGT",
+    "diagnoses": [
+      "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
+    ]
+  },
+  {
+    "gene": "OMD",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "OSBP",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "PAFAH1B1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PALLD",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PAMR1",
+    "diagnoses": [
+      "GLI1-altered mesenchymal tumours"
+    ]
+  },
+  {
+    "gene": "PATZ1",
+    "diagnoses": [
+      "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
+      "PATZ1-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "PAX3",
+    "diagnoses": [
+      "Alveolar rhabdomyosarcoma",
+      "Biphenotipic sinonasal sarcoma",
+      "CNS embryonal rhabdomyosarcoma",
+      "Embryonal rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "PAX5",
+    "diagnoses": [
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "PAX7",
+    "diagnoses": [
+      "Alveolar rhabdomyosarcoma",
+      "Biphenotipic sinonasal sarcoma",
+      "Embryonal rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "PAX8",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "PBX1",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "PBX3",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "PCMTD1",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "PDE4DIP",
+    "diagnoses": [
+      "Intimal sarcoma"
+    ]
+  },
+  {
+    "gene": "PDGFB",
+    "diagnoses": [
+      "Adult fibrosarcoma",
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma",
+      "Kinase-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "PDGFD",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma"
+    ]
+  },
+  {
+    "gene": "PDGFRA",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm",
+      "Phosphaturic mesenchymal tumour",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "PDGFRB",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "PDLIM7",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PDZRN3",
+    "diagnoses": [
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "PFN1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PGR",
+    "diagnoses": [
+      "Extraskeletal myxoid chondrosarcoma",
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "PHC2",
+    "diagnoses": [
+      "Composite haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "PHF1",
+    "diagnoses": [
+      "Low-grade endometrial stromal sarcoma",
+      "Low-grade endometrial stromal sarcoma-like tumour in male patients",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "PI15",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "PIK3CA",
+    "diagnoses": [
+      "Desmoplastic fibroblastoma"
+    ]
+  },
+  {
+    "gene": "PKM",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PLAG1",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Cellular angiofibroma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "PLAG1-rearranged uterine sarcomas",
+      "Soft tissue chondroma",
+      "Spindle cell lipoma and pleomorphic lipoma",
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "PLCZ1",
+    "diagnoses": [
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "PLEKHH2",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour",
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "POU5F1",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  },
+  {
+    "gene": "PPARG",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "PPARGC1A",
+    "diagnoses": [
+      "Biphenotipic sinonasal sarcoma",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Spindle cell rhabdomyosarcoma with head and neck predilection"
+    ]
+  },
+  {
+    "gene": "PPFIBP1",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "PPHLN1",
+    "diagnoses": [
+      "NRG1 fusion-positive high-grade spindle cell sarcoma"
+    ]
+  },
+  {
+    "gene": "PPP1CB",
+    "diagnoses": [
+      "ALK-rearranged CD34-positive spindle cell tumour"
+    ]
+  },
+  {
+    "gene": "PPP2R2A",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "PPP6R3",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "PRDM10",
+    "diagnoses": [
+      "Superficial CD34-positive pleomorphic fibroblastic tumour",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "PRG4",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm"
+    ]
+  },
+  {
+    "gene": "PRKAR1A",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "PRKAR2A",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "PRRX1",
+    "diagnoses": [
+      "Low-grade fibromyxoid sarcoma",
+      "PRRX1-rearranged fibroblastic tumour",
+      "Sclerosing epithelioid fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "PTBP1",
+    "diagnoses": [
+      "Composite haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "PTCH1",
+    "diagnoses": [
+      "Gastroblastoma",
+      "GLI1-altered mesenchymal tumours"
+    ]
+  },
+  {
+    "gene": "PTK2",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "PTPRG",
+    "diagnoses": [
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "PUM1",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "QKI",
+    "diagnoses": [
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "RAB2A",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis",
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "RAD51B",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis",
+      "PLAG1-rearranged uterine sarcomas",
+      "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "RAF1",
+    "diagnoses": [
+      "Glomus tumour",
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "RALA",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "RALGPS1",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "RANBP2",
+    "diagnoses": [
+      "Epithelioid inflammatory myofibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "RB1",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "RBM27",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "RBPMS",
+    "diagnoses": [
+      "Kinase-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "RELA",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "RET",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "RLIM",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "RNASEH2B",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "ROBO1",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "ROS1",
+    "diagnoses": [
+      "Angiosarcoma",
+      "Inflammatory myofibroblastic tumour",
+      "Lipofibromatosis",
+      "Tenosynovial giant cell tumour",
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "RRAGB",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "RRBP1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Epithelioid inflammatory myofibroblastic sarcoma",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "RREB1",
+    "diagnoses": [
+      "Ectomesenchymal chondromyxoid tumor",
+      "Hybrid nerve sheath tumour",
+      "Perineurioma",
+      "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor"
+    ]
+  },
+  {
+    "gene": "SARM1",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "SDCBP",
+    "diagnoses": [
+      "Spindle cell lipoma and pleomorphic lipoma"
+    ]
+  },
+  {
+    "gene": "SEC23IP",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "SEC31A",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "SEC61G",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "SEPTIN7",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas",
+      "Infantile fibrosarcoma",
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "SERPINE1",
+    "diagnoses": [
+      "Pseudomyogenic haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "SETBP1",
+    "diagnoses": [
+      "Lipoma"
+    ]
+  },
+  {
+    "gene": "SETD5",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "SFPQ",
+    "diagnoses": [
+      "PEComa"
+    ]
+  },
+  {
+    "gene": "SLC43A3",
+    "diagnoses": [
+      "Angiosarcoma"
+    ]
+  },
+  {
+    "gene": "SLCO5A1",
+    "diagnoses": [
+      "Uterine leiomyosarcoma"
+    ]
+  },
+  {
+    "gene": "SMAD3",
+    "diagnoses": [
+      "SMAD3-rearranged fibroblastic tumour"
+    ]
+  },
+  {
+    "gene": "SMARCA2",
+    "diagnoses": [
+      "Tumours with SMARCA2/4::CREM fusions"
+    ]
+  },
+  {
+    "gene": "SMARCA4",
+    "diagnoses": [
+      "Tumours with SMARCA2/4::CREM fusions"
+    ]
+  },
+  {
+    "gene": "SMARCA5",
+    "diagnoses": [
+      "Ewing sarcoma"
+    ]
+  },
+  {
+    "gene": "SND1",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "SPARC",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Lipofibromatosis",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "SPECC1L",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Kinase-rearranged uterine sarcomas",
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "SPPL2A",
+    "diagnoses": [
+      "Kinase-altered spindle cell neoplasms"
+    ]
+  },
+  {
+    "gene": "SPTAN1",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "SPTBN1",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "SQSTM1",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Hybrid nerve sheath tumour",
+      "Non-neural granular cell tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "SRF",
+    "diagnoses": [
+      "A distinctive subset of well-differentiated rhabdomyosarcoma with SRF fusion",
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Hybrid nerve sheath tumour",
+      "Myopericytoma, including myofibroma",
+      "Perineurioma",
+      "SRF-rearranged myoid neoplasm"
+    ]
+  },
+  {
+    "gene": "SRSF3",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Lipoblastoma and lipoblastomatosis",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "SRSF7",
+    "diagnoses": [
+      "Ossifying spindled and epithelioid cell tumor (OSET)"
+    ]
+  },
+  {
+    "gene": "SS18",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "SS18::NEDD4 sarcomas",
+      "Synovial sarcoma"
+    ]
+  },
+  {
+    "gene": "SSX1",
+    "diagnoses": [
+      "Synovial sarcoma"
+    ]
+  },
+  {
+    "gene": "SSX2",
+    "diagnoses": [
+      "Synovial sarcoma"
+    ]
+  },
+  {
+    "gene": "SSX4",
+    "diagnoses": [
+      "Synovial sarcoma"
+    ]
+  },
+  {
+    "gene": "STAT6",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma",
+      "Solitary fibrous tumour",
+      "Teratocarcinoma-like and Adamantinoma-like Head and neck neoplasm harboring NAB2::STAT6"
+    ]
+  },
+  {
+    "gene": "STRN",
+    "diagnoses": [
+      "Adult fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "STRN3",
+    "diagnoses": [
+      "Adult fibrosarcoma"
+    ]
+  },
+  {
+    "gene": "SUZ12",
+    "diagnoses": [
+      "Endometrial stromal nodule",
+      "Low-grade endometrial stromal sarcoma",
+      "Low-grade endometrial stromal sarcoma-like tumour in male patients",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "SYK",
+    "diagnoses": [
+      "CIC-rearranged sarcoma"
+    ]
+  },
+  {
+    "gene": "SYN3",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "TACC3",
+    "diagnoses": [
+      "Phyllodes tumour"
+    ]
+  },
+  {
+    "gene": "TCF12",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Spindle cell rhabdomyosarcoma with head and neck predilection"
+    ]
+  },
+  {
+    "gene": "TEAD1",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Hybrid nerve sheath tumour",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "TEK",
+    "diagnoses": [
+      "Angiosarcoma",
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "TERT",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "TEX41",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "TFCP2",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "TFCP2-rearranged rhabdomyosarcoma"
+    ]
+  },
+  {
+    "gene": "TFE3",
+    "diagnoses": [
+      "Alveolar soft part sarcoma",
+      "Clear cell stromal tumour of the lung",
+      "Epithelioid haemangioendothelioma",
+      "Ossifying fibromyxoid tumour",
+      "PEComa",
+      "YAP1::TFE3 haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "TFG",
+    "diagnoses": [
+      "Desmoplastic fibroblastoma",
+      "Extraskeletal myxoid chondrosarcoma",
+      "Inflammatory myofibroblastic tumour",
+      "Kinase-rearranged uterine sarcomas",
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "TGFA",
+    "diagnoses": [
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "TGFBR3",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Pleomorphic hyalinizing angiectatic tumour of soft parts"
+    ]
+  },
+  {
+    "gene": "THBS1",
+    "diagnoses": [
+      "Acral fibrochondromyxoid tumour",
+      "Myopericytoma, including myofibroma",
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "THBS2",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "TIMP1",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "TIMP3",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm",
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "TLN1",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "TLN2",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "TMTC2",
+    "diagnoses": [
+      "Undifferentiated pleomorphic sarcoma"
+    ]
+  },
+  {
+    "gene": "TNC",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Dermatofibrosarcoma protuberans",
+      "Fibroma of tendon sheath",
+      "Giant cell fibroblastoma",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "TNS1",
+    "diagnoses": [
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "TOM1L2",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Pleomorphic hyalinizing angiectatic tumour of soft parts"
+    ]
+  },
+  {
+    "gene": "TOX",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "TPM3",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Infantile fibrosarcoma",
+      "Kinase-altered spindle cell neoplasms",
+      "Kinase-rearranged uterine sarcomas",
+      "Uterine inflammatory myofibroblastic tumor"
+    ]
+  },
+  {
+    "gene": "TPM4",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis",
+      "Phyllodes tumour"
+    ]
+  },
+  {
+    "gene": "TPR",
+    "diagnoses": [
+      "Kinase-rearranged uterine sarcomas",
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "TRIM11",
+    "diagnoses": [
+      "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion"
+    ]
+  },
+  {
+    "gene": "TRIM13",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "TRIM24",
+    "diagnoses": [
+      "Angiosarcoma",
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "TRIM27",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "TRIP11",
+    "diagnoses": [
+      "BRAF-altered spindle cell sarcomas"
+    ]
+  },
+  {
+    "gene": "TRPS1",
+    "diagnoses": [
+      "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "TUBA1B",
+    "diagnoses": [
+      "GLI1-altered mesenchymal tumours"
+    ]
+  },
+  {
+    "gene": "TXNIP",
+    "diagnoses": [
+      "GLI1-altered mesenchymal tumours"
+    ]
+  },
+  {
+    "gene": "UBC",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "UBP1",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "USP2",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "USP33",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "USP35",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm",
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "USP6",
+    "diagnoses": [
+      "Aneurysmal bone cyst",
+      "Fibroma of tendon sheath",
+      "Myositis ossificans and fibro-osseous pseudotumour of digits",
+      "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "USP8",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Soft tissue chondroma"
+    ]
+  },
+  {
+    "gene": "VAMP3",
+    "diagnoses": [
+      "Desmoplastic fibroblastoma"
+    ]
+  },
+  {
+    "gene": "VCL",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Epithelioid inflammatory myofibroblastic sarcoma",
+      "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "VEGFD",
+    "diagnoses": [
+      "Myopericytoma, including myofibroma"
+    ]
+  },
+  {
+    "gene": "VGLL2",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "VGLL3",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas",
+      "Hybrid nerve sheath tumour",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Perineurioma",
+      "Spindle cell rhabdomyosarcoma with head and neck predilection"
+    ]
+  },
+  {
+    "gene": "VIM",
+    "diagnoses": [
+      "Epithelioid fibrous histiocytoma",
+      "Epithelioid haemangioma",
+      "Proliferative fasciitis and proliferative myositis"
+    ]
+  },
+  {
+    "gene": "VWA8",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "WT1",
+    "diagnoses": [
+      "Desmoplastic small round cell tumour",
+      "EWSR1::WT1 Fusions Neoplasm"
+    ]
+  },
+  {
+    "gene": "WWTR1",
+    "diagnoses": [
+      "Biphenotipic sinonasal sarcoma",
+      "Epithelioid haemangioendothelioma",
+      "Epithelioid haemangioma",
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
+    "gene": "YAP1",
+    "diagnoses": [
+      "Clear cell stromal tumour of the lung",
+      "Composite haemangioendothelioma",
+      "Deep (aggressive) angiomyxoma",
+      "Epithelioid haemangioendothelioma",
+      "KMT2A-rearranged sarcoma",
+      "Low-grade fibromyxoid sarcoma",
+      "Myxoinflammatory fibroblastic sarcoma",
+      "Nodular necrotizing fibroblastic sarcoma",
+      "Papillary intralymphatic angioendothelioma",
+      "Retiform haemangioendothelioma",
+      "Sclerosing epithelioid fibrosarcoma",
+      "Tenosynovial giant cell tumour",
+      "YAP1::TFE3 haemangioendothelioma"
+    ]
+  },
+  {
+    "gene": "YWHAE",
+    "diagnoses": [
+      "Clear cell sarcoma of Kidney",
+      "High-grade endometrial stromal sarcoma",
+      "Leiomyosarcoma",
+      "Soft Tissue Sarcoma with YWHAE-NUTM2B Fusion"
+    ]
+  },
+  {
+    "gene": "YWHAQ",
+    "diagnoses": [
+      "Phosphaturic mesenchymal tumour"
+    ]
+  },
+  {
+    "gene": "YWHAZ",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "ZBTB47",
+    "diagnoses": [
+      "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "ZC3H7B",
+    "diagnoses": [
+      "High-grade endometrial stromal sarcoma",
+      "Ossifying fibromyxoid tumour",
+      "Sarcomas with BCOR genetic alterations"
+    ]
+  },
+  {
+    "gene": "ZCCHC7",
+    "diagnoses": [
+      "Calcified chondroid mesenchymal neoplasms",
+      "Chondroid synoviocytic neoplasm"
+    ]
+  },
+  {
+    "gene": "ZEB1",
+    "diagnoses": [
+      "Lipoblastoma and lipoblastomatosis"
+    ]
+  },
+  {
+    "gene": "ZFHX3",
+    "diagnoses": [
+      "Hybrid nerve sheath tumour",
+      "Perineurioma"
+    ]
+  },
+  {
+    "gene": "ZFP36",
+    "diagnoses": [
+      "Epithelioid haemangioma"
+    ]
+  },
+  {
+    "gene": "ZFP64",
+    "diagnoses": [
+      "Fusion-associated spindle cell rhabdomyosarcomas"
+    ]
+  },
+  {
+    "gene": "ZFTA",
+    "diagnoses": [
+      "Chondroid lipoma"
+    ]
+  },
+  {
+    "gene": "ZNF444",
+    "diagnoses": [
+      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+    ]
+  }
+]
