@@ -4,6 +4,8 @@
 
 This repository is configured for GitHub Pages deployment through GitHub Actions.
 
+The workflow publishes the committed static frontend and committed JSON indexes directly, without a separate frontend build step.
+
 The workflow file is:
 
 - `.github/workflows/deploy.yml`
