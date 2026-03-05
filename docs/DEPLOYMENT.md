@@ -77,6 +77,8 @@ Open browser developer tools and confirm that:
 
 Confirm that the push to `main` included the regenerated JSON files in `database/`.
 
+If frontend behavior changed but the page still looks old, bump the `?v=` query value for `styles.css` and `app.js` in `index.html` and redeploy.
+
 ### GitHub Pages workflow fails
 
 Check the Actions tab and inspect the failed job step. Because the workflow only packages committed files, most failures here are repository configuration issues rather than Python build issues.

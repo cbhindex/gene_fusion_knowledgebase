@@ -1,61 +1,38 @@
 # Usage Guide
 
-## Search Modes
+## Search Input
 
-### Auto
-
-`Auto` infers the search type from the entered value.
+The page uses one search box with automatic type inference (no mode dropdown).
 
 Typical behavior:
 
 - a known gene symbol or alias is treated as a gene query
-- a string containing fusion separators is treated as a fusion query
-- multi-word labels usually resolve as diagnoses
-
-### Gene
-
-Use `Gene` when the input is a single gene symbol or a known alias.
-
-Returned result sections:
-
-- `Known Aliases`
-- `Related Diagnoses`
-- `Fusion Partner Genes`
+- a value containing fusion separators is treated as a fusion query
+- diagnosis labels are treated as diagnosis queries
 
 Examples:
 
-- `HMGA2`
-- `MKL2`
-- `HMGIC`
+- gene: `HMGA2`, `MKL2`, `HMGIC`
+- diagnosis: `Nodular fasciitis`
+- fusion: `HMGA2::LPP`, `HMGIC:MKL2`, `LPP::HMGA2`
 
-### Diagnosis
+## Result Sections
 
-Use `Diagnosis` when the input is a diagnosis label.
+### Gene query
 
-Returned result sections:
+- `Known Aliases` (or grouped alias sections for configured merged-gene groups)
+- `Related Diagnoses`
+- `Fusion Partner Genes`
+
+### Diagnosis query
 
 - `Related Genes`
 - `Related Fusions`
 
-Examples:
-
-- `Nodular fasciitis`
-- `Dermatofibrosarcoma protuberans`
-
-### Fusion
-
-Use `Fusion` when the input is a fusion pair.
-
-Returned result sections:
+### Fusion query
 
 - `Related Diagnoses`
 - `Observed Fusion Labels`
-
-Examples:
-
-- `HMGA2::LPP`
-- `HMGIC:MKL2`
-- `LPP::HMGA2`
 
 ## Normalization Rules
 
@@ -103,33 +80,9 @@ The page may still show the canonical stored fusion label in the result title.
 
 ## Autocomplete Behavior
 
-### Gene mode
-
-Suggests:
-
-- canonical genes
-- known aliases
-
-### Diagnosis mode
-
-Suggests:
-
-- diagnosis labels
-
-### Fusion mode
-
-Suggests fusion labels only after `::` is present.
-
-This avoids noisy suggestions while the user is still typing the first gene.
-
-### Auto mode
-
-Suggests a combined set of:
-
-- genes
-- aliases
-- diagnoses
-- fusions, once `::` appears
+- Suggests a combined set of genes, aliases, and diagnoses while typing.
+- Fusion suggestions are added only after `::` appears.
+- `Did you mean` suggestions use the same candidate pool.
 
 ## No Match Handling
 
@@ -146,3 +99,5 @@ When curated data changes:
 1. replace the Excel files in `source/`
 2. run `python build_search_database.py`
 3. reload the local preview page or redeploy GitHub Pages
+
+If frontend files changed (`app.js` or `styles.css`), bump the `?v=` query version in `index.html` so browsers fetch the latest assets.

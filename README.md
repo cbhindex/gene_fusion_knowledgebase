@@ -11,12 +11,11 @@ This repository has two roles:
 1. host the static frontend for interactive search
 2. store the local build script that converts curated Excel workbooks into browser-ready JSON
 
-The frontend supports four input modes:
+The frontend uses a single search input with automatic type inference:
 
-- `Auto`
-- `Gene`
-- `Diagnosis`
-- `Fusion`
+- known gene symbols and aliases are treated as gene queries
+- diagnosis labels are treated as diagnosis queries
+- values that look like fusions are treated as fusion queries
 
 Search runs entirely in the browser after the JSON files are loaded.
 
@@ -65,8 +64,8 @@ These are normalized to `gene1::gene2` for display and search.
 
 ### Autocomplete
 
-- `Gene`, `Diagnosis`, and `Auto` modes provide autocomplete while typing.
-- `Fusion` mode provides autocomplete only after `::` appears in the input.
+- Autocomplete always suggests genes, aliases, and diagnoses while typing.
+- Fusion suggestions appear after `::` is present.
 - If no exact match is found, the interface shows `No exact match found` and a `Did you mean` section.
 
 ## Repository Layout
@@ -172,6 +171,8 @@ On every push to `main`, the workflow:
 4. deploys the artifact to GitHub Pages
 
 GitHub Actions does not rebuild the JSON files from Excel. The JSON files must be refreshed locally and committed before pushing.
+
+The deployed `index.html` references `styles.css` and `app.js` with explicit `?v=` query versions for cache busting. Bump that version when frontend assets change.
 
 To enable deployment in GitHub:
 

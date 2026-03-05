@@ -82,12 +82,11 @@ body {
 
 .search-row {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr) 128px;
+  grid-template-columns: minmax(0, 1fr) 128px;
   gap: 12px;
   align-items: start;
 }
 
-select,
 input,
 button {
   width: 100%;
@@ -97,7 +96,6 @@ button {
   font: inherit;
 }
 
-select,
 input {
   background: var(--panel-strong);
   padding: 0 16px;
@@ -105,7 +103,6 @@ input {
 }
 
 input:focus,
-select:focus,
 button:focus,
 .suggestion-item:focus {
   outline: 2px solid rgba(183, 79, 45, 0.36);

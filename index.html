@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gene Fusion Knowledgebase</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260305-1" />
   </head>
   <body>
     <main class="page-shell">
@@ -18,14 +18,8 @@
         </div>
 
         <form id="search-form" class="search-panel" autocomplete="off">
-          <label class="field-label" for="search-mode">Search Type</label>
+          <label class="field-label" for="search-input">Search</label>
           <div class="search-row">
-            <select id="search-mode" name="mode" aria-label="Search mode">
-              <option value="auto">Auto</option>
-              <option value="gene">Gene</option>
-              <option value="diagnosis">Diagnosis</option>
-              <option value="fusion">Fusion</option>
-            </select>
             <div class="search-input-wrap">
               <input
                 id="search-input"
@@ -42,7 +36,7 @@
             <button type="submit">Search</button>
           </div>
           <p id="search-hint" class="search-hint">
-            Fusion autocomplete appears after <code>::</code> in fusion mode.
+            Type a gene, diagnosis, or fusion. Fusion suggestions appear after you type two colons (::).
           </p>
         </form>
       </section>
@@ -62,6 +56,6 @@
       </article>
     </template>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=20260305-1"></script>
   </body>
 </html>

@@ -22,12 +22,10 @@ const mergedGeneLookup = MERGED_GENE_GROUPS.reduce((lookup, group) => {
 
 const elements = {
   form: document.getElementById('search-form'),
-  mode: document.getElementById('search-mode'),
   input: document.getElementById('search-input'),
   suggestions: document.getElementById('suggestions'),
   results: document.getElementById('results'),
   statusBanner: document.getElementById('status-banner'),
-  hint: document.getElementById('search-hint'),
   cardTemplate: document.getElementById('card-template'),
 };
 
@@ -64,7 +62,7 @@ function canonicalizeGene(token) {
 function inferMode(query) {
   const trimmed = normalizeWhitespace(query);
   if (!trimmed) {
-    return 'auto';
+    return 'gene';
   }
   if (looksLikeFusion(trimmed)) {
     return 'fusion';
@@ -169,25 +167,10 @@ function rankCandidates(query, candidates, limit = 6) {
     .slice(0, limit);
 }
 
-function getAutocompleteItems(mode, query) {
+function getAutocompleteItems(query) {
   if (!state.ready) return [];
   const trimmed = normalizeWhitespace(query);
   if (!trimmed) return [];
-
-  if (mode === 'gene') {
-    const genes = state.searchIndex.suggestions.genes.map((value) => ({ label: value, type: 'gene', target: value }));
-    const aliases = state.searchIndex.suggestions.aliases.map((item) => ({ label: item.alias, type: 'alias', target: item.alias }));
-    return rankCandidates(trimmed, [...genes, ...aliases]);
-  }
-
-  if (mode === 'diagnosis') {
-    return rankCandidates(trimmed, state.searchIndex.suggestions.diagnoses.map((value) => ({ label: value, type: 'diagnosis', target: value })));
-  }
-
-  if (mode === 'fusion') {
-    if (!trimmed.includes('::')) return [];
-    return rankCandidates(trimmed, state.searchIndex.suggestions.fusions.map((value) => ({ label: value, type: 'fusion', target: value })));
-  }
 
   const combined = [
     ...state.searchIndex.suggestions.genes.map((value) => ({ label: value, type: 'gene', target: value })),
@@ -268,9 +251,6 @@ function appendDidYouMean(card, items) {
     button.textContent = item.label;
     button.addEventListener('click', () => {
       elements.input.value = item.target;
-      if (item.type === 'gene' || item.type === 'diagnosis' || item.type === 'fusion') {
-        elements.mode.value = item.type;
-      }
       executeSearch();
     });
     wrap.appendChild(button);
@@ -318,11 +298,11 @@ function appendAliasesByGene(card, geneRecords) {
   card.querySelector('.card-body').appendChild(section);
 }
 
-function showNotFound(query, note, mode) {
+function showNotFound(query, note) {
   clearResults();
   const card = createCard('No Match', 'No exact match found', note || '');
   appendListSection(card, 'Query', [query], '');
-  appendDidYouMean(card, getAutocompleteItems(mode, query));
+  appendDidYouMean(card, getAutocompleteItems(query));
   elements.results.appendChild(card);
 }
 
@@ -331,7 +311,7 @@ function searchGene(query) {
   const key = state.searchIndex.gene_key_lookup[canonicalized.canonical.toLowerCase()] || canonicalized.canonical;
   const record = state.searchIndex.gene_lookup[key];
   if (!record) {
-    showNotFound(query, canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${canonicalized.canonical}` : '', 'gene');
+    showNotFound(query, canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${canonicalized.canonical}` : '');
     return;
   }
 
@@ -381,7 +361,7 @@ function searchDiagnosis(query) {
   const key = state.searchIndex.diagnosis_key_lookup[normalized.toLowerCase()];
   const record = key ? state.searchIndex.diagnosis_lookup[key] : null;
   if (!record) {
-    showNotFound(query, '', 'diagnosis');
+    showNotFound(query, '');
     return;
   }
   clearResults();
@@ -394,12 +374,12 @@ function searchDiagnosis(query) {
 function searchFusion(query) {
   const normalized = normalizeFusionInput(query);
   if (!normalized) {
-    showNotFound(query, '', 'fusion');
+    showNotFound(query, '');
     return;
   }
   const record = state.searchIndex.fusion_lookup[normalized.searchKey];
   if (!record) {
-    showNotFound(query, normalized.normalizedMessage, 'fusion');
+    showNotFound(query, normalized.normalizedMessage);
     return;
   }
   clearResults();
@@ -421,7 +401,7 @@ function executeSearch() {
   }
   hideSuggestions();
   setStatus('');
-  const mode = elements.mode.value === 'auto' ? inferMode(trimmed) : elements.mode.value;
+  const mode = inferMode(trimmed);
   if (mode === 'gene') {
     searchGene(trimmed);
     return;
@@ -463,7 +443,7 @@ function renderSuggestions(items) {
 }
 
 function updateAutocomplete() {
-  const items = getAutocompleteItems(elements.mode.value, elements.input.value);
+  const items = getAutocompleteItems(elements.input.value);
   renderSuggestions(items);
 }
 
@@ -489,12 +469,6 @@ elements.form.addEventListener('submit', (event) => {
 });
 
 elements.input.addEventListener('input', updateAutocomplete);
-elements.mode.addEventListener('change', () => {
-  elements.hint.textContent = elements.mode.value === 'fusion'
-    ? 'Fusion autocomplete appears after :: in fusion mode.'
-    : 'Type to search. Suggestions update as you enter text.';
-  updateAutocomplete();
-});
 
 document.addEventListener('click', (event) => {
   if (!elements.suggestions.contains(event.target) && event.target !== elements.input) {
