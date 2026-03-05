@@ -4,6 +4,22 @@ const state = {
   ready: false,
 };
 
+const MERGED_GENE_GROUPS = [
+  ['BCOR', 'BCORL1'],
+  ['DUX4', 'DUX4L8'],
+  ['FOS', 'FOSB', 'FOSL1'],
+  ['KANSL1', 'KANSL1L'],
+  ['STRN', 'STRN3'],
+];
+
+const mergedGeneLookup = MERGED_GENE_GROUPS.reduce((lookup, group) => {
+  const normalizedGroup = group.map((gene) => gene.toUpperCase());
+  normalizedGroup.forEach((gene) => {
+    lookup[gene] = normalizedGroup;
+  });
+  return lookup;
+}, {});
+
 const elements = {
   form: document.getElementById('search-form'),
   mode: document.getElementById('search-mode'),
@@ -21,6 +37,19 @@ function normalizeWhitespace(value) {
 
 function normalizeGeneToken(token) {
   return normalizeWhitespace(token).replace(/[\[\](){}.,;]+$/g, '');
+}
+
+function sortCaseInsensitive(values) {
+  return [...values].sort((left, right) => left.localeCompare(right, undefined, { sensitivity: 'base' }));
+}
+
+function uniqueSorted(values) {
+  return sortCaseInsensitive([...new Set(values.filter(Boolean))]);
+}
+
+function getMergeGroup(gene) {
+  if (!gene) return null;
+  return mergedGeneLookup[gene.toUpperCase()] || null;
 }
 
 function canonicalizeGene(token) {
@@ -250,6 +279,45 @@ function appendDidYouMean(card, items) {
   card.querySelector('.card-body').appendChild(section);
 }
 
+function appendAliasesByGene(card, geneRecords) {
+  const section = document.createElement('section');
+  section.className = 'result-section';
+  const heading = document.createElement('h3');
+  heading.textContent = 'Aliases / Old Names by Gene';
+  section.appendChild(heading);
+
+  const groupWrap = document.createElement('div');
+  groupWrap.className = 'alias-groups';
+  const sortedRecords = [...geneRecords].sort((left, right) => left.gene.localeCompare(right.gene, undefined, { sensitivity: 'base' }));
+  sortedRecords.forEach((record) => {
+    const block = document.createElement('article');
+    block.className = 'alias-group';
+    const geneLabel = document.createElement('p');
+    geneLabel.className = 'alias-gene-label';
+    geneLabel.textContent = record.gene;
+    block.appendChild(geneLabel);
+
+    if (!record.aliases.length) {
+      const empty = document.createElement('p');
+      empty.className = 'list-empty';
+      empty.textContent = 'No aliases recorded';
+      block.appendChild(empty);
+    } else {
+      const list = document.createElement('ul');
+      list.className = 'token-list';
+      record.aliases.forEach((alias) => {
+        const li = document.createElement('li');
+        li.textContent = alias;
+        list.appendChild(li);
+      });
+      block.appendChild(list);
+    }
+    groupWrap.appendChild(block);
+  });
+  section.appendChild(groupWrap);
+  card.querySelector('.card-body').appendChild(section);
+}
+
 function showNotFound(query, note, mode) {
   clearResults();
   const card = createCard('No Match', 'No exact match found', note || '');
@@ -266,6 +334,37 @@ function searchGene(query) {
     showNotFound(query, canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${canonicalized.canonical}` : '', 'gene');
     return;
   }
+
+  const mergeGroup = getMergeGroup(record.gene);
+  if (mergeGroup) {
+    const mergeRecords = mergeGroup
+      .map((gene) => {
+        const mergeKey = state.searchIndex.gene_key_lookup[gene.toLowerCase()] || gene;
+        return state.searchIndex.gene_lookup[mergeKey];
+      })
+      .filter(Boolean);
+
+    if (mergeRecords.length) {
+      const mergedGenes = uniqueSorted(mergeRecords.map((item) => item.gene));
+      const mergedDiagnoses = uniqueSorted(mergeRecords.flatMap((item) => item.diagnoses));
+      const mergedPartners = uniqueSorted(mergeRecords.flatMap((item) => item.partner_genes));
+
+      clearResults();
+      const noteParts = [];
+      if (canonicalized.changed) {
+        noteParts.push(`Input normalized: ${canonicalized.original} -> ${record.gene}`);
+      }
+      noteParts.push('Merged group result (whitelist enabled).');
+      const card = createCard('Gene (Merged Group)', record.gene, noteParts.join(' '));
+      appendListSection(card, 'Merge Source Genes', mergedGenes, 'No merged genes found');
+      appendListSection(card, 'Related Diagnoses', mergedDiagnoses, 'No diagnoses found');
+      appendListSection(card, 'Fusion Partner Genes', mergedPartners, 'No partner genes found');
+      appendAliasesByGene(card, mergeRecords);
+      elements.results.appendChild(card);
+      return;
+    }
+  }
+
   clearResults();
   const note = canonicalized.changed ? `Input normalized: ${canonicalized.original} -> ${record.gene}` : '';
   const card = createCard('Gene', record.gene, note);

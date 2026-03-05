@@ -745,6 +745,55 @@
     "fusions": []
   },
   {
+    "diagnosis": "Dermatofibroma/Fibrous histiocytoma_NOS",
+    "genes": [
+      "ALK",
+      "AP3D1",
+      "CARS1",
+      "CD63",
+      "COL1A1",
+      "DCTN1",
+      "EML4",
+      "ETV6",
+      "LAMTOR1",
+      "LRRFIP2",
+      "MLPH",
+      "NUMA1",
+      "PDPN",
+      "PPFIBP1",
+      "PRKAR2A",
+      "PRKCB",
+      "PRKCD",
+      "SFMBT1",
+      "SP100",
+      "SPECC1L",
+      "SQSTM1",
+      "TPM3",
+      "VCL"
+    ],
+    "fusions": [
+      "AP3D1::ALK",
+      "CARS1::ALK",
+      "CD63::PRKCD",
+      "COL1A1::ALK",
+      "DCTN1::ALK",
+      "EML4::ALK",
+      "ETV6::ALK",
+      "LAMTOR1::PRKCD",
+      "LRRFIP2::ALK",
+      "MLPH::ALK",
+      "NUMA1::SFMBT1",
+      "PDPN::PRKCB",
+      "PPFIBP1::ALK",
+      "PRKAR2A::ALK",
+      "SP100::ALK",
+      "SPECC1L::ALK",
+      "SQSTM1::ALK",
+      "TPM3::ALK",
+      "VCL::ALK"
+    ]
+  },
+  {
     "diagnosis": "Dermatofibrosarcoma protuberans",
     "genes": [
       "COL1A1",
@@ -1091,6 +1140,66 @@
     "fusions": []
   },
   {
+    "diagnosis": "Fibroblastic variant of lipoblastoma",
+    "genes": [
+      "BOC",
+      "CHCHD7",
+      "COL1A1",
+      "COL3A1",
+      "CTDSP2",
+      "DDX6",
+      "DLEU2",
+      "EEF1A1",
+      "EIF4A2",
+      "EP400",
+      "FGD6",
+      "GPAT4",
+      "HAS2",
+      "HMGA2",
+      "HNRNPC",
+      "KANSL1L",
+      "KLF10",
+      "MEG3",
+      "PCMTD1",
+      "PI15",
+      "PLAG1",
+      "PPP2R2A",
+      "RAB2A",
+      "RAD51B",
+      "SRSF3",
+      "YWHAZ",
+      "ZEB1"
+    ],
+    "fusions": [
+      "BOC::PLAG1",
+      "CHCHD7::PLAG1",
+      "COL1A1::PLAG1",
+      "COL3A1::PLAG1",
+      "CTDSP2::PLAG1",
+      "DDX6::PLAG1",
+      "DLEU2::PLAG1",
+      "EEF1A1::PLAG1",
+      "EIF4A2::PLAG1",
+      "EP400::HMGA2",
+      "FGD6::HMGA2",
+      "GPAT4::PLAG1",
+      "HAS2::PLAG1",
+      "HNRNPC::PLAG1",
+      "KANSL1L::PLAG1",
+      "KLF10::PLAG1",
+      "MEG3::PLAG1",
+      "PCMTD1::PLAG1",
+      "PLAG1::HAS2",
+      "PLAG1::PI15",
+      "PLAG1::RAD51B",
+      "PLAG1::ZEB1",
+      "PPP2R2A::PLAG1",
+      "RAB2A::PLAG1",
+      "SRSF3::PLAG1",
+      "YWHAZ::PLAG1"
+    ]
+  },
+  {
     "diagnosis": "Fibrocartilaginous mesenchymoma",
     "genes": [],
     "fusions": []
@@ -1415,18 +1524,30 @@
     "fusions": []
   },
   {
-    "diagnosis": "High-grade endometrial stromal sarcoma",
+    "diagnosis": "High grade endometrial stromal sarcoma",
     "genes": [
       "BCOR",
+      "ITD",
       "NUTM2A",
       "NUTM2B",
       "YWHAE",
       "ZC3H7B"
     ],
     "fusions": [
+      "BCOR::ITD",
       "YWHAE::NUTM2A",
       "YWHAE::NUTM2B",
       "ZC3H7B::BCOR"
+    ]
+  },
+  {
+    "diagnosis": "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
+    "genes": [
+      "FOXO4",
+      "MEIS2"
+    ],
+    "fusions": [
+      "MEIS2::FOXO4"
     ]
   },
   {
@@ -1447,16 +1568,6 @@
     "diagnosis": "High-grade surface osteosarcoma",
     "genes": [],
     "fusions": []
-  },
-  {
-    "diagnosis": "High-Grade Uterine Sarcoma with MEIS2::FOXO4 Fusion",
-    "genes": [
-      "FOXO4",
-      "MEIS2"
-    ],
-    "fusions": [
-      "MEIS2::FOXO4"
-    ]
   },
   {
     "diagnosis": "Hybrid nerve sheath tumour",
@@ -1863,12 +1974,7 @@
     "fusions": []
   },
   {
-    "diagnosis": "Low-grade central osteosarcoma",
-    "genes": [],
-    "fusions": []
-  },
-  {
-    "diagnosis": "Low-grade endometrial stromal sarcoma",
+    "diagnosis": "Low grade endometrial stromal sarcoma",
     "genes": [
       "EPC1",
       "EZHIP",
@@ -1885,6 +1991,11 @@
       "MBTD1::EZHIP",
       "MEAF6::PHF1"
     ]
+  },
+  {
+    "diagnosis": "Low-grade central osteosarcoma",
+    "genes": [],
+    "fusions": []
   },
   {
     "diagnosis": "Low-grade endometrial stromal sarcoma-like tumour in male patients",
@@ -1983,7 +2094,6 @@
       "ACTA2",
       "ALK",
       "ASCC2",
-      "ATF1",
       "CTNNB1",
       "EWSR1",
       "FGFR1",
@@ -2007,7 +2117,6 @@
       "ACTA2::PLAG1",
       "ASCC2::GGNBP2",
       "CTNNB1::PLAG1",
-      "EWSR1::ATF1",
       "EWSR1::KLF15",
       "EWSR1::PBX1",
       "EWSR1::PBX3",
@@ -2049,9 +2158,13 @@
       "FNBP4",
       "ICA1L",
       "IGF1R",
+      "ITD",
+      "MIR143",
       "MTCH2",
       "NCOA3",
       "NFKBIE",
+      "NOTCH2",
+      "NOTCH3",
       "RELA",
       "SRF",
       "STAT6",
@@ -2062,7 +2175,9 @@
     "fusions": [
       "COL4A1::VEGFD",
       "FN1::TIMP1",
+      "MIR143::NOTCH2",
       "MTCH2::FNBP4",
+      "NOTCH3::ITD",
       "SRF::C3orf62",
       "SRF::CITED1",
       "SRF::ICA1L",
@@ -2607,6 +2722,120 @@
     ]
   },
   {
+    "diagnosis": "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+    "genes": [
+      "BOC",
+      "CHCHD7",
+      "COL1A1",
+      "COL3A1",
+      "CTDSP2",
+      "DDX6",
+      "DLEU2",
+      "EEF1A1",
+      "EIF4A2",
+      "EP400",
+      "FGD6",
+      "GPAT4",
+      "HAS2",
+      "HMGA2",
+      "HNRNPC",
+      "KANSL1L",
+      "KLF10",
+      "MEG3",
+      "PCMTD1",
+      "PI15",
+      "PLAG1",
+      "PPP2R2A",
+      "RAB2A",
+      "RAD51B",
+      "SRSF3",
+      "YWHAZ",
+      "ZEB1"
+    ],
+    "fusions": [
+      "BOC::PLAG1",
+      "CHCHD7::PLAG1",
+      "COL1A1::PLAG1",
+      "COL3A1::PLAG1",
+      "CTDSP2::PLAG1",
+      "DDX6::PLAG1",
+      "DLEU2::PLAG1",
+      "EEF1A1::PLAG1",
+      "EIF4A2::PLAG1",
+      "EP400::HMGA2",
+      "FGD6::HMGA2",
+      "GPAT4::PLAG1",
+      "HAS2::PLAG1",
+      "HNRNPC::PLAG1",
+      "KANSL1L::PLAG1",
+      "KLF10::PLAG1",
+      "MEG3::PLAG1",
+      "PCMTD1::PLAG1",
+      "PLAG1::HAS2",
+      "PLAG1::PI15",
+      "PLAG1::RAD51B",
+      "PLAG1::ZEB1",
+      "PPP2R2A::PLAG1",
+      "RAB2A::PLAG1",
+      "SRSF3::PLAG1",
+      "YWHAZ::PLAG1"
+    ]
+  },
+  {
+    "diagnosis": "Pericytic all, difficult to classify, hybrid",
+    "genes": [
+      "ARGFXP1",
+      "ATG7",
+      "BMAL2",
+      "C3orf62",
+      "CITED1",
+      "COL4A1",
+      "FN1",
+      "FNBP4",
+      "ICA1L",
+      "IGF1R",
+      "ITD",
+      "MIR143",
+      "MRTFB",
+      "MTCH2",
+      "NCOA2",
+      "NCOA3",
+      "NFKBIE",
+      "NOTCH1",
+      "NOTCH2",
+      "NOTCH3",
+      "RAF1",
+      "RELA",
+      "SRF",
+      "STAT6",
+      "THBS1",
+      "TIMP1",
+      "VEGFD"
+    ],
+    "fusions": [
+      "ATG7::RAF1",
+      "COL4A1::VEGFD",
+      "FN1::TIMP1",
+      "MIR143::NOTCH1",
+      "MIR143::NOTCH2",
+      "MIR143::NOTCH3",
+      "MTCH2::FNBP4",
+      "NOTCH3::ITD",
+      "SRF::ARGFXP1",
+      "SRF::BMAL2",
+      "SRF::C3orf62",
+      "SRF::CITED1",
+      "SRF::ICA1L",
+      "SRF::MRTFB",
+      "SRF::NCOA2",
+      "SRF::NCOA3",
+      "SRF::NFKBIE",
+      "SRF::RELA",
+      "SRF::STAT6",
+      "THBS1::IGF1R"
+    ]
+  },
+  {
     "diagnosis": "Perineurioma",
     "genes": [
       "ABL1",
@@ -2723,6 +2952,126 @@
     "diagnosis": "PIK3CA-related overgrowth spectrum (PROS)",
     "genes": [],
     "fusions": []
+  },
+  {
+    "diagnosis": "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+    "genes": [
+      "BOC",
+      "CHCHD7",
+      "COL1A1",
+      "COL3A1",
+      "CTDSP2",
+      "DDX6",
+      "DLEU2",
+      "EEF1A1",
+      "EIF4A2",
+      "EP400",
+      "FGD6",
+      "GPAT4",
+      "HAS2",
+      "HMGA2",
+      "HNRNPC",
+      "KANSL1L",
+      "KLF10",
+      "MEG3",
+      "PCMTD1",
+      "PI15",
+      "PLAG1",
+      "PPP2R2A",
+      "RAB2A",
+      "RAD51B",
+      "SRSF3",
+      "YWHAZ",
+      "ZEB1"
+    ],
+    "fusions": [
+      "BOC::PLAG1",
+      "CHCHD7::PLAG1",
+      "COL1A1::PLAG1",
+      "COL3A1::PLAG1",
+      "CTDSP2::PLAG1",
+      "DDX6::PLAG1",
+      "DLEU2::PLAG1",
+      "EEF1A1::PLAG1",
+      "EIF4A2::PLAG1",
+      "EP400::HMGA2",
+      "FGD6::HMGA2",
+      "GPAT4::PLAG1",
+      "HAS2::PLAG1",
+      "HNRNPC::PLAG1",
+      "KANSL1L::PLAG1",
+      "KLF10::PLAG1",
+      "MEG3::PLAG1",
+      "PCMTD1::PLAG1",
+      "PLAG1::HAS2",
+      "PLAG1::PI15",
+      "PLAG1::RAD51B",
+      "PLAG1::ZEB1",
+      "PPP2R2A::PLAG1",
+      "RAB2A::PLAG1",
+      "SRSF3::PLAG1",
+      "YWHAZ::PLAG1"
+    ]
+  },
+  {
+    "diagnosis": "PLAG1-rearranged fibromyxoid tumour of soft tissue",
+    "genes": [
+      "BOC",
+      "CHCHD7",
+      "COL1A1",
+      "COL3A1",
+      "CTDSP2",
+      "DDX6",
+      "DLEU2",
+      "EEF1A1",
+      "EIF4A2",
+      "EP400",
+      "FGD6",
+      "GPAT4",
+      "HAS2",
+      "HMGA2",
+      "HNRNPC",
+      "KANSL1L",
+      "KLF10",
+      "MEG3",
+      "PCMTD1",
+      "PI15",
+      "PLAG1",
+      "PPP2R2A",
+      "RAB2A",
+      "RAD51B",
+      "SRSF3",
+      "YWHAZ",
+      "ZEB1"
+    ],
+    "fusions": [
+      "BOC::PLAG1",
+      "CHCHD7::PLAG1",
+      "COL1A1::PLAG1",
+      "COL3A1::PLAG1",
+      "CTDSP2::PLAG1",
+      "DDX6::PLAG1",
+      "DLEU2::PLAG1",
+      "EEF1A1::PLAG1",
+      "EIF4A2::PLAG1",
+      "EP400::HMGA2",
+      "FGD6::HMGA2",
+      "GPAT4::PLAG1",
+      "HAS2::PLAG1",
+      "HNRNPC::PLAG1",
+      "KANSL1L::PLAG1",
+      "KLF10::PLAG1",
+      "MEG3::PLAG1",
+      "PCMTD1::PLAG1",
+      "PLAG1::HAS2",
+      "PLAG1::PI15",
+      "PLAG1::RAD51B",
+      "PLAG1::ZEB1",
+      "PPP2R2A::PLAG1",
+      "RAB2A::PLAG1",
+      "SRSF3::PLAG1",
+      "YWHAZ::PLAG1"
+    ]
   },
   {
     "diagnosis": "PLAG1-rearranged uterine sarcomas",
@@ -2883,6 +3232,16 @@
     "diagnosis": "Rosai-Dorfman disease",
     "genes": [],
     "fusions": []
+  },
+  {
+    "diagnosis": "Salivary gland hyalinizing clear cell carcinomas",
+    "genes": [
+      "ATF1",
+      "EWSR1"
+    ],
+    "fusions": [
+      "EWSR1::ATF1"
+    ]
   },
   {
     "diagnosis": "Sarcomas with BCOR genetic alterations",

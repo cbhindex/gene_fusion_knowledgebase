@@ -116,6 +116,7 @@
       "RANBP2",
       "RRBP1",
       "SEC31A",
+      "SP100",
       "SPECC1L",
       "SQSTM1",
       "SYN3",
@@ -336,6 +337,12 @@
     "gene": "CD44",
     "partner_genes": [
       "PLAG1"
+    ]
+  },
+  {
+    "gene": "CD63",
+    "partner_genes": [
+      "PRKCD"
     ]
   },
   {
@@ -1285,7 +1292,8 @@
   {
     "gene": "ITD",
     "partner_genes": [
-      "BCOR"
+      "BCOR",
+      "NOTCH3"
     ]
   },
   {
@@ -1398,6 +1406,12 @@
     "gene": "KRT10",
     "partner_genes": [
       "USP6"
+    ]
+  },
+  {
+    "gene": "LAMTOR1",
+    "partner_genes": [
+      "PRKCD"
     ]
   },
   {
@@ -1875,6 +1889,7 @@
   {
     "gene": "NOTCH3",
     "partner_genes": [
+      "ITD",
       "MIR143"
     ]
   },
@@ -1972,7 +1987,8 @@
   {
     "gene": "NUMA1",
     "partner_genes": [
-      "NTRK1"
+      "NTRK1",
+      "SFMBT1"
     ]
   },
   {
@@ -2148,6 +2164,12 @@
     "gene": "PDLIM7",
     "partner_genes": [
       "USP6"
+    ]
+  },
+  {
+    "gene": "PDPN",
+    "partner_genes": [
+      "PRKCB"
     ]
   },
   {
@@ -2337,6 +2359,19 @@
     "gene": "PRKAR2A",
     "partner_genes": [
       "ALK"
+    ]
+  },
+  {
+    "gene": "PRKCB",
+    "partner_genes": [
+      "PDPN"
+    ]
+  },
+  {
+    "gene": "PRKCD",
+    "partner_genes": [
+      "CD63",
+      "LAMTOR1"
     ]
   },
   {
@@ -2567,6 +2602,12 @@
     ]
   },
   {
+    "gene": "SFMBT1",
+    "partner_genes": [
+      "NUMA1"
+    ]
+  },
+  {
     "gene": "SFPQ",
     "partner_genes": [
       "TFE3"
@@ -2612,6 +2653,12 @@
     "gene": "SND1",
     "partner_genes": [
       "BRAF"
+    ]
+  },
+  {
+    "gene": "SP100",
+    "partner_genes": [
+      "ALK"
     ]
   },
   {

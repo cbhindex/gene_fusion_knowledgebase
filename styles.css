@@ -269,6 +269,25 @@ button:hover {
   color: var(--ink);
 }
 
+.alias-groups {
+  display: grid;
+  gap: 12px;
+}
+
+.alias-group {
+  margin: 0;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 250, 242, 0.86);
+}
+
+.alias-gene-label {
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 @media (max-width: 840px) {
   .page-shell {
     width: min(100% - 20px, 1120px);

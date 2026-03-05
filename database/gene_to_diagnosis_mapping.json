@@ -91,6 +91,7 @@
     "gene": "ALK",
     "diagnoses": [
       "ALK-rearranged CD34-positive spindle cell tumour",
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Epithelioid inflammatory myofibroblastic sarcoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
@@ -112,12 +113,14 @@
   {
     "gene": "AP3D1",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
     ]
   },
   {
     "gene": "ARGFXP1",
     "diagnoses": [
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -156,7 +159,7 @@
       "Angiosarcoma",
       "Clear cell sarcoma of soft tissue",
       "FET-CREB epithelioid mesenchymal tumours",
-      "Myoepithelioma, myoepithelial carcinoma, and mixed tumour"
+      "Salivary gland hyalinizing clear cell carcinomas"
     ]
   },
   {
@@ -171,7 +174,8 @@
   {
     "gene": "ATG7",
     "diagnoses": [
-      "Glomus tumour"
+      "Glomus tumour",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -184,7 +188,7 @@
     "gene": "BCOR",
     "diagnoses": [
       "Clear cell sarcoma of Kidney",
-      "High-grade endometrial stromal sarcoma",
+      "High grade endometrial stromal sarcoma",
       "Ossifying fibromyxoid tumour",
       "Sarcomas with BCOR genetic alterations"
     ]
@@ -210,6 +214,7 @@
   {
     "gene": "BMAL2",
     "diagnoses": [
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -228,7 +233,11 @@
   {
     "gene": "BOC",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -263,6 +272,7 @@
     "gene": "C3orf62",
     "diagnoses": [
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -290,6 +300,7 @@
   {
     "gene": "CARS1",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
     ]
   },
@@ -317,6 +328,12 @@
     "gene": "CD44",
     "diagnoses": [
       "PLAG1-rearranged uterine sarcomas"
+    ]
+  },
+  {
+    "gene": "CD63",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
     ]
   },
   {
@@ -368,7 +385,11 @@
   {
     "gene": "CHCHD7",
     "diagnoses": [
+      "Fibroblastic variant of lipoblastoma",
       "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "PLAG1-rearranged uterine sarcomas"
     ]
   },
@@ -399,6 +420,7 @@
     "diagnoses": [
       "CIC-rearranged sarcoma",
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -443,14 +465,19 @@
     "diagnoses": [
       "Adult fibrosarcoma",
       "Aneurysmal bone cyst",
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Dermatofibrosarcoma protuberans",
       "Epithelioid fibrous histiocytoma",
+      "Fibroblastic variant of lipoblastoma",
       "Fibroma of tendon sheath",
       "Giant cell fibroblastoma",
       "Kinase-rearranged uterine sarcomas",
       "Lipoblastoma and lipoblastomatosis",
       "Myositis ossificans and fibro-osseous pseudotumour of digits",
-      "Nodular fasciitis"
+      "Nodular fasciitis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -469,13 +496,18 @@
   {
     "gene": "COL3A1",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
     "gene": "COL4A1",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -574,7 +606,11 @@
   {
     "gene": "CTDSP2",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -624,6 +660,7 @@
     "gene": "DCTN1",
     "diagnoses": [
       "ALK-rearranged CD34-positive spindle cell tumour",
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Non-neural granular cell tumour",
@@ -639,7 +676,11 @@
   {
     "gene": "DDX6",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -651,7 +692,11 @@
   {
     "gene": "DLEU2",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -694,7 +739,11 @@
   {
     "gene": "EEF1A1",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -734,7 +783,11 @@
   {
     "gene": "EIF4A2",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -757,6 +810,7 @@
     "gene": "EML4",
     "diagnoses": [
       "ALK-rearranged CD34-positive spindle cell tumour",
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Infantile fibrosarcoma",
       "Inflammatory myofibroblastic tumour",
@@ -774,8 +828,12 @@
   {
     "gene": "EP400",
     "diagnoses": [
+      "Fibroblastic variant of lipoblastoma",
       "Lipoblastoma and lipoblastomatosis",
-      "Ossifying fibromyxoid tumour"
+      "Ossifying fibromyxoid tumour",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -788,7 +846,7 @@
     "gene": "EPC1",
     "diagnoses": [
       "Composite haemangioendothelioma",
-      "Low-grade endometrial stromal sarcoma",
+      "Low grade endometrial stromal sarcoma",
       "Ossifying fibromyxoid tumour"
     ]
   },
@@ -828,6 +886,7 @@
   {
     "gene": "ETV6",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Infantile fibrosarcoma",
       "Inflammatory myofibroblastic tumour"
@@ -859,6 +918,7 @@
       "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
       "PATZ1-rearranged sarcoma",
       "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
+      "Salivary gland hyalinizing clear cell carcinomas",
       "Sclerosing epithelioid fibrosarcoma",
       "SMAD3-rearranged fibroblastic tumour",
       "Superficial FET-ETS neurocristic tumour",
@@ -868,7 +928,7 @@
   {
     "gene": "EZHIP",
     "diagnoses": [
-      "Low-grade endometrial stromal sarcoma"
+      "Low grade endometrial stromal sarcoma"
     ]
   },
   {
@@ -895,7 +955,11 @@
   {
     "gene": "FGD6",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -981,6 +1045,7 @@
       "Chondroid synoviocytic neoplasm",
       "Lipofibromatosis",
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "Phosphaturic mesenchymal tumour",
       "Soft tissue chondroma",
       "Synovial chondromatosis",
@@ -992,7 +1057,8 @@
   {
     "gene": "FNBP4",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -1044,7 +1110,7 @@
     "gene": "FOXO4",
     "diagnoses": [
       "CIC-rearranged sarcoma",
-      "High-Grade Uterine Sarcoma with MEIS2::FOXO4 Fusion",
+      "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
       "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
     ]
   },
@@ -1170,7 +1236,11 @@
   {
     "gene": "GPAT4",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1214,7 +1284,11 @@
   {
     "gene": "HAS2",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1248,12 +1322,16 @@
     "gene": "HMGA2",
     "diagnoses": [
       "Deep (aggressive) angiomyxoma",
+      "Fibroblastic variant of lipoblastoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Giant cell tumour of soft tissue",
       "Keratin-positive giant cell-rich tumour",
       "Lipoblastoma and lipoblastomatosis",
       "Lipoma",
       "Myolipoma of soft tissue",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "Tenosynovial giant cell tumour",
       "Uterine leiomyoma and benign metastasizing leiomyoma"
     ]
@@ -1262,10 +1340,14 @@
     "gene": "HNRNPC",
     "diagnoses": [
       "Aneurysmal bone cyst",
+      "Fibroblastic variant of lipoblastoma",
       "Fibroma of tendon sheath",
       "Lipoblastoma and lipoblastomatosis",
       "Myositis ossificans and fibro-osseous pseudotumour of digits",
-      "Nodular fasciitis"
+      "Nodular fasciitis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1278,13 +1360,15 @@
     "gene": "ICA1L",
     "diagnoses": [
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
   {
     "gene": "IGF1R",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -1315,7 +1399,10 @@
   {
     "gene": "ITD",
     "diagnoses": [
-      "Clear cell sarcoma of Kidney"
+      "Clear cell sarcoma of Kidney",
+      "High grade endometrial stromal sarcoma",
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -1323,7 +1410,7 @@
     "diagnoses": [
       "Endometrial stromal nodule",
       "Leiomyosarcoma",
-      "Low-grade endometrial stromal sarcoma",
+      "Low grade endometrial stromal sarcoma",
       "Low-grade endometrial stromal sarcoma-like tumour in male patients"
     ]
   },
@@ -1350,7 +1437,11 @@
   {
     "gene": "KANSL1L",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1409,7 +1500,11 @@
   {
     "gene": "KLF10",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1441,6 +1536,12 @@
       "Fibroma of tendon sheath",
       "Myositis ossificans and fibro-osseous pseudotumour of digits",
       "Nodular fasciitis"
+    ]
+  },
+  {
+    "gene": "LAMTOR1",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
     ]
   },
   {
@@ -1497,6 +1598,7 @@
   {
     "gene": "LRRFIP2",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
     ]
   },
@@ -1581,7 +1683,7 @@
   {
     "gene": "MBTD1",
     "diagnoses": [
-      "Low-grade endometrial stromal sarcoma"
+      "Low grade endometrial stromal sarcoma"
     ]
   },
   {
@@ -1593,7 +1695,7 @@
   {
     "gene": "MEAF6",
     "diagnoses": [
-      "Low-grade endometrial stromal sarcoma",
+      "Low grade endometrial stromal sarcoma",
       "Ossifying fibromyxoid tumour"
     ]
   },
@@ -1613,7 +1715,11 @@
   {
     "gene": "MEG3",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -1627,7 +1733,7 @@
   {
     "gene": "MEIS2",
     "diagnoses": [
-      "High-Grade Uterine Sarcoma with MEIS2::FOXO4 Fusion"
+      "High grade uterine sarcoma with MEIS2::FOXO4 Fusion"
     ]
   },
   {
@@ -1652,7 +1758,9 @@
   {
     "gene": "MIR143",
     "diagnoses": [
-      "Glomus tumour"
+      "Glomus tumour",
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -1686,6 +1794,7 @@
   {
     "gene": "MLPH",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
     ]
   },
@@ -1713,6 +1822,7 @@
       "Chondroid lipoma",
       "Ectomesenchymal chondromyxoid tumor",
       "Myxoinflammatory fibroblastic sarcoma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm",
       "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor"
     ]
@@ -1732,7 +1842,8 @@
   {
     "gene": "MTCH2",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -1833,6 +1944,7 @@
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Hybrid nerve sheath tumour",
       "Mesenchymal chondrosarcoma",
+      "Pericytic all, difficult to classify, hybrid",
       "Perineurioma",
       "PRRX1-rearranged fibroblastic tumour",
       "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
@@ -1846,6 +1958,7 @@
     "diagnoses": [
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm",
       "Uterine tumour resembling ovarian sex cord tumour"
     ]
@@ -1920,6 +2033,7 @@
     "gene": "NFKBIE",
     "diagnoses": [
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -1946,20 +2060,25 @@
     "gene": "NOTCH1",
     "diagnoses": [
       "Angiosarcoma",
-      "Glomus tumour"
+      "Glomus tumour",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
     "gene": "NOTCH2",
     "diagnoses": [
       "Glomus tumour",
-      "Intimal sarcoma"
+      "Intimal sarcoma",
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
     "gene": "NOTCH3",
     "diagnoses": [
-      "Glomus tumour"
+      "Glomus tumour",
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -2043,6 +2162,7 @@
   {
     "gene": "NUMA1",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Kinase-rearranged uterine sarcomas"
     ]
   },
@@ -2064,14 +2184,14 @@
     "gene": "NUTM2A",
     "diagnoses": [
       "CIC-rearranged sarcoma",
-      "High-grade endometrial stromal sarcoma"
+      "High grade endometrial stromal sarcoma"
     ]
   },
   {
     "gene": "NUTM2B",
     "diagnoses": [
       "Clear cell sarcoma of Kidney",
-      "High-grade endometrial stromal sarcoma",
+      "High grade endometrial stromal sarcoma",
       "Soft Tissue Sarcoma with YWHAE-NUTM2B Fusion"
     ]
   },
@@ -2183,7 +2303,11 @@
   {
     "gene": "PCMTD1",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -2233,6 +2357,12 @@
     ]
   },
   {
+    "gene": "PDPN",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
+    ]
+  },
+  {
     "gene": "PDZRN3",
     "diagnoses": [
       "Kinase-altered spindle cell neoplasms"
@@ -2263,7 +2393,7 @@
   {
     "gene": "PHF1",
     "diagnoses": [
-      "Low-grade endometrial stromal sarcoma",
+      "Low grade endometrial stromal sarcoma",
       "Low-grade endometrial stromal sarcoma-like tumour in male patients",
       "Ossifying fibromyxoid tumour"
     ]
@@ -2271,7 +2401,11 @@
   {
     "gene": "PI15",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -2294,8 +2428,12 @@
     "diagnoses": [
       "Calcified chondroid mesenchymal neoplasms",
       "Cellular angiofibroma",
+      "Fibroblastic variant of lipoblastoma",
       "Lipoblastoma and lipoblastomatosis",
       "Myoepithelioma, myoepithelial carcinoma, and mixed tumour",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "PLAG1-rearranged uterine sarcomas",
       "Soft tissue chondroma",
       "Spindle cell lipoma and pleomorphic lipoma",
@@ -2338,6 +2476,7 @@
   {
     "gene": "PPFIBP1",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
     ]
   },
@@ -2356,7 +2495,11 @@
   {
     "gene": "PPP2R2A",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -2391,7 +2534,20 @@
   {
     "gene": "PRKAR2A",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "PRKCB",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
+    ]
+  },
+  {
+    "gene": "PRKCD",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
     ]
   },
   {
@@ -2442,14 +2598,22 @@
   {
     "gene": "RAB2A",
     "diagnoses": [
+      "Fibroblastic variant of lipoblastoma",
       "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "Uterine leiomyoma and benign metastasizing leiomyoma"
     ]
   },
   {
     "gene": "RAD51B",
     "diagnoses": [
+      "Fibroblastic variant of lipoblastoma",
       "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "PLAG1-rearranged uterine sarcomas",
       "Uterine leiomyoma and benign metastasizing leiomyoma"
     ]
@@ -2458,7 +2622,8 @@
     "gene": "RAF1",
     "diagnoses": [
       "Glomus tumour",
-      "Kinase-altered spindle cell neoplasms"
+      "Kinase-altered spindle cell neoplasms",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -2504,6 +2669,7 @@
     "gene": "RELA",
     "diagnoses": [
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "SRF-rearranged myoid neoplasm"
     ]
   },
@@ -2633,6 +2799,12 @@
     ]
   },
   {
+    "gene": "SFMBT1",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
+    ]
+  },
+  {
     "gene": "SFPQ",
     "diagnoses": [
       "PEComa"
@@ -2681,6 +2853,12 @@
     ]
   },
   {
+    "gene": "SP100",
+    "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS"
+    ]
+  },
+  {
     "gene": "SPARC",
     "diagnoses": [
       "Aneurysmal bone cyst",
@@ -2693,6 +2871,7 @@
   {
     "gene": "SPECC1L",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Kinase-rearranged uterine sarcomas",
       "Undifferentiated pleomorphic sarcoma"
@@ -2722,6 +2901,7 @@
   {
     "gene": "SQSTM1",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Hybrid nerve sheath tumour",
       "Non-neural granular cell tumour",
@@ -2735,6 +2915,7 @@
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Hybrid nerve sheath tumour",
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "Perineurioma",
       "SRF-rearranged myoid neoplasm"
     ]
@@ -2743,10 +2924,14 @@
     "gene": "SRSF3",
     "diagnoses": [
       "Aneurysmal bone cyst",
+      "Fibroblastic variant of lipoblastoma",
       "Fibroma of tendon sheath",
       "Lipoblastoma and lipoblastomatosis",
       "Myositis ossificans and fibro-osseous pseudotumour of digits",
-      "Nodular fasciitis"
+      "Nodular fasciitis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -2785,6 +2970,7 @@
     "gene": "STAT6",
     "diagnoses": [
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "Solitary fibrous tumour",
       "Teratocarcinoma-like and Adamantinoma-like Head and neck neoplasm harboring NAB2::STAT6"
     ]
@@ -2805,7 +2991,7 @@
     "gene": "SUZ12",
     "diagnoses": [
       "Endometrial stromal nodule",
-      "Low-grade endometrial stromal sarcoma",
+      "Low grade endometrial stromal sarcoma",
       "Low-grade endometrial stromal sarcoma-like tumour in male patients",
       "Ossifying fibromyxoid tumour"
     ]
@@ -2911,6 +3097,7 @@
     "diagnoses": [
       "Acral fibrochondromyxoid tumour",
       "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid",
       "Uterine inflammatory myofibroblastic tumor"
     ]
   },
@@ -2926,7 +3113,8 @@
   {
     "gene": "TIMP1",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -2989,6 +3177,7 @@
   {
     "gene": "TPM3",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Infantile fibrosarcoma",
       "Kinase-altered spindle cell neoplasms",
@@ -3125,6 +3314,7 @@
   {
     "gene": "VCL",
     "diagnoses": [
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Epithelioid fibrous histiocytoma",
       "Epithelioid inflammatory myofibroblastic sarcoma",
       "Lipofibromatosis"
@@ -3133,7 +3323,8 @@
   {
     "gene": "VEGFD",
     "diagnoses": [
-      "Myopericytoma, including myofibroma"
+      "Myopericytoma, including myofibroma",
+      "Pericytic all, difficult to classify, hybrid"
     ]
   },
   {
@@ -3204,7 +3395,7 @@
     "gene": "YWHAE",
     "diagnoses": [
       "Clear cell sarcoma of Kidney",
-      "High-grade endometrial stromal sarcoma",
+      "High grade endometrial stromal sarcoma",
       "Leiomyosarcoma",
       "Soft Tissue Sarcoma with YWHAE-NUTM2B Fusion"
     ]
@@ -3218,7 +3409,11 @@
   {
     "gene": "YWHAZ",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
@@ -3230,7 +3425,7 @@
   {
     "gene": "ZC3H7B",
     "diagnoses": [
-      "High-grade endometrial stromal sarcoma",
+      "High grade endometrial stromal sarcoma",
       "Ossifying fibromyxoid tumour",
       "Sarcomas with BCOR genetic alterations"
     ]
@@ -3245,7 +3440,11 @@
   {
     "gene": "ZEB1",
     "diagnoses": [
-      "Lipoblastoma and lipoblastomatosis"
+      "Fibroblastic variant of lipoblastoma",
+      "Lipoblastoma and lipoblastomatosis",
+      "Pediatric fibromyxoid soft tissue tumor with PLAG1 fusion",
+      "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
+      "PLAG1-rearranged fibromyxoid tumour of soft tissue"
     ]
   },
   {
