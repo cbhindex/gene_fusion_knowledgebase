@@ -27,6 +27,7 @@ Examples:
 ### Diagnosis query
 
 - `Related Genes`
+- recurrent main fusion genes are highlighted in `Related Genes` when a gene recurs across at least two fusion pairs
 - `Related Fusions`
 
 ### Fusion query
@@ -82,6 +83,7 @@ The page may still show the canonical stored fusion label in the result title.
 
 - Suggests a combined set of genes, aliases, and diagnoses while typing.
 - Fusion suggestions are added only after `::` appears.
+- Direct substring matches are prioritized, so long diagnosis names are still surfaced when partially typed.
 - `Did you mean` suggestions use the same candidate pool.
 
 ## No Match Handling

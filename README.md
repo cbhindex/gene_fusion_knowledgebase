@@ -42,6 +42,7 @@ Examples:
 Returns:
 
 - related genes
+- highlighted main fusion genes when the same gene recurs across at least two fusion pairs
 - related fusions
 
 ### Fusion search
@@ -66,6 +67,7 @@ These are normalized to `gene1::gene2` for display and search.
 
 - Autocomplete always suggests genes, aliases, and diagnoses while typing.
 - Fusion suggestions appear after `::` is present.
+- Direct substring matches are prioritized (including long multi-word diagnoses).
 - If no exact match is found, the interface shows `No exact match found` and a `Did you mean` section.
 
 ## Repository Layout

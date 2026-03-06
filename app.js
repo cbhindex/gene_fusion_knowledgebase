@@ -149,19 +149,49 @@ function levenshtein(a, b) {
   return matrix[left.length][right.length];
 }
 
+function getDirectMatchTier(labelLower, queryLower) {
+  if (labelLower === queryLower) return 0;
+  if (labelLower.startsWith(queryLower)) return 1;
+  const tokens = labelLower.split(/[^a-z0-9]+/).filter(Boolean);
+  if (tokens.some((token) => token.startsWith(queryLower))) return 2;
+  return 3;
+}
+
 function rankCandidates(query, candidates, limit = 6) {
   const normalizedQuery = normalizeWhitespace(query).toLowerCase();
   if (!normalizedQuery) return [];
-  return candidates
+  const normalizedCandidates = candidates.map((candidate) => {
+    const label = typeof candidate === 'string' ? candidate : candidate.label;
+    const type = typeof candidate === 'string' ? 'item' : candidate.type;
+    const target = typeof candidate === 'string' ? candidate : candidate.target || candidate.label;
+    const lower = label.toLowerCase();
+    return { label, type, target, lower };
+  });
+
+  const directMatches = normalizedCandidates
+    .filter((candidate) => candidate.lower.includes(normalizedQuery))
+    .map((candidate) => ({
+      ...candidate,
+      tier: getDirectMatchTier(candidate.lower, normalizedQuery),
+      position: candidate.lower.indexOf(normalizedQuery),
+    }));
+
+  if (directMatches.length) {
+    return directMatches
+      .sort((a, b) => (
+        a.tier - b.tier
+        || a.position - b.position
+        || a.label.localeCompare(b.label, undefined, { sensitivity: 'base' })
+      ))
+      .slice(0, limit)
+      .map(({ label, type, target }) => ({ label, type, target }));
+  }
+
+  return normalizedCandidates
     .map((candidate) => {
-      const label = typeof candidate === 'string' ? candidate : candidate.label;
-      const type = typeof candidate === 'string' ? 'item' : candidate.type;
-      const target = typeof candidate === 'string' ? candidate : candidate.target || candidate.label;
-      const lower = label.toLowerCase();
-      let score = levenshtein(normalizedQuery, lower);
-      if (lower.startsWith(normalizedQuery)) score -= 3;
-      if (lower.includes(normalizedQuery)) score -= 2;
-      return { label, type, target, score };
+      let score = levenshtein(normalizedQuery, candidate.lower);
+      if (candidate.lower.startsWith(normalizedQuery)) score -= 3;
+      return { label: candidate.label, type: candidate.type, target: candidate.target, score };
     })
     .sort((a, b) => a.score - b.score || a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }))
     .slice(0, limit);
@@ -234,6 +264,85 @@ function appendListSection(card, title, items, emptyMessage) {
     section.appendChild(list);
   }
   card.querySelector('.card-body').appendChild(section);
+}
+
+function appendDiagnosisGeneSection(card, genes, highlightedGenes) {
+  const section = document.createElement('section');
+  section.className = 'result-section';
+  const heading = document.createElement('h3');
+  heading.textContent = 'Related Genes';
+  section.appendChild(heading);
+
+  if (!genes.length) {
+    const empty = document.createElement('p');
+    empty.className = 'list-empty';
+    empty.textContent = 'No genes found';
+    section.appendChild(empty);
+  } else {
+    const list = document.createElement('ul');
+    list.className = 'token-list';
+    genes.forEach((gene) => {
+      const li = document.createElement('li');
+      li.textContent = gene;
+      if (highlightedGenes.has(gene)) {
+        li.classList.add('main-fusion-gene');
+      }
+      list.appendChild(li);
+    });
+    section.appendChild(list);
+  }
+
+  const note = document.createElement('p');
+  note.className = 'section-note';
+  if (highlightedGenes.size === 1) {
+    note.textContent = 'Main fusion gene is highlighted.';
+  } else if (highlightedGenes.size >= 2) {
+    note.textContent = 'Main fusion genes are highlighted.';
+  } else {
+    note.textContent = 'No main fusion gene is highlighted for this diagnosis.';
+  }
+  section.appendChild(note);
+
+  card.querySelector('.card-body').appendChild(section);
+}
+
+function extractFusionGenesForCounting(fusionLabel) {
+  const normalized = normalizeWhitespace(fusionLabel);
+  if (!normalized.includes('::')) return null;
+  const parts = normalized.split('::', 2);
+  if (parts.length !== 2) return null;
+  const left = normalizeGeneToken(parts[0]);
+  const right = normalizeGeneToken(parts[1]);
+  if (!left || !right) return null;
+  return [left, right];
+}
+
+function getDiagnosisMainFusionGenes(fusions) {
+  const uniquePairs = new Map();
+  fusions.forEach((fusionLabel) => {
+    const genes = extractFusionGenesForCounting(fusionLabel);
+    if (!genes) return;
+    const sortedPair = [...genes].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+    uniquePairs.set(sortedPair.join('::'), sortedPair);
+  });
+
+  if (uniquePairs.size < 2) return [];
+
+  const geneCounts = {};
+  uniquePairs.forEach((pairGenes) => {
+    pairGenes.forEach((gene) => {
+      geneCounts[gene] = (geneCounts[gene] || 0) + 1;
+    });
+  });
+
+  const counts = Object.values(geneCounts);
+  if (!counts.length) return [];
+  const maxCount = Math.max(...counts);
+  if (maxCount < 2) return [];
+
+  return Object.keys(geneCounts)
+    .filter((gene) => geneCounts[gene] === maxCount)
+    .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
 }
 
 function appendDidYouMean(card, items) {
@@ -366,7 +475,8 @@ function searchDiagnosis(query) {
   }
   clearResults();
   const card = createCard('Diagnosis', record.diagnosis);
-  appendListSection(card, 'Related Genes', record.genes, 'No genes found');
+  const mainFusionGenes = new Set(getDiagnosisMainFusionGenes(record.fusions));
+  appendDiagnosisGeneSection(card, record.genes, mainFusionGenes);
   appendListSection(card, 'Related Fusions', record.fusions, 'No fusions found');
   elements.results.appendChild(card);
 }

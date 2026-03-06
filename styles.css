@@ -255,6 +255,19 @@ button:hover {
   padding: 9px 12px;
 }
 
+.token-list li.main-fusion-gene {
+  background: rgba(245, 207, 112, 0.42);
+  border-color: rgba(136, 98, 16, 0.42);
+  color: #4d3207;
+  font-weight: 700;
+}
+
+.section-note {
+  margin: 12px 0 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
 .did-you-mean {
   display: flex;
   flex-wrap: wrap;
