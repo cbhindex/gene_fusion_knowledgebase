@@ -64,14 +64,14 @@ function inferMode(query) {
   if (!trimmed) {
     return 'gene';
   }
+  if (state.searchIndex.diagnosis_key_lookup[trimmed.toLowerCase()]) {
+    return 'diagnosis';
+  }
   if (looksLikeFusion(trimmed)) {
     return 'fusion';
   }
   if (state.aliasLookup[trimmed.toUpperCase()] || state.searchIndex.gene_key_lookup[trimmed.toLowerCase()]) {
     return 'gene';
-  }
-  if (state.searchIndex.diagnosis_key_lookup[trimmed.toLowerCase()]) {
-    return 'diagnosis';
   }
   const hasWhitespace = /\s/.test(trimmed);
   return hasWhitespace ? 'diagnosis' : 'gene';

@@ -7,6 +7,7 @@ The page uses one search box with automatic type inference (no mode dropdown).
 Typical behavior:
 
 - a known gene symbol or alias is treated as a gene query
+- an exact diagnosis label match is treated as a diagnosis query first, even if it contains fusion separators
 - a value containing fusion separators is treated as a fusion query
 - diagnosis labels are treated as diagnosis queries
 

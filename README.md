@@ -14,6 +14,7 @@ This repository has two roles:
 The frontend uses a single search input with automatic type inference:
 
 - known gene symbols and aliases are treated as gene queries
+- exact diagnosis label matches are treated as diagnosis queries first (even if the label contains fusion separators such as `::`)
 - diagnosis labels are treated as diagnosis queries
 - values that look like fusions are treated as fusion queries
 
