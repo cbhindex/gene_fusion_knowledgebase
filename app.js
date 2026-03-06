@@ -241,11 +241,47 @@ function createCard(kicker, title, note = '') {
   return card;
 }
 
-function appendListSection(card, title, items, emptyMessage) {
+function makeTokenItemInteractive(li, item, onItemSelect) {
+  if (typeof onItemSelect !== 'function') {
+    return;
+  }
+  li.classList.add('token-item-interactive');
+  li.setAttribute('role', 'button');
+  li.tabIndex = 0;
+
+  const triggerSelection = () => onItemSelect(item);
+  li.addEventListener('click', triggerSelection);
+  li.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') {
+      return;
+    }
+    event.preventDefault();
+    triggerSelection();
+  });
+}
+
+function fillTokenList(list, items, onItemSelect = null) {
+  list.innerHTML = '';
+  items.forEach((item) => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    makeTokenItemInteractive(li, item, onItemSelect);
+    list.appendChild(li);
+  });
+}
+
+function appendListSection(card, title, items, emptyMessage, options = {}) {
+  const {
+    layout = 'chips',
+    showCount = false,
+    collapsible = false,
+    maxVisible = 8,
+    onItemSelect = null,
+  } = options;
   const section = document.createElement('section');
   section.className = 'result-section';
   const heading = document.createElement('h3');
-  heading.textContent = title;
+  heading.textContent = showCount ? `${title} (${items.length})` : title;
   section.appendChild(heading);
 
   if (!items.length) {
@@ -256,17 +292,42 @@ function appendListSection(card, title, items, emptyMessage) {
   } else {
     const list = document.createElement('ul');
     list.className = 'token-list';
-    items.forEach((item) => {
-      const li = document.createElement('li');
-      li.textContent = item;
-      list.appendChild(li);
-    });
+    if (layout === 'stack') {
+      list.classList.add('token-list-stack');
+    }
+
+    const canCollapse = collapsible && Number.isInteger(maxVisible) && maxVisible > 0 && items.length > maxVisible;
+    if (!canCollapse) {
+      fillTokenList(list, items, onItemSelect);
+      section.appendChild(list);
+      card.querySelector('.card-body').appendChild(section);
+      return;
+    }
+
+    let expanded = false;
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'list-toggle';
+
+    const renderVisibleItems = () => {
+      const visible = expanded ? items : items.slice(0, maxVisible);
+      fillTokenList(list, visible, onItemSelect);
+      toggle.textContent = expanded ? 'Show less' : `Show all ${items.length}`;
+      toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    };
+
+    renderVisibleItems();
     section.appendChild(list);
+    section.appendChild(toggle);
+    toggle.addEventListener('click', () => {
+      expanded = !expanded;
+      renderVisibleItems();
+    });
   }
   card.querySelector('.card-body').appendChild(section);
 }
 
-function appendDiagnosisGeneSection(card, genes, highlightedGenes) {
+function appendDiagnosisGeneSection(card, genes, highlightedGenes, onItemSelect = null) {
   const section = document.createElement('section');
   section.className = 'result-section';
   const heading = document.createElement('h3');
@@ -284,6 +345,7 @@ function appendDiagnosisGeneSection(card, genes, highlightedGenes) {
     genes.forEach((gene) => {
       const li = document.createElement('li');
       li.textContent = gene;
+      makeTokenItemInteractive(li, gene, onItemSelect);
       if (highlightedGenes.has(gene)) {
         li.classList.add('main-fusion-gene');
       }
@@ -359,8 +421,7 @@ function appendDidYouMean(card, items) {
     button.type = 'button';
     button.textContent = item.label;
     button.addEventListener('click', () => {
-      elements.input.value = item.target;
-      executeSearch();
+      setQueryAndSearch(item.target);
     });
     wrap.appendChild(button);
   });
@@ -446,8 +507,16 @@ function searchGene(query) {
       noteParts.push('Merged group result (whitelist enabled).');
       const card = createCard('Gene (Merged Group)', record.gene, noteParts.join(' '));
       appendListSection(card, 'Merge Source Genes', mergedGenes, 'No merged genes found');
-      appendListSection(card, 'Related Diagnoses', mergedDiagnoses, 'No diagnoses found');
-      appendListSection(card, 'Fusion Partner Genes', mergedPartners, 'No partner genes found');
+      appendListSection(card, 'Related Diagnoses', mergedDiagnoses, 'No diagnoses found', {
+        layout: 'stack',
+        showCount: true,
+        collapsible: true,
+        maxVisible: 8,
+        onItemSelect: setQueryAndSearch,
+      });
+      appendListSection(card, 'Fusion Partner Genes', mergedPartners, 'No partner genes found', {
+        onItemSelect: setQueryAndSearch,
+      });
       appendAliasesByGene(card, mergeRecords);
       elements.results.appendChild(card);
       return;
@@ -460,8 +529,16 @@ function searchGene(query) {
   if (record.aliases.length) {
     appendListSection(card, 'Known Aliases', record.aliases, 'No aliases recorded');
   }
-  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found');
-  appendListSection(card, 'Fusion Partner Genes', record.partner_genes, 'No partner genes found');
+  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found', {
+    layout: 'stack',
+    showCount: true,
+    collapsible: true,
+    maxVisible: 8,
+    onItemSelect: setQueryAndSearch,
+  });
+  appendListSection(card, 'Fusion Partner Genes', record.partner_genes, 'No partner genes found', {
+    onItemSelect: setQueryAndSearch,
+  });
   elements.results.appendChild(card);
 }
 
@@ -476,8 +553,10 @@ function searchDiagnosis(query) {
   clearResults();
   const card = createCard('Diagnosis', record.diagnosis);
   const mainFusionGenes = new Set(getDiagnosisMainFusionGenes(record.fusions));
-  appendDiagnosisGeneSection(card, record.genes, mainFusionGenes);
-  appendListSection(card, 'Related Fusions', record.fusions, 'No fusions found');
+  appendDiagnosisGeneSection(card, record.genes, mainFusionGenes, setQueryAndSearch);
+  appendListSection(card, 'Related Fusions', record.fusions, 'No fusions found', {
+    onItemSelect: setQueryAndSearch,
+  });
   elements.results.appendChild(card);
 }
 
@@ -494,7 +573,13 @@ function searchFusion(query) {
   }
   clearResults();
   const card = createCard('Fusion', record.fusion, normalized.normalizedMessage);
-  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found');
+  appendListSection(card, 'Related Diagnoses', record.diagnoses, 'No diagnoses found', {
+    layout: 'stack',
+    showCount: true,
+    collapsible: true,
+    maxVisible: 8,
+    onItemSelect: setQueryAndSearch,
+  });
   appendListSection(card, 'Observed Fusion Labels', record.observed_fusions, 'No observed labels found');
   elements.results.appendChild(card);
 }
@@ -529,6 +614,16 @@ function hideSuggestions() {
   elements.input.setAttribute('aria-expanded', 'false');
 }
 
+function setQueryAndSearch(query) {
+  elements.input.value = query;
+  executeSearch();
+  elements.input.focus();
+}
+
+function selectSuggestionAndSearch(item) {
+  setQueryAndSearch(item.target);
+}
+
 function renderSuggestions(items) {
   if (!items.length) {
     hideSuggestions();
@@ -541,10 +636,20 @@ function renderSuggestions(items) {
     button.className = 'suggestion-item';
     button.setAttribute('role', 'option');
     button.innerHTML = `<span>${item.label}</span><span class="suggestion-type">${item.type}</span>`;
+
+    let handledByMouseDown = false;
+    button.addEventListener('mousedown', (event) => {
+      event.preventDefault();
+      handledByMouseDown = true;
+      selectSuggestionAndSearch(item);
+    });
+
     button.addEventListener('click', () => {
-      elements.input.value = item.target;
-      hideSuggestions();
-      elements.input.focus();
+      if (handledByMouseDown) {
+        handledByMouseDown = false;
+        return;
+      }
+      selectSuggestionAndSearch(item);
     });
     elements.suggestions.appendChild(button);
   });

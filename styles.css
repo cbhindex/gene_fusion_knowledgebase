@@ -255,6 +255,31 @@ button:hover {
   padding: 9px 12px;
 }
 
+.token-list.token-list-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.token-list.token-list-stack li {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.token-list li.token-item-interactive {
+  cursor: pointer;
+}
+
+.token-list li.token-item-interactive:not(.main-fusion-gene):hover {
+  background: var(--accent-soft);
+  border-color: rgba(183, 79, 45, 0.24);
+}
+
+.token-list li.token-item-interactive:focus-visible {
+  outline: 2px solid rgba(183, 79, 45, 0.36);
+  outline-offset: 2px;
+}
+
 .token-list li.main-fusion-gene {
   background: rgba(245, 207, 112, 0.42);
   border-color: rgba(136, 98, 16, 0.42);
@@ -277,6 +302,23 @@ button:hover {
 .did-you-mean button {
   cursor: pointer;
   color: var(--ink);
+}
+
+.list-toggle {
+  width: auto;
+  min-height: auto;
+  margin-top: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel-strong);
+  color: var(--ink);
+  padding: 9px 12px;
+  font-weight: 600;
+}
+
+.list-toggle:hover {
+  background: var(--accent-soft);
+  filter: none;
 }
 
 .alias-groups {

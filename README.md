@@ -27,9 +27,11 @@ Returns:
 
 - canonical gene name
 - normalization note when an alias or historical symbol was entered
-- related diagnoses
+- related diagnoses in a single-column list with total count
+- expandable diagnosis list (`Show all` / `Show less`) for long result sets
 - fusion partner genes
 - known aliases recorded for that canonical symbol
+- click any item in `related diagnoses` or `fusion partner genes` to jump directly to that item's search result
 
 Examples:
 
@@ -44,13 +46,16 @@ Returns:
 - related genes
 - highlighted main fusion genes when the same gene recurs across at least two fusion pairs
 - related fusions
+- click any item in `related genes` to jump directly to that gene's search result
+- click any item in `related fusions` to jump directly to that fusion's search result
 
 ### Fusion search
 
 Returns:
 
 - normalized fusion label
-- related diagnoses
+- related diagnoses in a single-column list with total count
+- expandable diagnosis list (`Show all` / `Show less`) for long result sets
 - observed fusion labels stored in the data
 
 Fusion queries are direction-insensitive for lookup. For example, `LPP::HMGA2` and `HMGA2::LPP` resolve to the same fusion record.
@@ -67,6 +72,7 @@ These are normalized to `gene1::gene2` for display and search.
 
 - Autocomplete always suggests genes, aliases, and diagnoses while typing.
 - Fusion suggestions appear after `::` is present.
+- Selecting a suggestion immediately runs search and renders results (same behavior as the `Search` button).
 - Direct substring matches are prioritized (including long multi-word diagnoses).
 - If no exact match is found, the interface shows `No exact match found` and a `Did you mean` section.
 
