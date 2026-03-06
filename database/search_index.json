@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-04T23:26:56.105036+00:00",
+    "generated_at_utc": "2026-03-06T19:29:26.749754+00:00",
     "counts": {
-      "genes": 458,
-      "diagnoses": 282,
-      "fusions": 487,
-      "aliases": 1644
+      "genes": 482,
+      "diagnoses": 303,
+      "fusions": 522,
+      "aliases": 1734
     }
   },
   "gene_lookup": {
@@ -122,10 +122,12 @@
     "ACVR2A": {
       "gene": "ACVR2A",
       "diagnoses": [
+        "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
         "Synovial chondromatosis"
       ],
       "partner_genes": [
-        "FN1"
+        "FN1",
+        "RAF1"
       ],
       "aliases": [
         "ACTRII",
@@ -258,6 +260,7 @@
         "TLN2",
         "TNS1",
         "TPM3",
+        "TPM4",
         "VCL"
       ],
       "aliases": [
@@ -376,7 +379,7 @@
         "Angiosarcoma",
         "Clear cell sarcoma of soft tissue",
         "FET-CREB epithelioid mesenchymal tumours",
-        "Salivary gland hyalinizing clear cell carcinomas"
+        "Salivary gland hyalinizing clear cell carcinoma"
       ],
       "partner_genes": [
         "EWSR1",
@@ -421,6 +424,18 @@
         "GSA7"
       ]
     },
+    "ATP7B": {
+      "gene": "ATP7B",
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "partner_genes": [
+        "FOXO1"
+      ],
+      "aliases": [
+        "WND"
+      ]
+    },
     "AXL": {
       "gene": "AXL",
       "diagnoses": [
@@ -448,6 +463,7 @@
         "CCNB3",
         "ITD",
         "MAML3",
+        "ZC3H7A",
         "ZC3H7B"
       ],
       "aliases": [
@@ -872,6 +888,20 @@
       ],
       "aliases": []
     },
+    "CEP170": {
+      "gene": "CEP170",
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "partner_genes": [
+        "RAD51B"
+      ],
+      "aliases": [
+        "FAM68A",
+        "KAB",
+        "KIAA0470"
+      ]
+    },
     "CHCHD7": {
       "gene": "CHCHD7",
       "diagnoses": [
@@ -1284,7 +1314,8 @@
     "CTBP1": {
       "gene": "CTBP1",
       "diagnoses": [
-        "Gastroblastoma"
+        "Gastroblastoma",
+        "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion"
       ],
       "partner_genes": [
         "EWSR1"
@@ -1422,11 +1453,13 @@
     "DDIT3": {
       "gene": "DDIT3",
       "diagnoses": [
-        "Myxoid liposarcoma"
+        "Myxoid liposarcoma",
+        "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion"
       ],
       "partner_genes": [
         "EWSR1",
-        "FUS"
+        "FUS",
+        "SMARCA2"
       ],
       "aliases": [
         "CHOP",
@@ -1789,11 +1822,13 @@
       "diagnoses": [
         "Composite haemangioendothelioma",
         "Low grade endometrial stromal sarcoma",
-        "Ossifying fibromyxoid tumour"
+        "Ossifying fibromyxoid tumour",
+        "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion"
       ],
       "partner_genes": [
         "PHC2",
-        "PHF1"
+        "PHF1",
+        "SUZ12"
       ],
       "aliases": [
         "Epl1"
@@ -1820,6 +1855,7 @@
     "ERG": {
       "gene": "ERG",
       "diagnoses": [
+        "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
         "Ewing sarcoma",
         "Superficial FET-ETS neurocristic tumour",
         "Tenosynovial giant cell tumour"
@@ -1827,7 +1863,8 @@
       "partner_genes": [
         "EWSR1",
         "FUS",
-        "NIPBL"
+        "NIPBL",
+        "TCF4"
       ],
       "aliases": [
         "erg-3",
@@ -1906,6 +1943,8 @@
         "Ectomesenchymal chondromyxoid tumor",
         "Ewing sarcoma",
         "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
+        "EWSR1::SSX-rearranged sarcoma",
+        "EWSR1::SSX1 fusion-driven synovial sarcoma",
         "EWSR1::WT1 Fusions Neoplasm",
         "Extraskeletal myxoid chondrosarcoma",
         "FET-CREB epithelioid mesenchymal tumours",
@@ -1920,11 +1959,13 @@
         "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
         "PATZ1-rearranged sarcoma",
         "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
-        "Salivary gland hyalinizing clear cell carcinomas",
+        "Salivary gland hyalinizing clear cell carcinoma",
         "Sclerosing epithelioid fibrosarcoma",
+        "Sinonasal EWSR1::POU2AF3 sarcoma",
         "SMAD3-rearranged fibroblastic tumour",
         "Superficial FET-ETS neurocristic tumour",
-        "TFCP2-rearranged rhabdomyosarcoma"
+        "TFCP2-rearranged rhabdomyosarcoma",
+        "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion"
       ],
       "partner_genes": [
         "ATF1",
@@ -1948,9 +1989,12 @@
         "PATZ1",
         "PBX1",
         "PBX3",
+        "POU2AF3",
         "POU5F1",
         "SMAD3",
         "SMARCA5",
+        "SSX1",
+        "SSX4",
         "TFCP2",
         "UBP1",
         "WT1",
@@ -2137,6 +2181,20 @@
         "JTK4"
       ]
     },
+    "FGL2": {
+      "gene": "FGL2",
+      "diagnoses": [
+        "Dermatofibrosarcoma protuberans",
+        "Giant cell fibroblastoma"
+      ],
+      "partner_genes": [
+        "PDGFD"
+      ],
+      "aliases": [
+        "pT49",
+        "T49"
+      ]
+    },
     "FILIP1L": {
       "gene": "FILIP1L",
       "diagnoses": [
@@ -2227,6 +2285,7 @@
         "Chondroid synoviocytic neoplasm",
         "Lipofibromatosis",
         "Myopericytoma, including myofibroma",
+        "PDGFRB-mutated sarcoma with myogenic differentiation",
         "Pericytic all, difficult to classify, hybrid",
         "Phosphaturic mesenchymal tumour",
         "Soft tissue chondroma",
@@ -2249,6 +2308,7 @@
         "MALAT1",
         "MERTK",
         "NTRK1",
+        "PDGFRB",
         "PRG4",
         "ROS1",
         "TEK",
@@ -2348,15 +2408,19 @@
         "Cutaneous epithelioid angiomatous nodule",
         "Embryonal rhabdomyosarcoma",
         "Epithelioid haemangioma",
+        "FOXO1-rearranged uterine sarcoma",
         "Fusion-associated spindle cell rhabdomyosarcomas",
         "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
       ],
       "partner_genes": [
+        "ATP7B",
         "GATA6",
+        "JRK",
         "MEIS1",
         "OGT",
         "PAX3",
         "PAX7",
+        "PIK3R4",
         "SRF"
       ],
       "aliases": [
@@ -2384,11 +2448,13 @@
       "gene": "FOXO4",
       "diagnoses": [
         "CIC-rearranged sarcoma",
+        "GLI1-altered mesenchymal tumours",
         "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
         "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
       ],
       "partner_genes": [
         "CIC",
+        "GLI1",
         "MEIS2",
         "OGT"
       ],
@@ -2455,6 +2521,7 @@
         "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions",
         "Myxoid liposarcoma",
         "NFATC2-rearranged sarcoma",
+        "Pseudoglandular schwannoma with FUS::KLF17 fusion",
         "Sclerosing epithelioid fibrosarcoma",
         "Superficial FET-ETS neurocristic tumour",
         "TFCP2-rearranged rhabdomyosarcoma"
@@ -2469,6 +2536,7 @@
         "ETV5",
         "FEV",
         "FLI1",
+        "KLF17",
         "NACC1",
         "NFATC2",
         "NR4A3",
@@ -2597,9 +2665,11 @@
       ],
       "partner_genes": [
         "ACTB",
+        "FOXO4",
         "MALAT1",
         "PAMR1",
         "PTCH1",
+        "TNFAIP3",
         "TUBA1B",
         "TXNIP"
       ],
@@ -2907,9 +2977,11 @@
     "HSPA8": {
       "gene": "HSPA8",
       "diagnoses": [
-        "Extraskeletal myxoid chondrosarcoma"
+        "Extraskeletal myxoid chondrosarcoma",
+        "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
       ],
       "partner_genes": [
+        "NR4A2",
         "NR4A3"
       ],
       "aliases": [
@@ -3014,16 +3086,32 @@
       ],
       "aliases": []
     },
+    "JAK1": {
+      "gene": "JAK1",
+      "diagnoses": [
+        "High-grade PML::JAK1 fusion sarcoma"
+      ],
+      "partner_genes": [
+        "PML"
+      ],
+      "aliases": [
+        "JAK1A",
+        "JAK1B",
+        "JTK3"
+      ]
+    },
     "JAZF1": {
       "gene": "JAZF1",
       "diagnoses": [
         "Endometrial stromal nodule",
         "Leiomyosarcoma",
         "Low grade endometrial stromal sarcoma",
-        "Low-grade endometrial stromal sarcoma-like tumour in male patients"
+        "Low-grade endometrial stromal sarcoma-like tumour in male patients",
+        "Spindle cell sarcoma with JAZF1::NUDT5 fusion"
       ],
       "partner_genes": [
         "GLI3",
+        "NUDT5",
         "PHF1",
         "SUZ12",
         "YWHAE"
@@ -3032,6 +3120,19 @@
         "DKFZp761K2222",
         "TIP27",
         "ZNF802"
+      ]
+    },
+    "JRK": {
+      "gene": "JRK",
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "partner_genes": [
+        "FOXO1"
+      ],
+      "aliases": [
+        "jerky",
+        "JH8"
       ]
     },
     "KANK1": {
@@ -3256,14 +3357,30 @@
         "KKLF"
       ]
     },
+    "KLF17": {
+      "gene": "KLF17",
+      "diagnoses": [
+        "Pseudoglandular schwannoma with FUS::KLF17 fusion"
+      ],
+      "partner_genes": [
+        "FUS"
+      ],
+      "aliases": [
+        "FLJ40160",
+        "Zfp393",
+        "ZNF393"
+      ]
+    },
     "KMT2A": {
       "gene": "KMT2A",
       "diagnoses": [
         "KMT2A-rearranged sarcoma",
         "Low-grade fibromyxoid sarcoma",
-        "Sclerosing epithelioid fibrosarcoma"
+        "Sclerosing epithelioid fibrosarcoma",
+        "Spindle cell sarcoma with LDB1::KMT2A fusion"
       ],
       "partner_genes": [
+        "LDB1",
         "YAP1"
       ],
       "aliases": [
@@ -3329,6 +3446,19 @@
         "p27RF-Rho",
         "Pdro",
         "Ragulator1"
+      ]
+    },
+    "LDB1": {
+      "gene": "LDB1",
+      "diagnoses": [
+        "Spindle cell sarcoma with LDB1::KMT2A fusion"
+      ],
+      "partner_genes": [
+        "KMT2A"
+      ],
+      "aliases": [
+        "CLIM2",
+        "NLI"
       ]
     },
     "LEUTX": {
@@ -3601,6 +3731,21 @@
       ],
       "aliases": []
     },
+    "MAZ": {
+      "gene": "MAZ",
+      "diagnoses": [
+        "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion"
+      ],
+      "partner_genes": [
+        "NCOA2"
+      ],
+      "aliases": [
+        "Pur-1",
+        "ZF87",
+        "Zif87",
+        "ZNF801"
+      ]
+    },
     "MBTD1": {
       "gene": "MBTD1",
       "diagnoses": [
@@ -3667,9 +3812,11 @@
     "MEF2D": {
       "gene": "MEF2D",
       "diagnoses": [
-        "Kinase-altered spindle cell neoplasms"
+        "Kinase-altered spindle cell neoplasms",
+        "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor"
       ],
       "partner_genes": [
+        "NCOA2",
         "NTRK1"
       ],
       "aliases": []
@@ -3696,6 +3843,7 @@
     "MEIS1": {
       "gene": "MEIS1",
       "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma",
         "Fusion-associated spindle cell rhabdomyosarcomas",
         "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
         "TFCP2-rearranged rhabdomyosarcoma"
@@ -3753,6 +3901,7 @@
     "MGA": {
       "gene": "MGA",
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "partner_genes": [
@@ -4003,11 +4152,13 @@
     "MXD4": {
       "gene": "MXD4",
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged colorectal sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "partner_genes": [
-        "NUTM1"
+        "NUTM1",
+        "NUTM2G"
       ],
       "aliases": [
         "bHLHc12",
@@ -4019,10 +4170,12 @@
     "MXI1": {
       "gene": "MXI1",
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "partner_genes": [
-        "NUTM1"
+        "NUTM1",
+        "NUTM2A"
       ],
       "aliases": [
         "bHLHc11",
@@ -4175,8 +4328,10 @@
         "PRRX1-rearranged fibroblastic tumour",
         "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
         "SRF-rearranged myoid neoplasm",
+        "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
         "TFCP2-rearranged rhabdomyosarcoma",
-        "Uterine tumour resembling ovarian sex cord tumour"
+        "Uterine tumour resembling ovarian sex cord tumour",
+        "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor"
       ],
       "partner_genes": [
         "AHRR",
@@ -4185,6 +4340,8 @@
         "GTF2A1",
         "GTF2I",
         "HEY1",
+        "MAZ",
+        "MEF2D",
         "MEIS1",
         "PAX3",
         "PRRX1",
@@ -4513,6 +4670,22 @@
         "THRAL"
       ]
     },
+    "NR4A2": {
+      "gene": "NR4A2",
+      "diagnoses": [
+        "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
+      ],
+      "partner_genes": [
+        "HSPA8"
+      ],
+      "aliases": [
+        "HZF-3",
+        "NOT",
+        "NURR1",
+        "RNR1",
+        "TINUR"
+      ]
+    },
     "NR4A3": {
       "gene": "NR4A3",
       "diagnoses": [
@@ -4667,6 +4840,7 @@
     "NUDT3": {
       "gene": "NUDT3",
       "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor",
         "Uterine leiomyoma and benign metastasizing leiomyoma"
       ],
       "partner_genes": [
@@ -4674,6 +4848,19 @@
       ],
       "aliases": [
         "DIPP"
+      ]
+    },
+    "NUDT5": {
+      "gene": "NUDT5",
+      "diagnoses": [
+        "Spindle cell sarcoma with JAZF1::NUDT5 fusion"
+      ],
+      "partner_genes": [
+        "JAZF1"
+      ],
+      "aliases": [
+        "hYSAH1",
+        "YSA1H"
       ]
     },
     "NUMA1": {
@@ -4707,6 +4894,7 @@
       "gene": "NUTM1",
       "diagnoses": [
         "CIC-rearranged sarcoma",
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged colorectal sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
@@ -4728,10 +4916,12 @@
       "gene": "NUTM2A",
       "diagnoses": [
         "CIC-rearranged sarcoma",
-        "High grade endometrial stromal sarcoma"
+        "High grade endometrial stromal sarcoma",
+        "MAD::NUT fusion sarcoma"
       ],
       "partner_genes": [
         "CIC",
+        "MXI1",
         "YWHAE"
       ],
       "aliases": [
@@ -4763,6 +4953,18 @@
       ],
       "aliases": [
         "FAM22E"
+      ]
+    },
+    "NUTM2G": {
+      "gene": "NUTM2G",
+      "diagnoses": [
+        "MAD::NUT fusion sarcoma"
+      ],
+      "partner_genes": [
+        "MXD4"
+      ],
+      "aliases": [
+        "FAM22G"
       ]
     },
     "OGA": {
@@ -5017,7 +5219,8 @@
       ],
       "partner_genes": [
         "COL1A1",
-        "COL1A2"
+        "COL1A2",
+        "TGFBI"
       ],
       "aliases": [
         "SIS",
@@ -5034,6 +5237,7 @@
         "COL6A3",
         "EMILIN2",
         "FBN1",
+        "FGL2",
         "TNC"
       ],
       "aliases": [
@@ -5047,6 +5251,7 @@
       "diagnoses": [
         "Calcified chondroid mesenchymal neoplasms",
         "Chondroid synoviocytic neoplasm",
+        "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
         "Phosphaturic mesenchymal tumour",
         "Soft tissue chondroma"
       ],
@@ -5063,10 +5268,13 @@
     "PDGFRB": {
       "gene": "PDGFRB",
       "diagnoses": [
-        "Lipofibromatosis"
+        "Lipofibromatosis",
+        "PDGFRB-mutated sarcoma with myogenic differentiation"
       ],
       "partner_genes": [
-        "SPARC"
+        "FN1",
+        "SPARC",
+        "UBE2I"
       ],
       "aliases": [
         "CD140b",
@@ -5176,7 +5384,8 @@
         "FOXR2",
         "JAZF1",
         "MEAF6",
-        "TFE3"
+        "TFE3",
+        "TP53"
       ],
       "aliases": [
         "MTF2L2",
@@ -5210,6 +5419,19 @@
       ],
       "aliases": [
         "PI3K"
+      ]
+    },
+    "PIK3R4": {
+      "gene": "PIK3R4",
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "partner_genes": [
+        "FOXO1"
+      ],
+      "aliases": [
+        "p150",
+        "VPS15"
       ]
     },
     "PKM": {
@@ -5321,6 +5543,35 @@
       "aliases": [
         "KIAA2028",
         "PLEKHH1L"
+      ]
+    },
+    "PML": {
+      "gene": "PML",
+      "diagnoses": [
+        "High-grade PML::JAK1 fusion sarcoma"
+      ],
+      "partner_genes": [
+        "JAK1"
+      ],
+      "aliases": [
+        "MYL",
+        "RNF71",
+        "TRIM19"
+      ]
+    },
+    "POU2AF3": {
+      "gene": "POU2AF3",
+      "diagnoses": [
+        "Sinonasal EWSR1::POU2AF3 sarcoma"
+      ],
+      "partner_genes": [
+        "EWSR1"
+      ],
+      "aliases": [
+        "C11orf93",
+        "CASC13",
+        "COLCA2",
+        "OCA-T2"
       ]
     },
     "POU5F1": {
@@ -5645,10 +5896,12 @@
     "PUM1": {
       "gene": "PUM1",
       "diagnoses": [
-        "PLAG1-rearranged uterine sarcomas"
+        "PLAG1-rearranged uterine sarcomas",
+        "RAD51B-rearranged soft tissue tumor"
       ],
       "partner_genes": [
-        "PLAG1"
+        "PLAG1",
+        "RAD51B"
       ],
       "aliases": [
         "KIAA0099",
@@ -5693,12 +5946,17 @@
         "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
         "PLAG1-rearranged fibromyxoid tumour of soft tissue",
         "PLAG1-rearranged uterine sarcomas",
+        "RAD51B-rearranged soft tissue tumor",
         "Uterine leiomyoma and benign metastasizing leiomyoma"
       ],
       "partner_genes": [
+        "CEP170",
         "HMGA2",
         "NUDT3",
-        "PLAG1"
+        "PLAG1",
+        "PUM1",
+        "RBM43",
+        "ZFYVE26"
       ],
       "aliases": [
         "hREC2",
@@ -5712,9 +5970,11 @@
       "diagnoses": [
         "Glomus tumour",
         "Kinase-altered spindle cell neoplasms",
-        "Pericytic all, difficult to classify, hybrid"
+        "Pericytic all, difficult to classify, hybrid",
+        "Spindle cell sarcoma with ACVR2A::RAF1 fusion"
       ],
       "partner_genes": [
+        "ACVR2A",
         "ATG7",
         "ERC1",
         "FMR1",
@@ -5801,6 +6061,19 @@
         "KIAA1311",
         "Psc1",
         "ZC3H20"
+      ]
+    },
+    "RBM43": {
+      "gene": "RBM43",
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "partner_genes": [
+        "RAD51B"
+      ],
+      "aliases": [
+        "C2orf38",
+        "FLJ45645"
       ]
     },
     "RBPMS": {
@@ -5953,13 +6226,15 @@
       "gene": "RREB1",
       "diagnoses": [
         "Ectomesenchymal chondromyxoid tumor",
+        "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
         "Hybrid nerve sheath tumour",
         "Perineurioma",
         "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor"
       ],
       "partner_genes": [
         "LPP",
-        "MRTFB"
+        "MRTFB",
+        "TFE3"
       ],
       "aliases": [
         "HNT"
@@ -6174,10 +6449,12 @@
     "SMARCA2": {
       "gene": "SMARCA2",
       "diagnoses": [
+        "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
         "Tumours with SMARCA2/4::CREM fusions"
       ],
       "partner_genes": [
-        "CREM"
+        "CREM",
+        "DDIT3"
       ],
       "aliases": [
         "BAF190",
@@ -6237,6 +6514,23 @@
         "p100",
         "TDRD11",
         "TSN"
+      ]
+    },
+    "SOHLH1": {
+      "gene": "SOHLH1",
+      "diagnoses": [
+        "SRF-rearranged myoid neoplasm"
+      ],
+      "partner_genes": [
+        "SRF"
+      ],
+      "aliases": [
+        "bA100C15.3",
+        "bHLHe80",
+        "C9orf157",
+        "NOHLH",
+        "SPATA27",
+        "TEB2"
       ]
     },
     "SP100": {
@@ -6369,6 +6663,7 @@
         "NCOA3",
         "NFKBIE",
         "RELA",
+        "SOHLH1",
         "STAT6"
       ],
       "aliases": [
@@ -6438,9 +6733,11 @@
     "SSX1": {
       "gene": "SSX1",
       "diagnoses": [
+        "EWSR1::SSX1 fusion-driven synovial sarcoma",
         "Synovial sarcoma"
       ],
       "partner_genes": [
+        "EWSR1",
         "SS18"
       ],
       "aliases": [
@@ -6468,9 +6765,11 @@
     "SSX4": {
       "gene": "SSX4",
       "diagnoses": [
+        "EWSR1::SSX-rearranged sarcoma",
         "Synovial sarcoma"
       ],
       "partner_genes": [
+        "EWSR1",
         "SS18"
       ],
       "aliases": [
@@ -6528,9 +6827,11 @@
         "Endometrial stromal nodule",
         "Low grade endometrial stromal sarcoma",
         "Low-grade endometrial stromal sarcoma-like tumour in male patients",
-        "Ossifying fibromyxoid tumour"
+        "Ossifying fibromyxoid tumour",
+        "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion"
       ],
       "partner_genes": [
+        "EPC1",
         "JAZF1",
         "MEAF6"
       ],
@@ -6590,6 +6891,21 @@
         "HsT17266",
         "HTF4",
         "p64"
+      ]
+    },
+    "TCF4": {
+      "gene": "TCF4",
+      "diagnoses": [
+        "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion"
+      ],
+      "partner_genes": [
+        "ERG"
+      ],
+      "aliases": [
+        "bHLHb19",
+        "E2-2",
+        "ITF2",
+        "SEF2-1B"
       ]
     },
     "TEAD1": {
@@ -6683,8 +6999,10 @@
         "Alveolar soft part sarcoma",
         "Clear cell stromal tumour of the lung",
         "Epithelioid haemangioendothelioma",
+        "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
         "Ossifying fibromyxoid tumour",
         "PEComa",
+        "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
         "YAP1::TFE3 haemangioendothelioma"
       ],
       "partner_genes": [
@@ -6692,7 +7010,9 @@
         "DVL2",
         "NONO",
         "PHF1",
+        "RREB1",
         "SFPQ",
+        "TRAF3",
         "WWTR1",
         "YAP1"
       ],
@@ -6732,6 +7052,25 @@
         "FN1"
       ],
       "aliases": []
+    },
+    "TGFBI": {
+      "gene": "TGFBI",
+      "diagnoses": [
+        "Dermatofibrosarcoma protuberans",
+        "Giant cell fibroblastoma"
+      ],
+      "partner_genes": [
+        "PDGFB"
+      ],
+      "aliases": [
+        "BIGH3",
+        "CDB1",
+        "CDGG1",
+        "CSD1",
+        "CSD2",
+        "CSD3",
+        "LCD1"
+      ]
     },
     "TGFBR3": {
       "gene": "TGFBR3",
@@ -6874,6 +7213,19 @@
         "TN"
       ]
     },
+    "TNFAIP3": {
+      "gene": "TNFAIP3",
+      "diagnoses": [
+        "GLI1-altered mesenchymal tumours"
+      ],
+      "partner_genes": [
+        "GLI1"
+      ],
+      "aliases": [
+        "A20",
+        "OTUD7C"
+      ]
+    },
     "TNS1": {
       "gene": "TNS1",
       "diagnoses": [
@@ -6914,6 +7266,19 @@
         "TOX1"
       ]
     },
+    "TP53": {
+      "gene": "TP53",
+      "diagnoses": [
+        "Ossifying fibromyxoid tumour"
+      ],
+      "partner_genes": [
+        "PHF1"
+      ],
+      "aliases": [
+        "LFS1",
+        "p53"
+      ]
+    },
     "TPM3": {
       "gene": "TPM3",
       "diagnoses": [
@@ -6937,12 +7302,14 @@
       "gene": "TPM4",
       "diagnoses": [
         "Aneurysmal bone cyst",
+        "Dermatofibroma/Fibrous histiocytoma_NOS",
         "Fibroma of tendon sheath",
         "Myositis ossificans and fibro-osseous pseudotumour of digits",
         "Nodular fasciitis",
         "Phyllodes tumour"
       ],
       "partner_genes": [
+        "ALK",
         "NTRK1",
         "USP6"
       ],
@@ -6959,6 +7326,22 @@
         "ROS1"
       ],
       "aliases": []
+    },
+    "TRAF3": {
+      "gene": "TRAF3",
+      "diagnoses": [
+        "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion"
+      ],
+      "partner_genes": [
+        "TFE3"
+      ],
+      "aliases": [
+        "CAP-1",
+        "CD40bp",
+        "CRAF1",
+        "LAP1",
+        "RNF118"
+      ]
     },
     "TRIM11": {
       "gene": "TRIM11",
@@ -7001,8 +7384,8 @@
         "hTIF1",
         "RNF82",
         "TIF1",
-        "Tif1a",
-        "TIF1A"
+        "TIF1A",
+        "Tif1a"
       ]
     },
     "TRIM27": {
@@ -7086,6 +7469,18 @@
         "USP6"
       ],
       "aliases": []
+    },
+    "UBE2I": {
+      "gene": "UBE2I",
+      "diagnoses": [
+        "PDGFRB-mutated sarcoma with myogenic differentiation"
+      ],
+      "partner_genes": [
+        "PDGFRB"
+      ],
+      "aliases": [
+        "UBC9"
+      ]
     },
     "UBP1": {
       "gene": "UBP1",
@@ -7211,6 +7606,7 @@
       "gene": "USP8",
       "diagnoses": [
         "Calcified chondroid mesenchymal neoplasms",
+        "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
         "Soft tissue chondroma"
       ],
       "partner_genes": [
@@ -7453,6 +7849,21 @@
         "ZNF651"
       ]
     },
+    "ZC3H7A": {
+      "gene": "ZC3H7A",
+      "diagnoses": [
+        "Ossifying fibromyxoid tumour"
+      ],
+      "partner_genes": [
+        "BCOR"
+      ],
+      "aliases": [
+        "FLJ20318",
+        "HSPC055",
+        "ZC3H7",
+        "ZC3HDC7"
+      ]
+    },
     "ZC3H7B": {
       "gene": "ZC3H7B",
       "diagnoses": [
@@ -7570,6 +7981,19 @@
         "MGC3032"
       ]
     },
+    "ZFYVE26": {
+      "gene": "ZFYVE26",
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "partner_genes": [
+        "RAD51B"
+      ],
+      "aliases": [
+        "KIAA0321",
+        "SPG15"
+      ]
+    },
     "ZNF444": {
       "gene": "ZNF444",
       "diagnoses": [
@@ -7610,6 +8034,7 @@
     "atf1": "ATF1",
     "atf7ip": "ATF7IP",
     "atg7": "ATG7",
+    "atp7b": "ATP7B",
     "axl": "AXL",
     "bcor": "BCOR",
     "bcorl1": "BCORL1",
@@ -7638,6 +8063,7 @@
     "cdh9": "CDH9",
     "cdk5rap2": "CDK5RAP2",
     "cdx1": "CDX1",
+    "cep170": "CEP170",
     "chchd7": "CHCHD7",
     "chd7": "CHD7",
     "chd9": "CHD9",
@@ -7713,6 +8139,7 @@
     "fgfr1": "FGFR1",
     "fgfr2": "FGFR2",
     "fgfr3": "FGFR3",
+    "fgl2": "FGL2",
     "filip1l": "FILIP1L",
     "fkbp4": "FKBP4",
     "fli1": "FLI1",
@@ -7765,7 +8192,9 @@
     "insr": "INSR",
     "irf2bp2": "IRF2BP2",
     "itd": "ITD",
+    "jak1": "JAK1",
     "jazf1": "JAZF1",
+    "jrk": "JRK",
     "kank1": "KANK1",
     "kank2": "KANK2",
     "kansl1": "KANSL1",
@@ -7780,10 +8209,12 @@
     "kif1a": "KIF1A",
     "klf10": "KLF10",
     "klf15": "KLF15",
+    "klf17": "KLF17",
     "kmt2a": "KMT2A",
     "kmt2d": "KMT2D",
     "krt10": "KRT10",
     "lamtor1": "LAMTOR1",
+    "ldb1": "LDB1",
     "leutx": "LEUTX",
     "lhfpl6": "LHFPL6",
     "lifr": "LIFR",
@@ -7801,6 +8232,7 @@
     "maml3": "MAML3",
     "mamld1": "MAMLD1",
     "map4": "MAP4",
+    "maz": "MAZ",
     "mbtd1": "MBTD1",
     "mcc": "MCC",
     "meaf6": "MEAF6",
@@ -7857,6 +8289,7 @@
     "notch2": "NOTCH2",
     "notch3": "NOTCH3",
     "nr1d1": "NR1D1",
+    "nr4a2": "NR4A2",
     "nr4a3": "NR4A3",
     "nrf1": "NRF1",
     "nrg1": "NRG1",
@@ -7866,12 +8299,14 @@
     "nudcd3": "NUDCD3",
     "nudt11": "NUDT11",
     "nudt3": "NUDT3",
+    "nudt5": "NUDT5",
     "numa1": "NUMA1",
     "nup160": "NUP160",
     "nutm1": "NUTM1",
     "nutm2a": "NUTM2A",
     "nutm2b": "NUTM2B",
     "nutm2e": "NUTM2E",
+    "nutm2g": "NUTM2G",
     "oga": "OGA",
     "ogt": "OGT",
     "omd": "OMD",
@@ -7901,10 +8336,13 @@
     "phf1": "PHF1",
     "pi15": "PI15",
     "pik3ca": "PIK3CA",
+    "pik3r4": "PIK3R4",
     "pkm": "PKM",
     "plag1": "PLAG1",
     "plcz1": "PLCZ1",
     "plekhh2": "PLEKHH2",
+    "pml": "PML",
+    "pou2af3": "POU2AF3",
     "pou5f1": "POU5F1",
     "pparg": "PPARG",
     "ppargc1a": "PPARGC1A",
@@ -7934,6 +8372,7 @@
     "ranbp2": "RANBP2",
     "rb1": "RB1",
     "rbm27": "RBM27",
+    "rbm43": "RBM43",
     "rbpms": "RBPMS",
     "rela": "RELA",
     "ret": "RET",
@@ -7962,6 +8401,7 @@
     "smarca4": "SMARCA4",
     "smarca5": "SMARCA5",
     "snd1": "SND1",
+    "sohlh1": "SOHLH1",
     "sp100": "SP100",
     "sparc": "SPARC",
     "specc1l": "SPECC1L",
@@ -7984,6 +8424,7 @@
     "syn3": "SYN3",
     "tacc3": "TACC3",
     "tcf12": "TCF12",
+    "tcf4": "TCF4",
     "tead1": "TEAD1",
     "tek": "TEK",
     "tert": "TERT",
@@ -7992,6 +8433,7 @@
     "tfe3": "TFE3",
     "tfg": "TFG",
     "tgfa": "TGFA",
+    "tgfbi": "TGFBI",
     "tgfbr3": "TGFBR3",
     "thbs1": "THBS1",
     "thbs2": "THBS2",
@@ -8001,12 +8443,15 @@
     "tln2": "TLN2",
     "tmtc2": "TMTC2",
     "tnc": "TNC",
+    "tnfaip3": "TNFAIP3",
     "tns1": "TNS1",
     "tom1l2": "TOM1L2",
     "tox": "TOX",
+    "tp53": "TP53",
     "tpm3": "TPM3",
     "tpm4": "TPM4",
     "tpr": "TPR",
+    "traf3": "TRAF3",
     "trim11": "TRIM11",
     "trim13": "TRIM13",
     "trim24": "TRIM24",
@@ -8016,6 +8461,7 @@
     "tuba1b": "TUBA1B",
     "txnip": "TXNIP",
     "ubc": "UBC",
+    "ube2i": "UBE2I",
     "ubp1": "UBP1",
     "usp2": "USP2",
     "usp33": "USP33",
@@ -8036,6 +8482,7 @@
     "ywhaq": "YWHAQ",
     "ywhaz": "YWHAZ",
     "zbtb47": "ZBTB47",
+    "zc3h7a": "ZC3H7A",
     "zc3h7b": "ZC3H7B",
     "zcchc7": "ZCCHC7",
     "zeb1": "ZEB1",
@@ -8043,6 +8490,7 @@
     "zfp36": "ZFP36",
     "zfp64": "ZFP64",
     "zfta": "ZFTA",
+    "zfyve26": "ZFYVE26",
     "znf444": "ZNF444"
   },
   "diagnosis_lookup": {
@@ -8516,6 +8964,16 @@
       "genes": [],
       "fusions": []
     },
+    "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion": {
+      "diagnosis": "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
+      "genes": [
+        "ERG",
+        "TCF4"
+      ],
+      "fusions": [
+        "TCF4::ERG"
+      ]
+    },
     "Cellular angiofibroma": {
       "diagnosis": "Cellular angiofibroma",
       "genes": [
@@ -8749,6 +9207,16 @@
         "GATA6::FOXO1"
       ]
     },
+    "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion": {
+      "diagnosis": "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
+      "genes": [
+        "PDGFRA",
+        "USP8"
+      ],
+      "fusions": [
+        "PDGFRA::USP8"
+      ]
+    },
     "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion": {
       "diagnosis": "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion",
       "genes": [
@@ -8816,6 +9284,7 @@
         "SPECC1L",
         "SQSTM1",
         "TPM3",
+        "TPM4",
         "VCL"
       ],
       "fusions": [
@@ -8837,6 +9306,7 @@
         "SPECC1L::ALK",
         "SQSTM1::ALK",
         "TPM3::ALK",
+        "TPM4::ALK",
         "VCL::ALK"
       ]
     },
@@ -8848,8 +9318,10 @@
         "COL6A3",
         "EMILIN2",
         "FBN1",
+        "FGL2",
         "PDGFB",
         "PDGFD",
+        "TGFBI",
         "TNC"
       ],
       "fusions": [
@@ -8858,6 +9330,8 @@
         "COL6A3::PDGFD",
         "EMILIN2::PDGFD",
         "FBN1::PDGFD",
+        "FGL2::PDGFD",
+        "TGFBI::PDGFB",
         "TNC::PDGFD"
       ]
     },
@@ -9065,6 +9539,16 @@
       "genes": [],
       "fusions": []
     },
+    "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion": {
+      "diagnosis": "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
+      "genes": [
+        "RREB1",
+        "TFE3"
+      ],
+      "fusions": [
+        "RREB1::TFE3"
+      ]
+    },
     "Epithelioid inflammatory myofibroblastic sarcoma": {
       "diagnosis": "Epithelioid inflammatory myofibroblastic sarcoma",
       "genes": [
@@ -9127,6 +9611,26 @@
         "EWSR1::CREM"
       ]
     },
+    "EWSR1::SSX-rearranged sarcoma": {
+      "diagnosis": "EWSR1::SSX-rearranged sarcoma",
+      "genes": [
+        "EWSR1",
+        "SSX4"
+      ],
+      "fusions": [
+        "EWSR1::SSX4"
+      ]
+    },
+    "EWSR1::SSX1 fusion-driven synovial sarcoma": {
+      "diagnosis": "EWSR1::SSX1 fusion-driven synovial sarcoma",
+      "genes": [
+        "EWSR1",
+        "SSX1"
+      ],
+      "fusions": [
+        "EWSR1::SSX1"
+      ]
+    },
     "EWSR1::WT1 Fusions Neoplasm": {
       "diagnosis": "EWSR1::WT1 Fusions Neoplasm",
       "genes": [
@@ -9158,6 +9662,16 @@
         "HSPA8::NR4A3",
         "PGR::NR4A3",
         "TFG::NR4A3"
+      ]
+    },
+    "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion": {
+      "diagnosis": "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion",
+      "genes": [
+        "HSPA8",
+        "NR4A2"
+      ],
+      "fusions": [
+        "HSPA8::NR4A2"
       ]
     },
     "Extraskeletal osteosarcoma": {
@@ -9378,6 +9892,22 @@
       "genes": [],
       "fusions": []
     },
+    "FOXO1-rearranged uterine sarcoma": {
+      "diagnosis": "FOXO1-rearranged uterine sarcoma",
+      "genes": [
+        "ATP7B",
+        "FOXO1",
+        "JRK",
+        "MEIS1",
+        "PIK3R4"
+      ],
+      "fusions": [
+        "FOXO1::ATP7B",
+        "FOXO1::JRK",
+        "FOXO1::MEIS1",
+        "FOXO1::PIK3R4"
+      ]
+    },
     "Fusion-associated spindle cell rhabdomyosarcomas": {
       "diagnosis": "Fusion-associated spindle cell rhabdomyosarcomas",
       "genes": [
@@ -9482,8 +10012,10 @@
         "COL6A3",
         "EMILIN2",
         "FBN1",
+        "FGL2",
         "PDGFB",
         "PDGFD",
+        "TGFBI",
         "TNC"
       ],
       "fusions": [
@@ -9492,6 +10024,8 @@
         "COL6A3::PDGFD",
         "EMILIN2::PDGFD",
         "FBN1::PDGFD",
+        "FGL2::PDGFD",
+        "TGFBI::PDGFB",
         "TNC::PDGFD"
       ]
     },
@@ -9514,16 +10048,20 @@
       "diagnosis": "GLI1-altered mesenchymal tumours",
       "genes": [
         "ACTB",
+        "FOXO4",
         "GLI1",
         "PAMR1",
         "PTCH1",
+        "TNFAIP3",
         "TUBA1B",
         "TXNIP"
       ],
       "fusions": [
         "ACTB::GLI1",
+        "GLI1::FOXO4",
         "PAMR1::GLI1",
         "PTCH1::GLI1",
+        "TNFAIP3::GLI1",
         "TUBA1B::GLI1",
         "TXNIP::GLI1"
       ]
@@ -9609,6 +10147,16 @@
         "EWSR1::FLI1",
         "FUS::FEV",
         "FUS::FLI1"
+      ]
+    },
+    "High-grade PML::JAK1 fusion sarcoma": {
+      "diagnosis": "High-grade PML::JAK1 fusion sarcoma",
+      "genes": [
+        "JAK1",
+        "PML"
+      ],
+      "fusions": [
+        "PML::JAK1"
       ]
     },
     "High-grade surface osteosarcoma": {
@@ -10101,6 +10649,24 @@
       "diagnosis": "Lymphangioma and lymphangiomatosis",
       "genes": [],
       "fusions": []
+    },
+    "MAD::NUT fusion sarcoma": {
+      "diagnosis": "MAD::NUT fusion sarcoma",
+      "genes": [
+        "MGA",
+        "MXD4",
+        "MXI1",
+        "NUTM1",
+        "NUTM2A",
+        "NUTM2G"
+      ],
+      "fusions": [
+        "MGA::NUTM1",
+        "MXD4::NUTM1",
+        "MXD4::NUTM2G",
+        "MXI1::NUTM1",
+        "MXI1::NUTM2A"
+      ]
     },
     "Malignant peripheral nerve sheath tumour": {
       "diagnosis": "Malignant peripheral nerve sheath tumour",
@@ -10639,7 +11205,9 @@
         "PHF1",
         "SUZ12",
         "TFE3",
+        "TP53",
         "WWTR1",
+        "ZC3H7A",
         "ZC3H7B"
       ],
       "fusions": [
@@ -10652,6 +11220,8 @@
         "PHF1::FOXR1",
         "PHF1::FOXR2",
         "PHF1::TFE3",
+        "TP53::PHF1",
+        "ZC3H7A::BCOR",
         "ZC3H7B::BCOR"
       ]
     },
@@ -10720,6 +11290,16 @@
         "YAP1::MAML2"
       ]
     },
+    "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion": {
+      "diagnosis": "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion",
+      "genes": [
+        "EPC1",
+        "SUZ12"
+      ],
+      "fusions": [
+        "EPC1::SUZ12"
+      ]
+    },
     "Parosteal osteosarcoma": {
       "diagnosis": "Parosteal osteosarcoma",
       "genes": [],
@@ -10749,8 +11329,15 @@
     },
     "PDGFRB-mutated sarcoma with myogenic differentiation": {
       "diagnosis": "PDGFRB-mutated sarcoma with myogenic differentiation",
-      "genes": [],
-      "fusions": []
+      "genes": [
+        "FN1",
+        "PDGFRB",
+        "UBE2I"
+      ],
+      "fusions": [
+        "PDGFRB::FN1",
+        "PDGFRB::UBE2I"
+      ]
     },
     "PEComa": {
       "diagnosis": "PEComa",
@@ -11217,6 +11804,16 @@
         "EWSR1::CREB1"
       ]
     },
+    "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion": {
+      "diagnosis": "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
+      "genes": [
+        "DDIT3",
+        "SMARCA2"
+      ],
+      "fusions": [
+        "SMARCA2::DDIT3"
+      ]
+    },
     "Proliferative fasciitis and proliferative myositis": {
       "diagnosis": "Proliferative fasciitis and proliferative myositis",
       "genes": [
@@ -11248,6 +11845,16 @@
       "genes": [],
       "fusions": []
     },
+    "Pseudoglandular schwannoma with FUS::KLF17 fusion": {
+      "diagnosis": "Pseudoglandular schwannoma with FUS::KLF17 fusion",
+      "genes": [
+        "FUS",
+        "KLF17"
+      ],
+      "fusions": [
+        "FUS::KLF17"
+      ]
+    },
     "Pseudomyogenic haemangioendothelioma": {
       "diagnosis": "Pseudomyogenic haemangioendothelioma",
       "genes": [
@@ -11258,6 +11865,24 @@
       "fusions": [
         "ACTB::FOSB",
         "SERPINE1::FOSB"
+      ]
+    },
+    "RAD51B-rearranged soft tissue tumor": {
+      "diagnosis": "RAD51B-rearranged soft tissue tumor",
+      "genes": [
+        "CEP170",
+        "NUDT3",
+        "PUM1",
+        "RAD51B",
+        "RBM43",
+        "ZFYVE26"
+      ],
+      "fusions": [
+        "CEP170::RAD51B",
+        "NUDT3::RAD51B",
+        "PUM1::RAD51B",
+        "RBM43::RAD51B",
+        "ZFYVE26::RAD51B"
       ]
     },
     "Retiform haemangioendothelioma": {
@@ -11280,8 +11905,8 @@
       "genes": [],
       "fusions": []
     },
-    "Salivary gland hyalinizing clear cell carcinomas": {
-      "diagnosis": "Salivary gland hyalinizing clear cell carcinomas",
+    "Salivary gland hyalinizing clear cell carcinoma": {
+      "diagnosis": "Salivary gland hyalinizing clear cell carcinoma",
       "genes": [
         "ATF1",
         "EWSR1"
@@ -11366,6 +11991,16 @@
       "diagnosis": "Simple bone cyst",
       "genes": [],
       "fusions": []
+    },
+    "Sinonasal EWSR1::POU2AF3 sarcoma": {
+      "diagnosis": "Sinonasal EWSR1::POU2AF3 sarcoma",
+      "genes": [
+        "EWSR1",
+        "POU2AF3"
+      ],
+      "fusions": [
+        "EWSR1::POU2AF3"
+      ]
     },
     "SMAD3-rearranged fibroblastic tumour": {
       "diagnosis": "SMAD3-rearranged fibroblastic tumour",
@@ -11483,6 +12118,36 @@
         "TCF12::VGLL3"
       ]
     },
+    "Spindle cell sarcoma with ACVR2A::RAF1 fusion": {
+      "diagnosis": "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
+      "genes": [
+        "ACVR2A",
+        "RAF1"
+      ],
+      "fusions": [
+        "ACVR2A::RAF1"
+      ]
+    },
+    "Spindle cell sarcoma with JAZF1::NUDT5 fusion": {
+      "diagnosis": "Spindle cell sarcoma with JAZF1::NUDT5 fusion",
+      "genes": [
+        "JAZF1",
+        "NUDT5"
+      ],
+      "fusions": [
+        "JAZF1::NUDT5"
+      ]
+    },
+    "Spindle cell sarcoma with LDB1::KMT2A fusion": {
+      "diagnosis": "Spindle cell sarcoma with LDB1::KMT2A fusion",
+      "genes": [
+        "KMT2A",
+        "LDB1"
+      ],
+      "fusions": [
+        "LDB1::KMT2A"
+      ]
+    },
     "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions": {
       "diagnosis": "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
       "genes": [
@@ -11508,6 +12173,7 @@
         "NCOA3",
         "NFKBIE",
         "RELA",
+        "SOHLH1",
         "SRF"
       ],
       "fusions": [
@@ -11520,7 +12186,8 @@
         "SRF::NCOA2",
         "SRF::NCOA3",
         "SRF::NFKBIE",
-        "SRF::RELA"
+        "SRF::RELA",
+        "SRF::SOHLH1"
       ]
     },
     "SS18::NEDD4 sarcomas": {
@@ -11531,6 +12198,16 @@
       ],
       "fusions": [
         "SS18::NEDD4"
+      ]
+    },
+    "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion": {
+      "diagnosis": "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
+      "genes": [
+        "MAZ",
+        "NCOA2"
+      ],
+      "fusions": [
+        "MAZ::NCOA2"
       ]
     },
     "Subungual exostosis": {
@@ -11654,6 +12331,16 @@
         "EWSR1::TFCP2",
         "FUS::TFCP2",
         "MEIS1::NCOA2"
+      ]
+    },
+    "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion": {
+      "diagnosis": "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
+      "genes": [
+        "TFE3",
+        "TRAF3"
+      ],
+      "fusions": [
+        "TRAF3::TFE3"
       ]
     },
     "Tufted angioma and kaposiform haemangioendothelioma": {
@@ -11818,6 +12505,16 @@
         "SLCO5A1::NR4A3"
       ]
     },
+    "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion": {
+      "diagnosis": "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion",
+      "genes": [
+        "CTBP1",
+        "EWSR1"
+      ],
+      "fusions": [
+        "EWSR1::CTBP1"
+      ]
+    },
     "Uterine tumour resembling ovarian sex cord tumour": {
       "diagnosis": "Uterine tumour resembling ovarian sex cord tumour",
       "genes": [
@@ -11854,6 +12551,16 @@
       "diagnosis": "Venous malformations",
       "genes": [],
       "fusions": []
+    },
+    "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor": {
+      "diagnosis": "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor",
+      "genes": [
+        "MEF2D",
+        "NCOA2"
+      ],
+      "fusions": [
+        "MEF2D::NCOA2"
+      ]
     },
     "YAP1::TFE3 haemangioendothelioma": {
       "diagnosis": "YAP1::TFE3 haemangioendothelioma",
@@ -12095,6 +12802,9 @@
     "kinase-rearranged uterine sarcomas": "Kinase-rearranged uterine sarcomas",
     "high grade uterine sarcoma with meis2::foxo4 fusion": "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
     "haemangioblastoma": "Haemangioblastoma",
+    "foxo1-rearranged uterine sarcoma": "FOXO1-rearranged uterine sarcoma",
+    "vulvovaginal mef2d::ncoa2 fusion-associated tumor": "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor",
+    "uterine mesenchymal tumour with  ewsr1::ctbp1 fusion": "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion",
     "conjunctival stromal tumour and ocular surface fibroma": "Conjunctival stromal tumour and ocular surface fibroma",
     "pleomorphic fibroma": "Pleomorphic fibroma",
     "sclerotic fibroma": "Sclerotic fibroma",
@@ -12148,7 +12858,25 @@
     "ss18::nedd4 sarcomas": "SS18::NEDD4 sarcomas",
     "ewsr1::crem intra-abdominal unclassified epithelioid sarcoma": "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
     "a distinctive subset of well-differentiated rhabdomyosarcoma with srf fusion": "A distinctive subset of well-differentiated rhabdomyosarcoma with SRF fusion",
-    "salivary gland hyalinizing clear cell carcinomas": "Salivary gland hyalinizing clear cell carcinomas"
+    "salivary gland hyalinizing clear cell carcinoma": "Salivary gland hyalinizing clear cell carcinoma",
+    "spindle cell sarcoma with jazf1::nudt5 fusion": "Spindle cell sarcoma with JAZF1::NUDT5 fusion",
+    "cutaneous inflammatory myofibroblastic with pdgfra::usp8 fusion": "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
+    "spindle cell sarcoma with acvr2a::raf1 fusion": "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
+    "subcutaneous small round cell sarcoma of infancy with maz::ncoa2 fusion": "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
+    "ewsr1::ssx1 fusion-driven synovial sarcoma": "EWSR1::SSX1 fusion-driven synovial sarcoma",
+    "paratesticular endometrial stromal sarcoma-like sarcoma with epc1::suz12 fusion": "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion",
+    "pseudoglandular schwannoma with fus::klf17 fusion": "Pseudoglandular schwannoma with FUS::KLF17 fusion",
+    "cd34-positive acral chondromyxoid mesenchymal neoplasm with tcf4::erg fusion": "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
+    "tfe3-altered perivascular epithelioid cell tumour (pecoma) with traf3::tfe3 fusion": "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
+    "spindle cell sarcoma with ldb1::kmt2a fusion": "Spindle cell sarcoma with LDB1::KMT2A fusion",
+    "primary subcutaneous myxoid liposarcoma with smarca2::ddit3 fusion": "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
+    "high-grade pml::jak1 fusion sarcoma": "High-grade PML::JAK1 fusion sarcoma",
+    "rad51b-rearranged soft tissue tumor": "RAD51B-rearranged soft tissue tumor",
+    "mad::nut fusion sarcoma": "MAD::NUT fusion sarcoma",
+    "ewsr1::ssx-rearranged sarcoma": "EWSR1::SSX-rearranged sarcoma",
+    "sinonasal ewsr1::pou2af3 sarcoma": "Sinonasal EWSR1::POU2AF3 sarcoma",
+    "epithelioid hemangioendothelioma with rreb1::tfe3 fusion": "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
+    "extraskeletal myxoid chondrosarcoma with hspa8::nr4a2 fusion": "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
   },
   "fusion_lookup": {
     "ABL1::BCR": {
@@ -12313,6 +13041,19 @@
       "observed_fusions": [
         "ACVR2A::FN1",
         "FN1::ACVR2A"
+      ]
+    },
+    "ACVR2A::RAF1": {
+      "fusion": "ACVR2A::RAF1",
+      "genes": [
+        "ACVR2A",
+        "RAF1"
+      ],
+      "diagnoses": [
+        "Spindle cell sarcoma with ACVR2A::RAF1 fusion"
+      ],
+      "observed_fusions": [
+        "ACVR2A::RAF1"
       ]
     },
     "ADCK2::BRAF": {
@@ -12938,6 +13679,19 @@
         "TPM3::ALK"
       ]
     },
+    "ALK::TPM4": {
+      "fusion": "ALK::TPM4",
+      "genes": [
+        "ALK",
+        "TPM4"
+      ],
+      "diagnoses": [
+        "Dermatofibroma/Fibrous histiocytoma_NOS"
+      ],
+      "observed_fusions": [
+        "TPM4::ALK"
+      ]
+    },
     "ALK::VCL": {
       "fusion": "ALK::VCL",
       "genes": [
@@ -13048,7 +13802,7 @@
         "Angiosarcoma",
         "Clear cell sarcoma of soft tissue",
         "FET-CREB epithelioid mesenchymal tumours",
-        "Salivary gland hyalinizing clear cell carcinomas"
+        "Salivary gland hyalinizing clear cell carcinoma"
       ],
       "observed_fusions": [
         "EWSR1::ATF1"
@@ -13095,6 +13849,19 @@
       ],
       "observed_fusions": [
         "ATG7::RAF1"
+      ]
+    },
+    "ATP7B::FOXO1": {
+      "fusion": "ATP7B::FOXO1",
+      "genes": [
+        "ATP7B",
+        "FOXO1"
+      ],
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "observed_fusions": [
+        "FOXO1::ATP7B"
       ]
     },
     "AXL::CIC": {
@@ -13149,6 +13916,19 @@
       ],
       "observed_fusions": [
         "BCOR::MAML3"
+      ]
+    },
+    "BCOR::ZC3H7A": {
+      "fusion": "BCOR::ZC3H7A",
+      "genes": [
+        "BCOR",
+        "ZC3H7A"
+      ],
+      "diagnoses": [
+        "Ossifying fibromyxoid tumour"
+      ],
+      "observed_fusions": [
+        "ZC3H7A::BCOR"
       ]
     },
     "BCOR::ZC3H7B": {
@@ -13724,6 +14504,19 @@
       ],
       "observed_fusions": [
         "SQSTM1::CDX1"
+      ]
+    },
+    "CEP170::RAD51B": {
+      "fusion": "CEP170::RAD51B",
+      "genes": [
+        "CEP170",
+        "RAD51B"
+      ],
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "observed_fusions": [
+        "CEP170::RAD51B"
       ]
     },
     "CHCHD7::PLAG1": {
@@ -14382,7 +15175,8 @@
         "EWSR1"
       ],
       "diagnoses": [
-        "Gastroblastoma"
+        "Gastroblastoma",
+        "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion"
       ],
       "observed_fusions": [
         "EWSR1::CTBP1"
@@ -14524,6 +15318,19 @@
       ],
       "observed_fusions": [
         "FUS::DDIT3"
+      ]
+    },
+    "DDIT3::SMARCA2": {
+      "fusion": "DDIT3::SMARCA2",
+      "genes": [
+        "DDIT3",
+        "SMARCA2"
+      ],
+      "diagnoses": [
+        "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion"
+      ],
+      "observed_fusions": [
+        "SMARCA2::DDIT3"
       ]
     },
     "DDX6::PLAG1": {
@@ -14804,6 +15611,19 @@
         "EPC1::PHF1"
       ]
     },
+    "EPC1::SUZ12": {
+      "fusion": "EPC1::SUZ12",
+      "genes": [
+        "EPC1",
+        "SUZ12"
+      ],
+      "diagnoses": [
+        "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion"
+      ],
+      "observed_fusions": [
+        "EPC1::SUZ12"
+      ]
+    },
     "ERC1::RAF1": {
       "fusion": "ERC1::RAF1",
       "genes": [
@@ -14855,6 +15675,19 @@
       ],
       "observed_fusions": [
         "NIPBL::ERG"
+      ]
+    },
+    "ERG::TCF4": {
+      "fusion": "ERG::TCF4",
+      "genes": [
+        "ERG",
+        "TCF4"
+      ],
+      "diagnoses": [
+        "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion"
+      ],
+      "observed_fusions": [
+        "TCF4::ERG"
       ]
     },
     "ESR1::NCOA2": {
@@ -15070,6 +15903,19 @@
         "EWSR1::PBX3"
       ]
     },
+    "EWSR1::POU2AF3": {
+      "fusion": "EWSR1::POU2AF3",
+      "genes": [
+        "EWSR1",
+        "POU2AF3"
+      ],
+      "diagnoses": [
+        "Sinonasal EWSR1::POU2AF3 sarcoma"
+      ],
+      "observed_fusions": [
+        "EWSR1::POU2AF3"
+      ]
+    },
     "EWSR1::POU5F1": {
       "fusion": "EWSR1::POU5F1",
       "genes": [
@@ -15107,6 +15953,32 @@
       ],
       "observed_fusions": [
         "EWSR1::SMARCA5"
+      ]
+    },
+    "EWSR1::SSX1": {
+      "fusion": "EWSR1::SSX1",
+      "genes": [
+        "EWSR1",
+        "SSX1"
+      ],
+      "diagnoses": [
+        "EWSR1::SSX1 fusion-driven synovial sarcoma"
+      ],
+      "observed_fusions": [
+        "EWSR1::SSX1"
+      ]
+    },
+    "EWSR1::SSX4": {
+      "fusion": "EWSR1::SSX4",
+      "genes": [
+        "EWSR1",
+        "SSX4"
+      ],
+      "diagnoses": [
+        "EWSR1::SSX-rearranged sarcoma"
+      ],
+      "observed_fusions": [
+        "EWSR1::SSX4"
       ]
     },
     "EWSR1::TFCP2": {
@@ -15357,6 +16229,20 @@
         "FGFR3::TACC3"
       ]
     },
+    "FGL2::PDGFD": {
+      "fusion": "FGL2::PDGFD",
+      "genes": [
+        "FGL2",
+        "PDGFD"
+      ],
+      "diagnoses": [
+        "Dermatofibrosarcoma protuberans",
+        "Giant cell fibroblastoma"
+      ],
+      "observed_fusions": [
+        "FGL2::PDGFD"
+      ]
+    },
     "FILIP1L::USP6": {
       "fusion": "FILIP1L::USP6",
       "genes": [
@@ -15440,6 +16326,19 @@
       ],
       "observed_fusions": [
         "FN1::NTRK1"
+      ]
+    },
+    "FN1::PDGFRB": {
+      "fusion": "FN1::PDGFRB",
+      "genes": [
+        "FN1",
+        "PDGFRB"
+      ],
+      "diagnoses": [
+        "PDGFRB-mutated sarcoma with myogenic differentiation"
+      ],
+      "observed_fusions": [
+        "PDGFRB::FN1"
       ]
     },
     "FN1::PRG4": {
@@ -15633,6 +16532,19 @@
         "GATA6::FOXO1"
       ]
     },
+    "FOXO1::JRK": {
+      "fusion": "FOXO1::JRK",
+      "genes": [
+        "FOXO1",
+        "JRK"
+      ],
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "observed_fusions": [
+        "FOXO1::JRK"
+      ]
+    },
     "FOXO1::MEIS1": {
       "fusion": "FOXO1::MEIS1",
       "genes": [
@@ -15640,9 +16552,11 @@
         "MEIS1"
       ],
       "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma",
         "Fusion-associated spindle cell rhabdomyosarcomas"
       ],
       "observed_fusions": [
+        "FOXO1::MEIS1",
         "MEIS1::FOXO1"
       ]
     },
@@ -15688,6 +16602,19 @@
         "PAX7::FOXO1"
       ]
     },
+    "FOXO1::PIK3R4": {
+      "fusion": "FOXO1::PIK3R4",
+      "genes": [
+        "FOXO1",
+        "PIK3R4"
+      ],
+      "diagnoses": [
+        "FOXO1-rearranged uterine sarcoma"
+      ],
+      "observed_fusions": [
+        "FOXO1::PIK3R4"
+      ]
+    },
     "FOXO1::SRF": {
       "fusion": "FOXO1::SRF",
       "genes": [
@@ -15712,6 +16639,19 @@
       ],
       "observed_fusions": [
         "OGT::FOXO3"
+      ]
+    },
+    "FOXO4::GLI1": {
+      "fusion": "FOXO4::GLI1",
+      "genes": [
+        "FOXO4",
+        "GLI1"
+      ],
+      "diagnoses": [
+        "GLI1-altered mesenchymal tumours"
+      ],
+      "observed_fusions": [
+        "GLI1::FOXO4"
       ]
     },
     "FOXO4::MEIS2": {
@@ -15793,6 +16733,19 @@
       ],
       "observed_fusions": [
         "FRMD6::USP6"
+      ]
+    },
+    "FUS::KLF17": {
+      "fusion": "FUS::KLF17",
+      "genes": [
+        "FUS",
+        "KLF17"
+      ],
+      "diagnoses": [
+        "Pseudoglandular schwannoma with FUS::KLF17 fusion"
+      ],
+      "observed_fusions": [
+        "FUS::KLF17"
       ]
     },
     "FUS::NACC1": {
@@ -15928,6 +16881,19 @@
       ],
       "observed_fusions": [
         "PTCH1::GLI1"
+      ]
+    },
+    "GLI1::TNFAIP3": {
+      "fusion": "GLI1::TNFAIP3",
+      "genes": [
+        "GLI1",
+        "TNFAIP3"
+      ],
+      "diagnoses": [
+        "GLI1-altered mesenchymal tumours"
+      ],
+      "observed_fusions": [
+        "TNFAIP3::GLI1"
       ]
     },
     "GLI1::TUBA1B": {
@@ -16343,6 +17309,19 @@
         "HNRNPC::USP6"
       ]
     },
+    "HSPA8::NR4A2": {
+      "fusion": "HSPA8::NR4A2",
+      "genes": [
+        "HSPA8",
+        "NR4A2"
+      ],
+      "diagnoses": [
+        "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
+      ],
+      "observed_fusions": [
+        "HSPA8::NR4A2"
+      ]
+    },
     "HSPA8::NR4A3": {
       "fusion": "HSPA8::NR4A3",
       "genes": [
@@ -16436,6 +17415,32 @@
       ],
       "observed_fusions": [
         "NOTCH3::ITD"
+      ]
+    },
+    "JAK1::PML": {
+      "fusion": "JAK1::PML",
+      "genes": [
+        "JAK1",
+        "PML"
+      ],
+      "diagnoses": [
+        "High-grade PML::JAK1 fusion sarcoma"
+      ],
+      "observed_fusions": [
+        "PML::JAK1"
+      ]
+    },
+    "JAZF1::NUDT5": {
+      "fusion": "JAZF1::NUDT5",
+      "genes": [
+        "JAZF1",
+        "NUDT5"
+      ],
+      "diagnoses": [
+        "Spindle cell sarcoma with JAZF1::NUDT5 fusion"
+      ],
+      "observed_fusions": [
+        "JAZF1::NUDT5"
       ]
     },
     "JAZF1::PHF1": {
@@ -16593,6 +17598,19 @@
       ],
       "observed_fusions": [
         "KLF10::PLAG1"
+      ]
+    },
+    "KMT2A::LDB1": {
+      "fusion": "KMT2A::LDB1",
+      "genes": [
+        "KMT2A",
+        "LDB1"
+      ],
+      "diagnoses": [
+        "Spindle cell sarcoma with LDB1::KMT2A fusion"
+      ],
+      "observed_fusions": [
+        "LDB1::KMT2A"
       ]
     },
     "KMT2A::YAP1": {
@@ -16913,6 +17931,19 @@
         "MAP4::USP6"
       ]
     },
+    "MAZ::NCOA2": {
+      "fusion": "MAZ::NCOA2",
+      "genes": [
+        "MAZ",
+        "NCOA2"
+      ],
+      "diagnoses": [
+        "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion"
+      ],
+      "observed_fusions": [
+        "MAZ::NCOA2"
+      ]
+    },
     "MEAF6::PHF1": {
       "fusion": "MEAF6::PHF1",
       "genes": [
@@ -16952,6 +17983,19 @@
       ],
       "observed_fusions": [
         "MED12::PRDM10"
+      ]
+    },
+    "MEF2D::NCOA2": {
+      "fusion": "MEF2D::NCOA2",
+      "genes": [
+        "MEF2D",
+        "NCOA2"
+      ],
+      "diagnoses": [
+        "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor"
+      ],
+      "observed_fusions": [
+        "MEF2D::NCOA2"
       ]
     },
     "MEF2D::NTRK1": {
@@ -17020,6 +18064,7 @@
         "NUTM1"
       ],
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "observed_fusions": [
@@ -17198,11 +18243,25 @@
         "NUTM1"
       ],
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged colorectal sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "observed_fusions": [
         "MXD4::NUTM1"
+      ]
+    },
+    "MXD4::NUTM2G": {
+      "fusion": "MXD4::NUTM2G",
+      "genes": [
+        "MXD4",
+        "NUTM2G"
+      ],
+      "diagnoses": [
+        "MAD::NUT fusion sarcoma"
+      ],
+      "observed_fusions": [
+        "MXD4::NUTM2G"
       ]
     },
     "MXI1::NUTM1": {
@@ -17212,10 +18271,24 @@
         "NUTM1"
       ],
       "diagnoses": [
+        "MAD::NUT fusion sarcoma",
         "NUTM1-rearranged neoplasms"
       ],
       "observed_fusions": [
         "MXI1::NUTM1"
+      ]
+    },
+    "MXI1::NUTM2A": {
+      "fusion": "MXI1::NUTM2A",
+      "genes": [
+        "MXI1",
+        "NUTM2A"
+      ],
+      "diagnoses": [
+        "MAD::NUT fusion sarcoma"
+      ],
+      "observed_fusions": [
+        "MXI1::NUTM2A"
       ]
     },
     "MYADM::USP6": {
@@ -17851,9 +18924,11 @@
         "RAD51B"
       ],
       "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor",
         "Uterine leiomyoma and benign metastasizing leiomyoma"
       ],
       "observed_fusions": [
+        "NUDT3::RAD51B",
         "RAD51B::NUDT3"
       ]
     },
@@ -18041,6 +19116,20 @@
         "PCMTD1::PLAG1"
       ]
     },
+    "PDGFB::TGFBI": {
+      "fusion": "PDGFB::TGFBI",
+      "genes": [
+        "PDGFB",
+        "TGFBI"
+      ],
+      "diagnoses": [
+        "Dermatofibrosarcoma protuberans",
+        "Giant cell fibroblastoma"
+      ],
+      "observed_fusions": [
+        "TGFBI::PDGFB"
+      ]
+    },
     "PDGFD::TNC": {
       "fusion": "PDGFD::TNC",
       "genes": [
@@ -18078,6 +19167,7 @@
       ],
       "diagnoses": [
         "Calcified chondroid mesenchymal neoplasms",
+        "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
         "Soft tissue chondroma"
       ],
       "observed_fusions": [
@@ -18095,6 +19185,19 @@
       ],
       "observed_fusions": [
         "SPARC::PDGFRB"
+      ]
+    },
+    "PDGFRB::UBE2I": {
+      "fusion": "PDGFRB::UBE2I",
+      "genes": [
+        "PDGFRB",
+        "UBE2I"
+      ],
+      "diagnoses": [
+        "PDGFRB-mutated sarcoma with myogenic differentiation"
+      ],
+      "observed_fusions": [
+        "PDGFRB::UBE2I"
       ]
     },
     "PDLIM7::USP6": {
@@ -18166,6 +19269,19 @@
       ],
       "observed_fusions": [
         "PHF1::TFE3"
+      ]
+    },
+    "PHF1::TP53": {
+      "fusion": "PHF1::TP53",
+      "genes": [
+        "PHF1",
+        "TP53"
+      ],
+      "diagnoses": [
+        "Ossifying fibromyxoid tumour"
+      ],
+      "observed_fusions": [
+        "TP53::PHF1"
       ]
     },
     "PI15::PLAG1": {
@@ -18454,6 +19570,19 @@
         "PTPRG::RAF1"
       ]
     },
+    "PUM1::RAD51B": {
+      "fusion": "PUM1::RAD51B",
+      "genes": [
+        "PUM1",
+        "RAD51B"
+      ],
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "observed_fusions": [
+        "PUM1::RAD51B"
+      ]
+    },
     "QKI::RAF1": {
       "fusion": "QKI::RAF1",
       "genes": [
@@ -18465,6 +19594,32 @@
       ],
       "observed_fusions": [
         "QKI::RAF1"
+      ]
+    },
+    "RAD51B::RBM43": {
+      "fusion": "RAD51B::RBM43",
+      "genes": [
+        "RAD51B",
+        "RBM43"
+      ],
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "observed_fusions": [
+        "RBM43::RAD51B"
+      ]
+    },
+    "RAD51B::ZFYVE26": {
+      "fusion": "RAD51B::ZFYVE26",
+      "genes": [
+        "RAD51B",
+        "ZFYVE26"
+      ],
+      "diagnoses": [
+        "RAD51B-rearranged soft tissue tumor"
+      ],
+      "observed_fusions": [
+        "ZFYVE26::RAD51B"
       ]
     },
     "RAF1::SPPL2A": {
@@ -18609,6 +19764,19 @@
         "RRBP1::USP6"
       ]
     },
+    "RREB1::TFE3": {
+      "fusion": "RREB1::TFE3",
+      "genes": [
+        "RREB1",
+        "TFE3"
+      ],
+      "diagnoses": [
+        "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion"
+      ],
+      "observed_fusions": [
+        "RREB1::TFE3"
+      ]
+    },
     "SEC23IP::VGLL3": {
       "fusion": "SEC23IP::VGLL3",
       "genes": [
@@ -18665,6 +19833,19 @@
       ],
       "observed_fusions": [
         "SFPQ::TFE3"
+      ]
+    },
+    "SOHLH1::SRF": {
+      "fusion": "SOHLH1::SRF",
+      "genes": [
+        "SOHLH1",
+        "SRF"
+      ],
+      "diagnoses": [
+        "SRF-rearranged myoid neoplasm"
+      ],
+      "observed_fusions": [
+        "SRF::SOHLH1"
       ]
     },
     "SPARC::USP6": {
@@ -18820,6 +20001,19 @@
       ],
       "observed_fusions": [
         "TOX::TEAD1"
+      ]
+    },
+    "TFE3::TRAF3": {
+      "fusion": "TFE3::TRAF3",
+      "genes": [
+        "TFE3",
+        "TRAF3"
+      ],
+      "diagnoses": [
+        "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion"
+      ],
+      "observed_fusions": [
+        "TRAF3::TFE3"
       ]
     },
     "TFE3::WWTR1": {
@@ -19048,6 +20242,8 @@
     "emilin2::pdgfd": "EMILIN2::PDGFD",
     "pdgfd::tnc": "PDGFD::TNC",
     "fbn1::pdgfd": "FBN1::PDGFD",
+    "fgl2::pdgfd": "FGL2::PDGFD",
+    "pdgfb::tgfbi": "PDGFB::TGFBI",
     "nab2::stat6": "NAB2::STAT6",
     "nfix::stat6": "NFIX::STAT6",
     "ros1::tfg": "ROS1::TFG",
@@ -19123,6 +20319,7 @@
     "alk::lrrfip2": "ALK::LRRFIP2",
     "alk::cars1": "ALK::CARS1",
     "alk::sp100": "ALK::SP100",
+    "alk::tpm4": "ALK::TPM4",
     "fosb::zfp36": "FOSB::ZFP36",
     "fosb::wwtr1": "FOSB::WWTR1",
     "fos::lmna": "FOS::LMNA",
@@ -19161,6 +20358,7 @@
     "argfxp1::srf": "ARGFXP1::SRF",
     "bmal2::srf": "BMAL2::SRF",
     "mrtfb::srf": "MRTFB::SRF",
+    "sohlh1::srf": "SOHLH1::SRF",
     "alk::kank2": "ALK::KANK2",
     "actg2::alk": "ACTG2::ALK",
     "jazf1::ywhae": "JAZF1::YWHAE",
@@ -19222,6 +20420,8 @@
     "foxr1::phf1": "FOXR1::PHF1",
     "foxr2::phf1": "FOXR2::PHF1",
     "meaf6::suz12": "MEAF6::SUZ12",
+    "phf1::tp53": "PHF1::TP53",
+    "bcor::zc3h7a": "BCOR::ZC3H7A",
     "ewsr1::pou5f1": "EWSR1::POU5F1",
     "ewsr1::pbx1": "EWSR1::PBX1",
     "ewsr1::znf444": "EWSR1::ZNF444",
@@ -19252,6 +20452,8 @@
     "gli1::txnip": "GLI1::TXNIP",
     "gli1::tuba1b": "GLI1::TUBA1B",
     "gli1::pamr1": "GLI1::PAMR1",
+    "gli1::tnfaip3": "GLI1::TNFAIP3",
+    "foxo4::gli1": "FOXO4::GLI1",
     "ewsr1::fli1": "EWSR1::FLI1",
     "fli1::fus": "FLI1::FUS",
     "erg::fus": "ERG::FUS",
@@ -19354,6 +20556,11 @@
     "ntrk3::tfg": "NTRK3::TFG",
     "ntrk1::tpr": "NTRK1::TPR",
     "foxo4::meis2": "FOXO4::MEIS2",
+    "foxo1::jrk": "FOXO1::JRK",
+    "foxo1::pik3r4": "FOXO1::PIK3R4",
+    "atp7b::foxo1": "ATP7B::FOXO1",
+    "mef2d::ncoa2": "MEF2D::NCOA2",
+    "ctbp1::ewsr1": "CTBP1::EWSR1",
     "crtc1::trim11": "CRTC1::TRIM11",
     "alk::cltc": "ALK::CLTC",
     "alk::col1a2": "ALK::COL1A2",
@@ -19368,7 +20575,6 @@
     "fgfr3::tacc3": "FGFR3::TACC3",
     "ntrk1::tpm4": "NTRK1::TPM4",
     "gli1::malat1": "GLI1::MALAT1",
-    "ctbp1::ewsr1": "CTBP1::EWSR1",
     "gli2::ptch1": "GLI2::PTCH1",
     "mrtfb::rreb1": "MRTFB::RREB1",
     "pax3::wwtr1": "PAX3::WWTR1",
@@ -19394,6 +20600,8 @@
     "fgfr3::fn1": "FGFR3::FN1",
     "fus::nacc1": "FUS::NACC1",
     "ewsr1::nacc1": "EWSR1::NACC1",
+    "pdgfrb::ube2i": "PDGFRB::UBE2I",
+    "fn1::pdgfrb": "FN1::PDGFRB",
     "maml1::nr1d1": "MAML1::NR1D1",
     "maml2::nr1d1": "MAML2::NR1D1",
     "maml3::nr1d1": "MAML3::NR1D1",
@@ -19416,7 +20624,28 @@
     "crem::mitf": "CREM::MITF",
     "nedd4::ss18": "NEDD4::SS18",
     "foxo1::srf": "FOXO1::SRF",
-    "ncoa1::srf": "NCOA1::SRF"
+    "ncoa1::srf": "NCOA1::SRF",
+    "jazf1::nudt5": "JAZF1::NUDT5",
+    "acvr2a::raf1": "ACVR2A::RAF1",
+    "maz::ncoa2": "MAZ::NCOA2",
+    "ewsr1::ssx1": "EWSR1::SSX1",
+    "epc1::suz12": "EPC1::SUZ12",
+    "fus::klf17": "FUS::KLF17",
+    "erg::tcf4": "ERG::TCF4",
+    "tfe3::traf3": "TFE3::TRAF3",
+    "kmt2a::ldb1": "KMT2A::LDB1",
+    "ddit3::smarca2": "DDIT3::SMARCA2",
+    "jak1::pml": "JAK1::PML",
+    "cep170::rad51b": "CEP170::RAD51B",
+    "pum1::rad51b": "PUM1::RAD51B",
+    "rad51b::rbm43": "RAD51B::RBM43",
+    "rad51b::zfyve26": "RAD51B::ZFYVE26",
+    "mxd4::nutm2g": "MXD4::NUTM2G",
+    "mxi1::nutm2a": "MXI1::NUTM2A",
+    "ewsr1::ssx4": "EWSR1::SSX4",
+    "ewsr1::pou2af3": "EWSR1::POU2AF3",
+    "rreb1::tfe3": "RREB1::TFE3",
+    "hspa8::nr4a2": "HSPA8::NR4A2"
   },
   "suggestions": {
     "genes": [
@@ -19444,6 +20673,7 @@
       "ATF1",
       "ATF7IP",
       "ATG7",
+      "ATP7B",
       "AXL",
       "BCOR",
       "BCORL1",
@@ -19472,6 +20702,7 @@
       "CDH9",
       "CDK5RAP2",
       "CDX1",
+      "CEP170",
       "CHCHD7",
       "CHD7",
       "CHD9",
@@ -19547,6 +20778,7 @@
       "FGFR1",
       "FGFR2",
       "FGFR3",
+      "FGL2",
       "FILIP1L",
       "FKBP4",
       "FLI1",
@@ -19599,7 +20831,9 @@
       "INSR",
       "IRF2BP2",
       "ITD",
+      "JAK1",
       "JAZF1",
+      "JRK",
       "KANK1",
       "KANK2",
       "KANSL1",
@@ -19614,10 +20848,12 @@
       "KIF1A",
       "KLF10",
       "KLF15",
+      "KLF17",
       "KMT2A",
       "KMT2D",
       "KRT10",
       "LAMTOR1",
+      "LDB1",
       "LEUTX",
       "LHFPL6",
       "LIFR",
@@ -19635,6 +20871,7 @@
       "MAML3",
       "MAMLD1",
       "MAP4",
+      "MAZ",
       "MBTD1",
       "MCC",
       "MEAF6",
@@ -19691,6 +20928,7 @@
       "NOTCH2",
       "NOTCH3",
       "NR1D1",
+      "NR4A2",
       "NR4A3",
       "NRF1",
       "NRG1",
@@ -19700,12 +20938,14 @@
       "NUDCD3",
       "NUDT11",
       "NUDT3",
+      "NUDT5",
       "NUMA1",
       "NUP160",
       "NUTM1",
       "NUTM2A",
       "NUTM2B",
       "NUTM2E",
+      "NUTM2G",
       "OGA",
       "OGT",
       "OMD",
@@ -19735,10 +20975,13 @@
       "PHF1",
       "PI15",
       "PIK3CA",
+      "PIK3R4",
       "PKM",
       "PLAG1",
       "PLCZ1",
       "PLEKHH2",
+      "PML",
+      "POU2AF3",
       "POU5F1",
       "PPARG",
       "PPARGC1A",
@@ -19768,6 +21011,7 @@
       "RANBP2",
       "RB1",
       "RBM27",
+      "RBM43",
       "RBPMS",
       "RELA",
       "RET",
@@ -19796,6 +21040,7 @@
       "SMARCA4",
       "SMARCA5",
       "SND1",
+      "SOHLH1",
       "SP100",
       "SPARC",
       "SPECC1L",
@@ -19818,6 +21063,7 @@
       "SYN3",
       "TACC3",
       "TCF12",
+      "TCF4",
       "TEAD1",
       "TEK",
       "TERT",
@@ -19826,6 +21072,7 @@
       "TFE3",
       "TFG",
       "TGFA",
+      "TGFBI",
       "TGFBR3",
       "THBS1",
       "THBS2",
@@ -19835,12 +21082,15 @@
       "TLN2",
       "TMTC2",
       "TNC",
+      "TNFAIP3",
       "TNS1",
       "TOM1L2",
       "TOX",
+      "TP53",
       "TPM3",
       "TPM4",
       "TPR",
+      "TRAF3",
       "TRIM11",
       "TRIM13",
       "TRIM24",
@@ -19850,6 +21100,7 @@
       "TUBA1B",
       "TXNIP",
       "UBC",
+      "UBE2I",
       "UBP1",
       "USP2",
       "USP33",
@@ -19870,6 +21121,7 @@
       "YWHAQ",
       "YWHAZ",
       "ZBTB47",
+      "ZC3H7A",
       "ZC3H7B",
       "ZCCHC7",
       "ZEB1",
@@ -19877,6 +21129,7 @@
       "ZFP36",
       "ZFP64",
       "ZFTA",
+      "ZFYVE26",
       "ZNF444"
     ],
     "diagnoses": [
@@ -19914,6 +21167,7 @@
       "Calcifying aponeurotic fibroma",
       "Calcifying fibrous tumour",
       "Calcifying nested stromal-epithelial tumour of the liver",
+      "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
       "Cellular angiofibroma",
       "Central atypical cartilaginous tumour / chondrosarcoma, grade 1",
       "Central chondrosarcoma, grades 2 and 3",
@@ -19937,6 +21191,7 @@
       "CTNNB1-rearranged endometrial stromal tumour",
       "Cutaneous clear cell tumour",
       "Cutaneous epithelioid angiomatous nodule",
+      "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
       "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion",
       "Dedifferentiated chondrosarcoma",
       "Dedifferentiated chordoma",
@@ -19963,6 +21218,7 @@
       "Epithelioid haemangioendothelioma of bone",
       "Epithelioid haemangioma",
       "Epithelioid haemangioma of bone",
+      "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
       "Epithelioid inflammatory myofibroblastic sarcoma",
       "Epithelioid malignant peripheral nerve sheath tumour",
       "Epithelioid sarcoma",
@@ -19970,9 +21226,12 @@
       "Erdheim-Chester disease",
       "Ewing sarcoma",
       "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
+      "EWSR1::SSX-rearranged sarcoma",
+      "EWSR1::SSX1 fusion-driven synovial sarcoma",
       "EWSR1::WT1 Fusions Neoplasm",
       "Extrarenal rhabdoid tumour",
       "Extraskeletal myxoid chondrosarcoma",
+      "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion",
       "Extraskeletal osteosarcoma",
       "FET-CREB epithelioid mesenchymal tumours",
       "Fibroadenoma",
@@ -19983,6 +21242,7 @@
       "Fibrous dysplasia",
       "Fibrous hamartoma of infancy",
       "Follicular dendritic cell sarcoma",
+      "FOXO1-rearranged uterine sarcoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "GAB1::ABL1 fusion-positive spindle cell neoplasm",
       "Gardner fibroma",
@@ -20002,6 +21262,7 @@
       "High grade endometrial stromal sarcoma",
       "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
       "High-grade endometrial stromal sarcoma-like tumour in male patient",
+      "High-grade PML::JAK1 fusion sarcoma",
       "High-grade surface osteosarcoma",
       "Hybrid nerve sheath tumour",
       "Inclusion body fibromatosis",
@@ -20041,6 +21302,7 @@
       "Low-grade myofibroblastic sarcoma",
       "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions",
       "Lymphangioma and lymphangiomatosis",
+      "MAD::NUT fusion sarcoma",
       "Malignant peripheral nerve sheath tumour",
       "McCune-Albright syndrome (GNAS)",
       "Mesenchymal chondrosarcoma",
@@ -20080,6 +21342,7 @@
       "Paget disease of bone",
       "Palmar fibromatosis and plantar fibromatosis",
       "Papillary intralymphatic angioendothelioma",
+      "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion",
       "Parosteal osteosarcoma",
       "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
       "PATZ1-rearranged sarcoma",
@@ -20107,14 +21370,17 @@
       "Poorly differentiated chordoma",
       "Post-radiation atypical vascular lesion",
       "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
+      "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
       "Proliferative fasciitis and proliferative myositis",
       "PRRX1-rearranged fibroblastic tumour",
       "Pseudoendocrine sarcoma",
+      "Pseudoglandular schwannoma with FUS::KLF17 fusion",
       "Pseudomyogenic haemangioendothelioma",
+      "RAD51B-rearranged soft tissue tumor",
       "Retiform haemangioendothelioma",
       "Rhabdomyoma",
       "Rosai-Dorfman disease",
-      "Salivary gland hyalinizing clear cell carcinomas",
+      "Salivary gland hyalinizing clear cell carcinoma",
       "Sarcomas with BCOR genetic alterations",
       "Schwannoma",
       "Sclerosing epithelioid fibrosarcoma",
@@ -20124,6 +21390,7 @@
       "Secondary peripheral atypical cartilaginous tumour / chondrosarcoma, grade 1",
       "Secondary peripheral chondrosarcoma, grades 2 and 3",
       "Simple bone cyst",
+      "Sinonasal EWSR1::POU2AF3 sarcoma",
       "SMAD3-rearranged fibroblastic tumour",
       "SMARCA4-deficient uterine sarcoma",
       "Smooth muscle tumour of uncertain malignant potential",
@@ -20136,9 +21403,13 @@
       "Spindle cell lipoma and pleomorphic lipoma",
       "Spindle cell neoplasm with novel LTK fusion",
       "Spindle cell rhabdomyosarcoma with head and neck predilection",
+      "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
+      "Spindle cell sarcoma with JAZF1::NUDT5 fusion",
+      "Spindle cell sarcoma with LDB1::KMT2A fusion",
       "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
       "SRF-rearranged myoid neoplasm",
       "SS18::NEDD4 sarcomas",
+      "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
       "Subungual exostosis",
       "Superficial CD34-positive pleomorphic fibroblastic tumour",
       "Superficial FET-ETS neurocristic tumour",
@@ -20149,6 +21420,7 @@
       "Tenosynovial giant cell tumour",
       "Teratocarcinoma-like and Adamantinoma-like Head and neck neoplasm harboring NAB2::STAT6",
       "TFCP2-rearranged rhabdomyosarcoma",
+      "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
       "Tufted angioma and kaposiform haemangioendothelioma",
       "Tumours with SMARCA2/4::CREM fusions",
       "Undifferentiated pleomorphic sarcoma",
@@ -20158,9 +21430,11 @@
       "Uterine KAT6A/B::KANSL1-rearranged sarcomas",
       "Uterine leiomyoma and benign metastasizing leiomyoma",
       "Uterine leiomyosarcoma",
+      "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion",
       "Uterine tumour resembling ovarian sex cord tumour",
       "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor",
       "Venous malformations",
+      "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor",
       "YAP1::TFE3 haemangioendothelioma"
     ],
     "fusions": [
@@ -20176,6 +21450,7 @@
       "ACTG1::MITF",
       "ACTG2::ALK",
       "ACVR2A::FN1",
+      "ACVR2A::RAF1",
       "ADCK2::BRAF",
       "ADGRF5::THBS1",
       "AGAP3::BRAF",
@@ -20222,6 +21497,7 @@
       "ALK::TLN2",
       "ALK::TNS1",
       "ALK::TPM3",
+      "ALK::TPM4",
       "ALK::VCL",
       "ANXA2P2::EIF2AK4",
       "ARGFXP1::SRF",
@@ -20233,10 +21509,12 @@
       "ATF1::FUS",
       "ATF7IP::USP6",
       "ATG7::RAF1",
+      "ATP7B::FOXO1",
       "AXL::CIC",
       "BCOR::CCNB3",
       "BCOR::ITD",
       "BCOR::MAML3",
+      "BCOR::ZC3H7A",
       "BCOR::ZC3H7B",
       "BCORL1::CREBBP",
       "BEND2::NIPBL",
@@ -20279,6 +21557,7 @@
       "CDK5RAP2::KANK1",
       "CDX1::IRF2BP2",
       "CDX1::SQSTM1",
+      "CEP170::RAD51B",
       "CHCHD7::PLAG1",
       "CHD7::VGLL3",
       "CHD9::VGLL3",
@@ -20336,6 +21615,7 @@
       "DCTN1::NTRK1",
       "DDIT3::EWSR1",
       "DDIT3::FUS",
+      "DDIT3::SMARCA2",
       "DDX6::PLAG1",
       "DLEU2::PLAG1",
       "DVL2::TFE3",
@@ -20355,10 +21635,12 @@
       "EP400::PHF1",
       "EPC1::PHC2",
       "EPC1::PHF1",
+      "EPC1::SUZ12",
       "ERC1::RAF1",
       "ERG::EWSR1",
       "ERG::FUS",
       "ERG::NIPBL",
+      "ERG::TCF4",
       "ESR1::NCOA2",
       "ESR1::NCOA3",
       "ETV4::EWSR1",
@@ -20375,9 +21657,12 @@
       "EWSR1::PATZ1",
       "EWSR1::PBX1",
       "EWSR1::PBX3",
+      "EWSR1::POU2AF3",
       "EWSR1::POU5F1",
       "EWSR1::SMAD3",
       "EWSR1::SMARCA5",
+      "EWSR1::SSX1",
+      "EWSR1::SSX4",
       "EWSR1::TFCP2",
       "EWSR1::UBP1",
       "EWSR1::WT1",
@@ -20396,12 +21681,14 @@
       "FGFR2::FN1",
       "FGFR3::FN1",
       "FGFR3::TACC3",
+      "FGL2::PDGFD",
       "FILIP1L::USP6",
       "FLI1::FUS",
       "FMR1::RAF1",
       "FN1::MALAT1",
       "FN1::MERTK",
       "FN1::NTRK1",
+      "FN1::PDGFRB",
       "FN1::PRG4",
       "FN1::ROS1",
       "FN1::TEK",
@@ -20416,18 +21703,22 @@
       "FOSL1::NUDT11",
       "FOSL1::VAMP3",
       "FOXO1::GATA6",
+      "FOXO1::JRK",
       "FOXO1::MEIS1",
       "FOXO1::OGT",
       "FOXO1::PAX3",
       "FOXO1::PAX7",
+      "FOXO1::PIK3R4",
       "FOXO1::SRF",
       "FOXO3::OGT",
+      "FOXO4::GLI1",
       "FOXO4::MEIS2",
       "FOXO4::OGT",
       "FOXR1::PHF1",
       "FOXR2::PHF1",
       "FRMD6::PLAG1",
       "FRMD6::USP6",
+      "FUS::KLF17",
       "FUS::NACC1",
       "FUS::NFATC2",
       "FUS::NR4A3",
@@ -20438,6 +21729,7 @@
       "GLI1::MALAT1",
       "GLI1::PAMR1",
       "GLI1::PTCH1",
+      "GLI1::TNFAIP3",
       "GLI1::TUBA1B",
       "GLI1::TXNIP",
       "GLI2::PTCH1",
@@ -20468,6 +21760,7 @@
       "HMGA2::YAP1",
       "HNRNPC::PLAG1",
       "HNRNPC::USP6",
+      "HSPA8::NR4A2",
       "HSPA8::NR4A3",
       "ICA1L::SRF",
       "IGF1R::THBS1",
@@ -20475,6 +21768,8 @@
       "INSR::THBS1",
       "IRF2BP2::NTRK1",
       "ITD::NOTCH3",
+      "JAK1::PML",
+      "JAZF1::NUDT5",
       "JAZF1::PHF1",
       "JAZF1::SUZ12",
       "JAZF1::YWHAE",
@@ -20486,6 +21781,7 @@
       "KHDRBS1::NTRK3",
       "KIF1A::USP6",
       "KLF10::PLAG1",
+      "KMT2A::LDB1",
       "KMT2A::YAP1",
       "KMT2D::PRRX1",
       "KRT10::USP6",
@@ -20508,9 +21804,11 @@
       "MAMLD1::VGLL3",
       "MAP4::RAF1",
       "MAP4::USP6",
+      "MAZ::NCOA2",
       "MEAF6::PHF1",
       "MEAF6::SUZ12",
       "MED12::PRDM10",
+      "MEF2D::NCOA2",
       "MEF2D::NTRK1",
       "MEG3::PLAG1",
       "MEIS1::NCOA1",
@@ -20529,7 +21827,9 @@
       "MT-ND4::PLAG1",
       "MTUS1::NRG1",
       "MXD4::NUTM1",
+      "MXD4::NUTM2G",
       "MXI1::NUTM1",
+      "MXI1::NUTM2A",
       "MYADM::USP6",
       "MYH9::USP6",
       "MYOCD::PLAG1",
@@ -20590,15 +21890,18 @@
       "PAX7::PPARGC1A",
       "PAX8::PPARG",
       "PCMTD1::PLAG1",
+      "PDGFB::TGFBI",
       "PDGFD::TNC",
       "PDGFRA::USP35",
       "PDGFRA::USP8",
       "PDGFRB::SPARC",
+      "PDGFRB::UBE2I",
       "PDLIM7::USP6",
       "PDPN::PRKCB",
       "PDZRN3::RAF1",
       "PFN1::USP6",
       "PHF1::TFE3",
+      "PHF1::TP53",
       "PI15::PLAG1",
       "PIK3CA::TFG",
       "PKM::USP6",
@@ -20618,7 +21921,10 @@
       "PPARGC1A::VGLL3",
       "PPP6R3::USP6",
       "PTPRG::RAF1",
+      "PUM1::RAD51B",
       "QKI::RAF1",
+      "RAD51B::RBM43",
+      "RAD51B::ZFYVE26",
       "RAF1::SPPL2A",
       "RALA::USP6",
       "RB1::RNASEH2B",
@@ -20629,10 +21935,12 @@
       "ROS1::TFG",
       "ROS1::TPR",
       "RRBP1::USP6",
+      "RREB1::TFE3",
       "SEC23IP::VGLL3",
       "SEC61G::USP6",
       "SETD5::USP6",
       "SFPQ::TFE3",
+      "SOHLH1::SRF",
       "SPARC::USP6",
       "SPECC1L::TERT",
       "SPTAN1::USP6",
@@ -20644,6 +21952,7 @@
       "SS18::SSX4",
       "TCF12::VGLL3",
       "TEAD1::TOX",
+      "TFE3::TRAF3",
       "TFE3::WWTR1",
       "TFE3::YAP1",
       "THBS2::USP6",
@@ -20922,6 +22231,10 @@
         "canonical": "PPP2R2A"
       },
       {
+        "alias": "BA100C15.3",
+        "canonical": "SOHLH1"
+      },
+      {
         "alias": "BA119F19.1",
         "canonical": "NUTM2B"
       },
@@ -20998,6 +22311,10 @@
         "canonical": "TGFBR3"
       },
       {
+        "alias": "BHLHB19",
+        "canonical": "TCF4"
+      },
+      {
         "alias": "BHLHB20",
         "canonical": "TCF12"
       },
@@ -21042,8 +22359,16 @@
         "canonical": "AHRR"
       },
       {
+        "alias": "BHLHE80",
+        "canonical": "SOHLH1"
+      },
+      {
         "alias": "BIA1",
         "canonical": "TRIM11"
+      },
+      {
+        "alias": "BIGH3",
+        "canonical": "TGFBI"
       },
       {
         "alias": "BM-010",
@@ -21154,6 +22479,10 @@
         "canonical": "LAMTOR1"
       },
       {
+        "alias": "C11ORF93",
+        "canonical": "POU2AF3"
+      },
+      {
         "alias": "C11ORF95",
         "canonical": "ZFTA"
       },
@@ -21206,12 +22535,20 @@
         "canonical": "KIF1A"
       },
       {
+        "alias": "C2ORF38",
+        "canonical": "RBM43"
+      },
+      {
         "alias": "C2ORF67",
         "canonical": "KANSL1L"
       },
       {
         "alias": "C48",
         "canonical": "CDK5RAP2"
+      },
+      {
+        "alias": "C9ORF157",
+        "canonical": "SOHLH1"
       },
       {
         "alias": "C9ORF92",
@@ -21250,8 +22587,16 @@
         "canonical": "KMT2D"
       },
       {
+        "alias": "CAP-1",
+        "canonical": "TRAF3"
+      },
+      {
         "alias": "CARS",
         "canonical": "CARS1"
+      },
+      {
+        "alias": "CASC13",
+        "canonical": "POU2AF3"
       },
       {
         "alias": "CASIL",
@@ -21310,8 +22655,16 @@
         "canonical": "FGFR3"
       },
       {
+        "alias": "CD40BP",
+        "canonical": "TRAF3"
+      },
+      {
         "alias": "CD44R",
         "canonical": "CD44"
+      },
+      {
+        "alias": "CDB1",
+        "canonical": "TGFBI"
       },
       {
         "alias": "CDC10",
@@ -21320,6 +22673,10 @@
       {
         "alias": "CDC3",
         "canonical": "SEPTIN7"
+      },
+      {
+        "alias": "CDGG1",
+        "canonical": "TGFBI"
       },
       {
         "alias": "CDHF12",
@@ -21434,6 +22791,10 @@
         "canonical": "BMAL2"
       },
       {
+        "alias": "CLIM2",
+        "canonical": "LDB1"
+      },
+      {
         "alias": "CLIP-115",
         "canonical": "CLIP2"
       },
@@ -21474,6 +22835,10 @@
         "canonical": "COL12A1"
       },
       {
+        "alias": "COLCA2",
+        "canonical": "POU2AF3"
+      },
+      {
         "alias": "COX23",
         "canonical": "CHCHD7"
       },
@@ -21486,6 +22851,10 @@
         "canonical": "RAF1"
       },
       {
+        "alias": "CRAF1",
+        "canonical": "TRAF3"
+      },
+      {
         "alias": "CREB-H",
         "canonical": "CREB3L3"
       },
@@ -21496,6 +22865,18 @@
       {
         "alias": "CRG",
         "canonical": "CHD7"
+      },
+      {
+        "alias": "CSD1",
+        "canonical": "TGFBI"
+      },
+      {
+        "alias": "CSD2",
+        "canonical": "TGFBI"
+      },
+      {
+        "alias": "CSD3",
+        "canonical": "TGFBI"
       },
       {
         "alias": "CSM1",
@@ -21838,6 +23219,10 @@
         "canonical": "ETV4"
       },
       {
+        "alias": "E2-2",
+        "canonical": "TCF4"
+      },
+      {
         "alias": "E2F-6",
         "canonical": "E2F6"
       },
@@ -22054,8 +23439,16 @@
         "canonical": "NUTM2E"
       },
       {
+        "alias": "FAM22G",
+        "canonical": "NUTM2G"
+      },
+      {
         "alias": "FAM22H",
         "canonical": "NUTM1"
+      },
+      {
+        "alias": "FAM68A",
+        "canonical": "CEP170"
       },
       {
         "alias": "FBL11",
@@ -22230,6 +23623,10 @@
         "canonical": "INO80D"
       },
       {
+        "alias": "FLJ20318",
+        "canonical": "ZC3H7A"
+      },
+      {
         "alias": "FLJ20357",
         "canonical": "CHD7"
       },
@@ -22338,6 +23735,10 @@
         "canonical": "SMARCA4"
       },
       {
+        "alias": "FLJ40160",
+        "canonical": "KLF17"
+      },
+      {
         "alias": "FLJ41272",
         "canonical": "HAPSTR1"
       },
@@ -22352,6 +23753,10 @@
       {
         "alias": "FLJ45465",
         "canonical": "YWHAE"
+      },
+      {
+        "alias": "FLJ45645",
+        "canonical": "RBM43"
       },
       {
         "alias": "FLN",
@@ -22762,6 +24167,10 @@
         "canonical": "HSPA8"
       },
       {
+        "alias": "HSPC055",
+        "canonical": "ZC3H7A"
+      },
+      {
         "alias": "HSSG1",
         "canonical": "SRSF7"
       },
@@ -22830,6 +24239,14 @@
         "canonical": "TNC"
       },
       {
+        "alias": "HYSAH1",
+        "canonical": "NUDT5"
+      },
+      {
+        "alias": "HZF-3",
+        "canonical": "NR4A2"
+      },
+      {
         "alias": "IB291",
         "canonical": "GTF2I"
       },
@@ -22878,8 +24295,28 @@
         "canonical": "IRF2BP2"
       },
       {
+        "alias": "ITF2",
+        "canonical": "TCF4"
+      },
+      {
+        "alias": "JAK1A",
+        "canonical": "JAK1"
+      },
+      {
+        "alias": "JAK1B",
+        "canonical": "JAK1"
+      },
+      {
         "alias": "JCAP",
         "canonical": "PRG4"
+      },
+      {
+        "alias": "JERKY",
+        "canonical": "JRK"
+      },
+      {
+        "alias": "JH8",
+        "canonical": "JRK"
       },
       {
         "alias": "JHDM1A",
@@ -22900,6 +24337,10 @@
       {
         "alias": "JTK13",
         "canonical": "IGF1R"
+      },
+      {
+        "alias": "JTK3",
+        "canonical": "JAK1"
       },
       {
         "alias": "JTK4",
@@ -22928,6 +24369,10 @@
       {
         "alias": "K10",
         "canonical": "KRT10"
+      },
+      {
+        "alias": "KAB",
+        "canonical": "CEP170"
       },
       {
         "alias": "KAL2",
@@ -23014,6 +24459,10 @@
         "canonical": "TLN2"
       },
       {
+        "alias": "KIAA0321",
+        "canonical": "ZFYVE26"
+      },
+      {
         "alias": "KIAA0376",
         "canonical": "SPECC1L"
       },
@@ -23024,6 +24473,10 @@
       {
         "alias": "KIAA0454",
         "canonical": "PDE4DIP"
+      },
+      {
+        "alias": "KIAA0470",
+        "canonical": "CEP170"
       },
       {
         "alias": "KIAA0477",
@@ -23234,6 +24687,10 @@
         "canonical": "TFCP2"
       },
       {
+        "alias": "LCD1",
+        "canonical": "TGFBI"
+      },
+      {
         "alias": "LDC",
         "canonical": "LUM"
       },
@@ -23252,6 +24709,10 @@
       {
         "alias": "LEU5",
         "canonical": "TRIM13"
+      },
+      {
+        "alias": "LFS1",
+        "canonical": "TP53"
       },
       {
         "alias": "LGMD1B",
@@ -23810,6 +25271,10 @@
         "canonical": "MYOCD"
       },
       {
+        "alias": "MYL",
+        "canonical": "PML"
+      },
+      {
         "alias": "MYST3",
         "canonical": "KAT6A"
       },
@@ -23930,6 +25395,10 @@
         "canonical": "ZEB1"
       },
       {
+        "alias": "NLI",
+        "canonical": "LDB1"
+      },
+      {
         "alias": "NMHC-II-A",
         "canonical": "MYH9"
       },
@@ -23944,6 +25413,14 @@
       {
         "alias": "NMT55",
         "canonical": "NONO"
+      },
+      {
+        "alias": "NOHLH",
+        "canonical": "SOHLH1"
+      },
+      {
+        "alias": "NOT",
+        "canonical": "NR4A2"
       },
       {
         "alias": "NPHS4",
@@ -23994,6 +25471,10 @@
         "canonical": "ZFP36"
       },
       {
+        "alias": "NURR1",
+        "canonical": "NR4A2"
+      },
+      {
         "alias": "NUT",
         "canonical": "NUTM1"
       },
@@ -24028,6 +25509,10 @@
       {
         "alias": "OATPRP4",
         "canonical": "SLCO5A1"
+      },
+      {
+        "alias": "OCA-T2",
+        "canonical": "POU2AF3"
       },
       {
         "alias": "OCT-4",
@@ -24102,6 +25587,10 @@
         "canonical": "POU5F1"
       },
       {
+        "alias": "OTUD7C",
+        "canonical": "TNFAIP3"
+      },
+      {
         "alias": "P/CIP",
         "canonical": "NCOA3"
       },
@@ -24136,6 +25625,10 @@
       {
         "alias": "P400",
         "canonical": "EP400"
+      },
+      {
+        "alias": "P53",
+        "canonical": "TP53"
       },
       {
         "alias": "P54(NRB)",
@@ -24482,6 +25975,10 @@
         "canonical": "CTDSP2"
       },
       {
+        "alias": "PT49",
+        "canonical": "FGL2"
+      },
+      {
         "alias": "PTB-1",
         "canonical": "PTBP1"
       },
@@ -24512,6 +26009,10 @@
       {
         "alias": "PUMH1",
         "canonical": "PUM1"
+      },
+      {
+        "alias": "PUR-1",
+        "canonical": "MAZ"
       },
       {
         "alias": "QK3",
@@ -24634,8 +26135,16 @@
         "canonical": "NCOA1"
       },
       {
+        "alias": "RNF118",
+        "canonical": "TRAF3"
+      },
+      {
         "alias": "RNF12",
         "canonical": "RLIM"
+      },
+      {
+        "alias": "RNF71",
+        "canonical": "PML"
       },
       {
         "alias": "RNF76",
@@ -24748,6 +26257,10 @@
       {
         "alias": "SEEEG-1",
         "canonical": "SLC43A3"
+      },
+      {
+        "alias": "SEF2-1B",
+        "canonical": "TCF4"
       },
       {
         "alias": "SEMACAP3",
@@ -24882,8 +26395,16 @@
         "canonical": "SMARCA2"
       },
       {
+        "alias": "SPATA27",
+        "canonical": "SOHLH1"
+      },
+      {
         "alias": "SPEC1",
         "canonical": "CDC42SE1"
+      },
+      {
+        "alias": "SPG15",
+        "canonical": "ZFYVE26"
       },
       {
         "alias": "SPG30",
@@ -24950,6 +26471,10 @@
         "canonical": "PDPN"
       },
       {
+        "alias": "T49",
+        "canonical": "FGL2"
+      },
+      {
         "alias": "TACC4",
         "canonical": "TACC3"
       },
@@ -24984,6 +26509,10 @@
       {
         "alias": "TDRD19C",
         "canonical": "PHF1"
+      },
+      {
+        "alias": "TEB2",
+        "canonical": "SOHLH1"
       },
       {
         "alias": "TEF-1",
@@ -25068,6 +26597,10 @@
       {
         "alias": "TIMP",
         "canonical": "TIMP1"
+      },
+      {
+        "alias": "TINUR",
+        "canonical": "NR4A2"
       },
       {
         "alias": "TIP27",
@@ -25166,6 +26699,10 @@
         "canonical": "DLEU2"
       },
       {
+        "alias": "TRIM19",
+        "canonical": "PML"
+      },
+      {
         "alias": "TRIP230",
         "canonical": "TRIP11"
       },
@@ -25230,6 +26767,10 @@
         "canonical": "AXL"
       },
       {
+        "alias": "UBC9",
+        "canonical": "UBE2I"
+      },
+      {
         "alias": "UBP41",
         "canonical": "USP2"
       },
@@ -25290,6 +26831,10 @@
         "canonical": "TEK"
       },
       {
+        "alias": "VPS15",
+        "canonical": "PIK3R4"
+      },
+      {
         "alias": "VZG-1",
         "canonical": "LPAR1"
       },
@@ -25316,6 +26861,10 @@
       {
         "alias": "WMS",
         "canonical": "FBN1"
+      },
+      {
+        "alias": "WND",
+        "canonical": "ATP7B"
       },
       {
         "alias": "WS1",
@@ -25350,6 +26899,10 @@
         "canonical": "YAP1"
       },
       {
+        "alias": "YSA1H",
+        "canonical": "NUDT5"
+      },
+      {
         "alias": "YWHAD",
         "canonical": "YWHAZ"
       },
@@ -25370,6 +26923,14 @@
         "canonical": "RBM27"
       },
       {
+        "alias": "ZC3H7",
+        "canonical": "ZC3H7A"
+      },
+      {
+        "alias": "ZC3HDC7",
+        "canonical": "ZC3H7A"
+      },
+      {
         "alias": "ZCCHC20",
         "canonical": "SRSF7"
       },
@@ -25382,12 +26943,20 @@
         "canonical": "ZEB1"
       },
       {
+        "alias": "ZF87",
+        "canonical": "MAZ"
+      },
+      {
         "alias": "ZFHEP",
         "canonical": "ZEB1"
       },
       {
         "alias": "ZFHX1A",
         "canonical": "ZEB1"
+      },
+      {
+        "alias": "ZFP393",
+        "canonical": "KLF17"
       },
       {
         "alias": "ZFP403",
@@ -25404,6 +26973,10 @@
       {
         "alias": "ZIF268",
         "canonical": "EGR1"
+      },
+      {
+        "alias": "ZIF87",
+        "canonical": "MAZ"
       },
       {
         "alias": "ZIPZAP",
@@ -25426,12 +26999,20 @@
         "canonical": "ZFP64"
       },
       {
+        "alias": "ZNF393",
+        "canonical": "KLF17"
+      },
+      {
         "alias": "ZNF403",
         "canonical": "GGNBP2"
       },
       {
         "alias": "ZNF651",
         "canonical": "ZBTB47"
+      },
+      {
+        "alias": "ZNF801",
+        "canonical": "MAZ"
       },
       {
         "alias": "ZNF802",

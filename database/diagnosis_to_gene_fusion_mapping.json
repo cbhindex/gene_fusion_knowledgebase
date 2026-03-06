@@ -470,6 +470,16 @@
     "fusions": []
   },
   {
+    "diagnosis": "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
+    "genes": [
+      "ERG",
+      "TCF4"
+    ],
+    "fusions": [
+      "TCF4::ERG"
+    ]
+  },
+  {
     "diagnosis": "Cellular angiofibroma",
     "genes": [
       "CTSB",
@@ -703,6 +713,16 @@
     ]
   },
   {
+    "diagnosis": "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
+    "genes": [
+      "PDGFRA",
+      "USP8"
+    ],
+    "fusions": [
+      "PDGFRA::USP8"
+    ]
+  },
+  {
     "diagnosis": "Cutaneous melanocytic tumour with CRTC1::TRIM11 fusion",
     "genes": [
       "CRTC1",
@@ -769,6 +789,7 @@
       "SPECC1L",
       "SQSTM1",
       "TPM3",
+      "TPM4",
       "VCL"
     ],
     "fusions": [
@@ -790,6 +811,7 @@
       "SPECC1L::ALK",
       "SQSTM1::ALK",
       "TPM3::ALK",
+      "TPM4::ALK",
       "VCL::ALK"
     ]
   },
@@ -801,8 +823,10 @@
       "COL6A3",
       "EMILIN2",
       "FBN1",
+      "FGL2",
       "PDGFB",
       "PDGFD",
+      "TGFBI",
       "TNC"
     ],
     "fusions": [
@@ -811,6 +835,8 @@
       "COL6A3::PDGFD",
       "EMILIN2::PDGFD",
       "FBN1::PDGFD",
+      "FGL2::PDGFD",
+      "TGFBI::PDGFB",
       "TNC::PDGFD"
     ]
   },
@@ -1019,6 +1045,16 @@
     "fusions": []
   },
   {
+    "diagnosis": "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
+    "genes": [
+      "RREB1",
+      "TFE3"
+    ],
+    "fusions": [
+      "RREB1::TFE3"
+    ]
+  },
+  {
     "diagnosis": "Epithelioid inflammatory myofibroblastic sarcoma",
     "genes": [
       "ALK",
@@ -1081,6 +1117,26 @@
     ]
   },
   {
+    "diagnosis": "EWSR1::SSX-rearranged sarcoma",
+    "genes": [
+      "EWSR1",
+      "SSX4"
+    ],
+    "fusions": [
+      "EWSR1::SSX4"
+    ]
+  },
+  {
+    "diagnosis": "EWSR1::SSX1 fusion-driven synovial sarcoma",
+    "genes": [
+      "EWSR1",
+      "SSX1"
+    ],
+    "fusions": [
+      "EWSR1::SSX1"
+    ]
+  },
+  {
     "diagnosis": "EWSR1::WT1 Fusions Neoplasm",
     "genes": [
       "EWSR1",
@@ -1111,6 +1167,16 @@
       "HSPA8::NR4A3",
       "PGR::NR4A3",
       "TFG::NR4A3"
+    ]
+  },
+  {
+    "diagnosis": "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion",
+    "genes": [
+      "HSPA8",
+      "NR4A2"
+    ],
+    "fusions": [
+      "HSPA8::NR4A2"
     ]
   },
   {
@@ -1332,6 +1398,22 @@
     "fusions": []
   },
   {
+    "diagnosis": "FOXO1-rearranged uterine sarcoma",
+    "genes": [
+      "ATP7B",
+      "FOXO1",
+      "JRK",
+      "MEIS1",
+      "PIK3R4"
+    ],
+    "fusions": [
+      "FOXO1::ATP7B",
+      "FOXO1::JRK",
+      "FOXO1::MEIS1",
+      "FOXO1::PIK3R4"
+    ]
+  },
+  {
     "diagnosis": "Fusion-associated spindle cell rhabdomyosarcomas",
     "genes": [
       "ALK",
@@ -1435,8 +1517,10 @@
       "COL6A3",
       "EMILIN2",
       "FBN1",
+      "FGL2",
       "PDGFB",
       "PDGFD",
+      "TGFBI",
       "TNC"
     ],
     "fusions": [
@@ -1445,6 +1529,8 @@
       "COL6A3::PDGFD",
       "EMILIN2::PDGFD",
       "FBN1::PDGFD",
+      "FGL2::PDGFD",
+      "TGFBI::PDGFB",
       "TNC::PDGFD"
     ]
   },
@@ -1467,16 +1553,20 @@
     "diagnosis": "GLI1-altered mesenchymal tumours",
     "genes": [
       "ACTB",
+      "FOXO4",
       "GLI1",
       "PAMR1",
       "PTCH1",
+      "TNFAIP3",
       "TUBA1B",
       "TXNIP"
     ],
     "fusions": [
       "ACTB::GLI1",
+      "GLI1::FOXO4",
       "PAMR1::GLI1",
       "PTCH1::GLI1",
+      "TNFAIP3::GLI1",
       "TUBA1B::GLI1",
       "TXNIP::GLI1"
     ]
@@ -1562,6 +1652,16 @@
       "EWSR1::FLI1",
       "FUS::FEV",
       "FUS::FLI1"
+    ]
+  },
+  {
+    "diagnosis": "High-grade PML::JAK1 fusion sarcoma",
+    "genes": [
+      "JAK1",
+      "PML"
+    ],
+    "fusions": [
+      "PML::JAK1"
     ]
   },
   {
@@ -2054,6 +2154,24 @@
     "diagnosis": "Lymphangioma and lymphangiomatosis",
     "genes": [],
     "fusions": []
+  },
+  {
+    "diagnosis": "MAD::NUT fusion sarcoma",
+    "genes": [
+      "MGA",
+      "MXD4",
+      "MXI1",
+      "NUTM1",
+      "NUTM2A",
+      "NUTM2G"
+    ],
+    "fusions": [
+      "MGA::NUTM1",
+      "MXD4::NUTM1",
+      "MXD4::NUTM2G",
+      "MXI1::NUTM1",
+      "MXI1::NUTM2A"
+    ]
   },
   {
     "diagnosis": "Malignant peripheral nerve sheath tumour",
@@ -2592,7 +2710,9 @@
       "PHF1",
       "SUZ12",
       "TFE3",
+      "TP53",
       "WWTR1",
+      "ZC3H7A",
       "ZC3H7B"
     ],
     "fusions": [
@@ -2605,6 +2725,8 @@
       "PHF1::FOXR1",
       "PHF1::FOXR2",
       "PHF1::TFE3",
+      "TP53::PHF1",
+      "ZC3H7A::BCOR",
       "ZC3H7B::BCOR"
     ]
   },
@@ -2674,6 +2796,16 @@
     ]
   },
   {
+    "diagnosis": "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion",
+    "genes": [
+      "EPC1",
+      "SUZ12"
+    ],
+    "fusions": [
+      "EPC1::SUZ12"
+    ]
+  },
+  {
     "diagnosis": "Parosteal osteosarcoma",
     "genes": [],
     "fusions": []
@@ -2702,8 +2834,15 @@
   },
   {
     "diagnosis": "PDGFRB-mutated sarcoma with myogenic differentiation",
-    "genes": [],
-    "fusions": []
+    "genes": [
+      "FN1",
+      "PDGFRB",
+      "UBE2I"
+    ],
+    "fusions": [
+      "PDGFRB::FN1",
+      "PDGFRB::UBE2I"
+    ]
   },
   {
     "diagnosis": "PEComa",
@@ -3171,6 +3310,16 @@
     ]
   },
   {
+    "diagnosis": "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
+    "genes": [
+      "DDIT3",
+      "SMARCA2"
+    ],
+    "fusions": [
+      "SMARCA2::DDIT3"
+    ]
+  },
+  {
     "diagnosis": "Proliferative fasciitis and proliferative myositis",
     "genes": [
       "FOS",
@@ -3202,6 +3351,16 @@
     "fusions": []
   },
   {
+    "diagnosis": "Pseudoglandular schwannoma with FUS::KLF17 fusion",
+    "genes": [
+      "FUS",
+      "KLF17"
+    ],
+    "fusions": [
+      "FUS::KLF17"
+    ]
+  },
+  {
     "diagnosis": "Pseudomyogenic haemangioendothelioma",
     "genes": [
       "ACTB",
@@ -3211,6 +3370,24 @@
     "fusions": [
       "ACTB::FOSB",
       "SERPINE1::FOSB"
+    ]
+  },
+  {
+    "diagnosis": "RAD51B-rearranged soft tissue tumor",
+    "genes": [
+      "CEP170",
+      "NUDT3",
+      "PUM1",
+      "RAD51B",
+      "RBM43",
+      "ZFYVE26"
+    ],
+    "fusions": [
+      "CEP170::RAD51B",
+      "NUDT3::RAD51B",
+      "PUM1::RAD51B",
+      "RBM43::RAD51B",
+      "ZFYVE26::RAD51B"
     ]
   },
   {
@@ -3234,7 +3411,7 @@
     "fusions": []
   },
   {
-    "diagnosis": "Salivary gland hyalinizing clear cell carcinomas",
+    "diagnosis": "Salivary gland hyalinizing clear cell carcinoma",
     "genes": [
       "ATF1",
       "EWSR1"
@@ -3319,6 +3496,16 @@
     "diagnosis": "Simple bone cyst",
     "genes": [],
     "fusions": []
+  },
+  {
+    "diagnosis": "Sinonasal EWSR1::POU2AF3 sarcoma",
+    "genes": [
+      "EWSR1",
+      "POU2AF3"
+    ],
+    "fusions": [
+      "EWSR1::POU2AF3"
+    ]
   },
   {
     "diagnosis": "SMAD3-rearranged fibroblastic tumour",
@@ -3437,6 +3624,36 @@
     ]
   },
   {
+    "diagnosis": "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
+    "genes": [
+      "ACVR2A",
+      "RAF1"
+    ],
+    "fusions": [
+      "ACVR2A::RAF1"
+    ]
+  },
+  {
+    "diagnosis": "Spindle cell sarcoma with JAZF1::NUDT5 fusion",
+    "genes": [
+      "JAZF1",
+      "NUDT5"
+    ],
+    "fusions": [
+      "JAZF1::NUDT5"
+    ]
+  },
+  {
+    "diagnosis": "Spindle cell sarcoma with LDB1::KMT2A fusion",
+    "genes": [
+      "KMT2A",
+      "LDB1"
+    ],
+    "fusions": [
+      "LDB1::KMT2A"
+    ]
+  },
+  {
     "diagnosis": "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
     "genes": [
       "MEIS1",
@@ -3461,6 +3678,7 @@
       "NCOA3",
       "NFKBIE",
       "RELA",
+      "SOHLH1",
       "SRF"
     ],
     "fusions": [
@@ -3473,7 +3691,8 @@
       "SRF::NCOA2",
       "SRF::NCOA3",
       "SRF::NFKBIE",
-      "SRF::RELA"
+      "SRF::RELA",
+      "SRF::SOHLH1"
     ]
   },
   {
@@ -3484,6 +3703,16 @@
     ],
     "fusions": [
       "SS18::NEDD4"
+    ]
+  },
+  {
+    "diagnosis": "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
+    "genes": [
+      "MAZ",
+      "NCOA2"
+    ],
+    "fusions": [
+      "MAZ::NCOA2"
     ]
   },
   {
@@ -3607,6 +3836,16 @@
       "EWSR1::TFCP2",
       "FUS::TFCP2",
       "MEIS1::NCOA2"
+    ]
+  },
+  {
+    "diagnosis": "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
+    "genes": [
+      "TFE3",
+      "TRAF3"
+    ],
+    "fusions": [
+      "TRAF3::TFE3"
     ]
   },
   {
@@ -3772,6 +4011,16 @@
     ]
   },
   {
+    "diagnosis": "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion",
+    "genes": [
+      "CTBP1",
+      "EWSR1"
+    ],
+    "fusions": [
+      "EWSR1::CTBP1"
+    ]
+  },
+  {
     "diagnosis": "Uterine tumour resembling ovarian sex cord tumour",
     "genes": [
       "CITED2",
@@ -3807,6 +4056,16 @@
     "diagnosis": "Venous malformations",
     "genes": [],
     "fusions": []
+  },
+  {
+    "diagnosis": "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor",
+    "genes": [
+      "MEF2D",
+      "NCOA2"
+    ],
+    "fusions": [
+      "MEF2D::NCOA2"
+    ]
   },
   {
     "diagnosis": "YAP1::TFE3 haemangioendothelioma",

@@ -54,6 +54,7 @@
   {
     "gene": "ACVR2A",
     "diagnoses": [
+      "Spindle cell sarcoma with ACVR2A::RAF1 fusion",
       "Synovial chondromatosis"
     ]
   },
@@ -159,7 +160,7 @@
       "Angiosarcoma",
       "Clear cell sarcoma of soft tissue",
       "FET-CREB epithelioid mesenchymal tumours",
-      "Salivary gland hyalinizing clear cell carcinomas"
+      "Salivary gland hyalinizing clear cell carcinoma"
     ]
   },
   {
@@ -176,6 +177,12 @@
     "diagnoses": [
       "Glomus tumour",
       "Pericytic all, difficult to classify, hybrid"
+    ]
+  },
+  {
+    "gene": "ATP7B",
+    "diagnoses": [
+      "FOXO1-rearranged uterine sarcoma"
     ]
   },
   {
@@ -380,6 +387,12 @@
       "Hybrid nerve sheath tumour",
       "Mesenchymal chondrosarcoma",
       "Perineurioma"
+    ]
+  },
+  {
+    "gene": "CEP170",
+    "diagnoses": [
+      "RAD51B-rearranged soft tissue tumor"
     ]
   },
   {
@@ -600,7 +613,8 @@
   {
     "gene": "CTBP1",
     "diagnoses": [
-      "Gastroblastoma"
+      "Gastroblastoma",
+      "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion"
     ]
   },
   {
@@ -670,7 +684,8 @@
   {
     "gene": "DDIT3",
     "diagnoses": [
-      "Myxoid liposarcoma"
+      "Myxoid liposarcoma",
+      "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion"
     ]
   },
   {
@@ -847,7 +862,8 @@
     "diagnoses": [
       "Composite haemangioendothelioma",
       "Low grade endometrial stromal sarcoma",
-      "Ossifying fibromyxoid tumour"
+      "Ossifying fibromyxoid tumour",
+      "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion"
     ]
   },
   {
@@ -860,6 +876,7 @@
   {
     "gene": "ERG",
     "diagnoses": [
+      "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion",
       "Ewing sarcoma",
       "Superficial FET-ETS neurocristic tumour",
       "Tenosynovial giant cell tumour"
@@ -904,6 +921,8 @@
       "Ectomesenchymal chondromyxoid tumor",
       "Ewing sarcoma",
       "EWSR1::CREM intra-abdominal unclassified epithelioid sarcoma",
+      "EWSR1::SSX-rearranged sarcoma",
+      "EWSR1::SSX1 fusion-driven synovial sarcoma",
       "EWSR1::WT1 Fusions Neoplasm",
       "Extraskeletal myxoid chondrosarcoma",
       "FET-CREB epithelioid mesenchymal tumours",
@@ -918,11 +937,13 @@
       "PATZ1-fused neuroepithelial tumour of the CNS in paediatric population",
       "PATZ1-rearranged sarcoma",
       "Primary pulmonary myxoid sarcoma with EWSR1-CREB1 fusion",
-      "Salivary gland hyalinizing clear cell carcinomas",
+      "Salivary gland hyalinizing clear cell carcinoma",
       "Sclerosing epithelioid fibrosarcoma",
+      "Sinonasal EWSR1::POU2AF3 sarcoma",
       "SMAD3-rearranged fibroblastic tumour",
       "Superficial FET-ETS neurocristic tumour",
-      "TFCP2-rearranged rhabdomyosarcoma"
+      "TFCP2-rearranged rhabdomyosarcoma",
+      "Uterine mesenchymal tumour with  EWSR1::CTBP1 fusion"
     ]
   },
   {
@@ -1000,6 +1021,13 @@
     ]
   },
   {
+    "gene": "FGL2",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma"
+    ]
+  },
+  {
     "gene": "FILIP1L",
     "diagnoses": [
       "Aneurysmal bone cyst",
@@ -1045,6 +1073,7 @@
       "Chondroid synoviocytic neoplasm",
       "Lipofibromatosis",
       "Myopericytoma, including myofibroma",
+      "PDGFRB-mutated sarcoma with myogenic differentiation",
       "Pericytic all, difficult to classify, hybrid",
       "Phosphaturic mesenchymal tumour",
       "Soft tissue chondroma",
@@ -1096,6 +1125,7 @@
       "Cutaneous epithelioid angiomatous nodule",
       "Embryonal rhabdomyosarcoma",
       "Epithelioid haemangioma",
+      "FOXO1-rearranged uterine sarcoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
     ]
@@ -1110,6 +1140,7 @@
     "gene": "FOXO4",
     "diagnoses": [
       "CIC-rearranged sarcoma",
+      "GLI1-altered mesenchymal tumours",
       "High grade uterine sarcoma with MEIS2::FOXO4 Fusion",
       "OGT-rearranged mesenchymal neoplasm (formerly - OGT-rearranged acral mesenchymal neoplasm)"
     ]
@@ -1148,6 +1179,7 @@
       "Low-grade spindle cell sarcoma with storiform pattern and EWSR1/FUS-NACC1 fusions",
       "Myxoid liposarcoma",
       "NFATC2-rearranged sarcoma",
+      "Pseudoglandular schwannoma with FUS::KLF17 fusion",
       "Sclerosing epithelioid fibrosarcoma",
       "Superficial FET-ETS neurocristic tumour",
       "TFCP2-rearranged rhabdomyosarcoma"
@@ -1353,7 +1385,8 @@
   {
     "gene": "HSPA8",
     "diagnoses": [
-      "Extraskeletal myxoid chondrosarcoma"
+      "Extraskeletal myxoid chondrosarcoma",
+      "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
     ]
   },
   {
@@ -1406,12 +1439,25 @@
     ]
   },
   {
+    "gene": "JAK1",
+    "diagnoses": [
+      "High-grade PML::JAK1 fusion sarcoma"
+    ]
+  },
+  {
     "gene": "JAZF1",
     "diagnoses": [
       "Endometrial stromal nodule",
       "Leiomyosarcoma",
       "Low grade endometrial stromal sarcoma",
-      "Low-grade endometrial stromal sarcoma-like tumour in male patients"
+      "Low-grade endometrial stromal sarcoma-like tumour in male patients",
+      "Spindle cell sarcoma with JAZF1::NUDT5 fusion"
+    ]
+  },
+  {
+    "gene": "JRK",
+    "diagnoses": [
+      "FOXO1-rearranged uterine sarcoma"
     ]
   },
   {
@@ -1514,11 +1560,18 @@
     ]
   },
   {
+    "gene": "KLF17",
+    "diagnoses": [
+      "Pseudoglandular schwannoma with FUS::KLF17 fusion"
+    ]
+  },
+  {
     "gene": "KMT2A",
     "diagnoses": [
       "KMT2A-rearranged sarcoma",
       "Low-grade fibromyxoid sarcoma",
-      "Sclerosing epithelioid fibrosarcoma"
+      "Sclerosing epithelioid fibrosarcoma",
+      "Spindle cell sarcoma with LDB1::KMT2A fusion"
     ]
   },
   {
@@ -1542,6 +1595,12 @@
     "gene": "LAMTOR1",
     "diagnoses": [
       "Dermatofibroma/Fibrous histiocytoma_NOS"
+    ]
+  },
+  {
+    "gene": "LDB1",
+    "diagnoses": [
+      "Spindle cell sarcoma with LDB1::KMT2A fusion"
     ]
   },
   {
@@ -1681,6 +1740,12 @@
     ]
   },
   {
+    "gene": "MAZ",
+    "diagnoses": [
+      "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion"
+    ]
+  },
+  {
     "gene": "MBTD1",
     "diagnoses": [
       "Low grade endometrial stromal sarcoma"
@@ -1709,7 +1774,8 @@
   {
     "gene": "MEF2D",
     "diagnoses": [
-      "Kinase-altered spindle cell neoplasms"
+      "Kinase-altered spindle cell neoplasms",
+      "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor"
     ]
   },
   {
@@ -1725,6 +1791,7 @@
   {
     "gene": "MEIS1",
     "diagnoses": [
+      "FOXO1-rearranged uterine sarcoma",
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
       "TFCP2-rearranged rhabdomyosarcoma"
@@ -1752,6 +1819,7 @@
   {
     "gene": "MGA",
     "diagnoses": [
+      "MAD::NUT fusion sarcoma",
       "NUTM1-rearranged neoplasms"
     ]
   },
@@ -1861,6 +1929,7 @@
   {
     "gene": "MXD4",
     "diagnoses": [
+      "MAD::NUT fusion sarcoma",
       "NUTM1-rearranged colorectal sarcoma",
       "NUTM1-rearranged neoplasms"
     ]
@@ -1868,6 +1937,7 @@
   {
     "gene": "MXI1",
     "diagnoses": [
+      "MAD::NUT fusion sarcoma",
       "NUTM1-rearranged neoplasms"
     ]
   },
@@ -1949,8 +2019,10 @@
       "PRRX1-rearranged fibroblastic tumour",
       "Spindle cell sarcomas harboring MEIS1-NCOA2/1 fusions",
       "SRF-rearranged myoid neoplasm",
+      "Subcutaneous small round cell sarcoma of infancy with MAZ::NCOA2 fusion",
       "TFCP2-rearranged rhabdomyosarcoma",
-      "Uterine tumour resembling ovarian sex cord tumour"
+      "Uterine tumour resembling ovarian sex cord tumour",
+      "Vulvovaginal MEF2D::NCOA2 fusion-associated tumor"
     ]
   },
   {
@@ -2092,6 +2164,12 @@
     ]
   },
   {
+    "gene": "NR4A2",
+    "diagnoses": [
+      "Extraskeletal myxoid chondrosarcoma with HSPA8::NR4A2 fusion"
+    ]
+  },
+  {
     "gene": "NR4A3",
     "diagnoses": [
       "Extraskeletal myxoid chondrosarcoma",
@@ -2156,7 +2234,14 @@
   {
     "gene": "NUDT3",
     "diagnoses": [
+      "RAD51B-rearranged soft tissue tumor",
       "Uterine leiomyoma and benign metastasizing leiomyoma"
+    ]
+  },
+  {
+    "gene": "NUDT5",
+    "diagnoses": [
+      "Spindle cell sarcoma with JAZF1::NUDT5 fusion"
     ]
   },
   {
@@ -2176,6 +2261,7 @@
     "gene": "NUTM1",
     "diagnoses": [
       "CIC-rearranged sarcoma",
+      "MAD::NUT fusion sarcoma",
       "NUTM1-rearranged colorectal sarcoma",
       "NUTM1-rearranged neoplasms"
     ]
@@ -2184,7 +2270,8 @@
     "gene": "NUTM2A",
     "diagnoses": [
       "CIC-rearranged sarcoma",
-      "High grade endometrial stromal sarcoma"
+      "High grade endometrial stromal sarcoma",
+      "MAD::NUT fusion sarcoma"
     ]
   },
   {
@@ -2199,6 +2286,12 @@
     "gene": "NUTM2E",
     "diagnoses": [
       "Clear cell sarcoma of Kidney"
+    ]
+  },
+  {
+    "gene": "NUTM2G",
+    "diagnoses": [
+      "MAD::NUT fusion sarcoma"
     ]
   },
   {
@@ -2337,6 +2430,7 @@
     "diagnoses": [
       "Calcified chondroid mesenchymal neoplasms",
       "Chondroid synoviocytic neoplasm",
+      "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
       "Phosphaturic mesenchymal tumour",
       "Soft tissue chondroma"
     ]
@@ -2344,7 +2438,8 @@
   {
     "gene": "PDGFRB",
     "diagnoses": [
-      "Lipofibromatosis"
+      "Lipofibromatosis",
+      "PDGFRB-mutated sarcoma with myogenic differentiation"
     ]
   },
   {
@@ -2415,6 +2510,12 @@
     ]
   },
   {
+    "gene": "PIK3R4",
+    "diagnoses": [
+      "FOXO1-rearranged uterine sarcoma"
+    ]
+  },
+  {
     "gene": "PKM",
     "diagnoses": [
       "Aneurysmal bone cyst",
@@ -2451,6 +2552,18 @@
     "diagnoses": [
       "ALK-rearranged CD34-positive spindle cell tumour",
       "Epithelioid fibrous histiocytoma"
+    ]
+  },
+  {
+    "gene": "PML",
+    "diagnoses": [
+      "High-grade PML::JAK1 fusion sarcoma"
+    ]
+  },
+  {
+    "gene": "POU2AF3",
+    "diagnoses": [
+      "Sinonasal EWSR1::POU2AF3 sarcoma"
     ]
   },
   {
@@ -2586,7 +2699,8 @@
   {
     "gene": "PUM1",
     "diagnoses": [
-      "PLAG1-rearranged uterine sarcomas"
+      "PLAG1-rearranged uterine sarcomas",
+      "RAD51B-rearranged soft tissue tumor"
     ]
   },
   {
@@ -2615,6 +2729,7 @@
       "PLAG1-rearranged fibromyxoid and lipomatous neoplasm",
       "PLAG1-rearranged fibromyxoid tumour of soft tissue",
       "PLAG1-rearranged uterine sarcomas",
+      "RAD51B-rearranged soft tissue tumor",
       "Uterine leiomyoma and benign metastasizing leiomyoma"
     ]
   },
@@ -2623,7 +2738,8 @@
     "diagnoses": [
       "Glomus tumour",
       "Kinase-altered spindle cell neoplasms",
-      "Pericytic all, difficult to classify, hybrid"
+      "Pericytic all, difficult to classify, hybrid",
+      "Spindle cell sarcoma with ACVR2A::RAF1 fusion"
     ]
   },
   {
@@ -2657,6 +2773,12 @@
     "gene": "RBM27",
     "diagnoses": [
       "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "RBM43",
+    "diagnoses": [
+      "RAD51B-rearranged soft tissue tumor"
     ]
   },
   {
@@ -2731,6 +2853,7 @@
     "gene": "RREB1",
     "diagnoses": [
       "Ectomesenchymal chondromyxoid tumor",
+      "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
       "Hybrid nerve sheath tumour",
       "Perineurioma",
       "Variant rhabdomyosarcoma or aggressive variant of ectomesenchymal chondromyxoid tumor"
@@ -2831,6 +2954,7 @@
   {
     "gene": "SMARCA2",
     "diagnoses": [
+      "Primary subcutaneous myxoid liposarcoma with SMARCA2::DDIT3 fusion",
       "Tumours with SMARCA2/4::CREM fusions"
     ]
   },
@@ -2850,6 +2974,12 @@
     "gene": "SND1",
     "diagnoses": [
       "Myxoinflammatory fibroblastic sarcoma"
+    ]
+  },
+  {
+    "gene": "SOHLH1",
+    "diagnoses": [
+      "SRF-rearranged myoid neoplasm"
     ]
   },
   {
@@ -2951,6 +3081,7 @@
   {
     "gene": "SSX1",
     "diagnoses": [
+      "EWSR1::SSX1 fusion-driven synovial sarcoma",
       "Synovial sarcoma"
     ]
   },
@@ -2963,6 +3094,7 @@
   {
     "gene": "SSX4",
     "diagnoses": [
+      "EWSR1::SSX-rearranged sarcoma",
       "Synovial sarcoma"
     ]
   },
@@ -2993,7 +3125,8 @@
       "Endometrial stromal nodule",
       "Low grade endometrial stromal sarcoma",
       "Low-grade endometrial stromal sarcoma-like tumour in male patients",
-      "Ossifying fibromyxoid tumour"
+      "Ossifying fibromyxoid tumour",
+      "Paratesticular endometrial stromal sarcoma-like sarcoma with EPC1::SUZ12 fusion"
     ]
   },
   {
@@ -3019,6 +3152,12 @@
     "diagnoses": [
       "Fusion-associated spindle cell rhabdomyosarcomas",
       "Spindle cell rhabdomyosarcoma with head and neck predilection"
+    ]
+  },
+  {
+    "gene": "TCF4",
+    "diagnoses": [
+      "CD34-positive acral chondromyxoid mesenchymal neoplasm with TCF4::ERG fusion"
     ]
   },
   {
@@ -3064,8 +3203,10 @@
       "Alveolar soft part sarcoma",
       "Clear cell stromal tumour of the lung",
       "Epithelioid haemangioendothelioma",
+      "Epithelioid hemangioendothelioma with RREB1::TFE3 fusion",
       "Ossifying fibromyxoid tumour",
       "PEComa",
+      "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion",
       "YAP1::TFE3 haemangioendothelioma"
     ]
   },
@@ -3083,6 +3224,13 @@
     "gene": "TGFA",
     "diagnoses": [
       "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "TGFBI",
+    "diagnoses": [
+      "Dermatofibrosarcoma protuberans",
+      "Giant cell fibroblastoma"
     ]
   },
   {
@@ -3155,6 +3303,12 @@
     ]
   },
   {
+    "gene": "TNFAIP3",
+    "diagnoses": [
+      "GLI1-altered mesenchymal tumours"
+    ]
+  },
+  {
     "gene": "TNS1",
     "diagnoses": [
       "Uterine inflammatory myofibroblastic tumor"
@@ -3175,6 +3329,12 @@
     ]
   },
   {
+    "gene": "TP53",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
     "gene": "TPM3",
     "diagnoses": [
       "Dermatofibroma/Fibrous histiocytoma_NOS",
@@ -3189,6 +3349,7 @@
     "gene": "TPM4",
     "diagnoses": [
       "Aneurysmal bone cyst",
+      "Dermatofibroma/Fibrous histiocytoma_NOS",
       "Fibroma of tendon sheath",
       "Myositis ossificans and fibro-osseous pseudotumour of digits",
       "Nodular fasciitis",
@@ -3200,6 +3361,12 @@
     "diagnoses": [
       "Kinase-rearranged uterine sarcomas",
       "Lipofibromatosis"
+    ]
+  },
+  {
+    "gene": "TRAF3",
+    "diagnoses": [
+      "TFE3-altered perivascular epithelioid cell tumour (PEComa) with TRAF3::TFE3 fusion"
     ]
   },
   {
@@ -3261,6 +3428,12 @@
     ]
   },
   {
+    "gene": "UBE2I",
+    "diagnoses": [
+      "PDGFRB-mutated sarcoma with myogenic differentiation"
+    ]
+  },
+  {
     "gene": "UBP1",
     "diagnoses": [
       "Fusion-associated spindle cell rhabdomyosarcomas"
@@ -3302,6 +3475,7 @@
     "gene": "USP8",
     "diagnoses": [
       "Calcified chondroid mesenchymal neoplasms",
+      "Cutaneous inflammatory myofibroblastic with PDGFRA::USP8 fusion",
       "Soft tissue chondroma"
     ]
   },
@@ -3423,6 +3597,12 @@
     ]
   },
   {
+    "gene": "ZC3H7A",
+    "diagnoses": [
+      "Ossifying fibromyxoid tumour"
+    ]
+  },
+  {
     "gene": "ZC3H7B",
     "diagnoses": [
       "High grade endometrial stromal sarcoma",
@@ -3470,6 +3650,12 @@
     "gene": "ZFTA",
     "diagnoses": [
       "Chondroid lipoma"
+    ]
+  },
+  {
+    "gene": "ZFYVE26",
+    "diagnoses": [
+      "RAD51B-rearranged soft tissue tumor"
     ]
   },
   {

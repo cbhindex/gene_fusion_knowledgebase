@@ -48,7 +48,8 @@
   {
     "gene": "ACVR2A",
     "partner_genes": [
-      "FN1"
+      "FN1",
+      "RAF1"
     ]
   },
   {
@@ -126,6 +127,7 @@
       "TLN2",
       "TNS1",
       "TPM3",
+      "TPM4",
       "VCL"
     ]
   },
@@ -191,6 +193,12 @@
     ]
   },
   {
+    "gene": "ATP7B",
+    "partner_genes": [
+      "FOXO1"
+    ]
+  },
+  {
     "gene": "AXL",
     "partner_genes": [
       "CIC"
@@ -202,6 +210,7 @@
       "CCNB3",
       "ITD",
       "MAML3",
+      "ZC3H7A",
       "ZC3H7B"
     ]
   },
@@ -380,6 +389,12 @@
     "partner_genes": [
       "IRF2BP2",
       "SQSTM1"
+    ]
+  },
+  {
+    "gene": "CEP170",
+    "partner_genes": [
+      "RAD51B"
     ]
   },
   {
@@ -623,7 +638,8 @@
     "gene": "DDIT3",
     "partner_genes": [
       "EWSR1",
-      "FUS"
+      "FUS",
+      "SMARCA2"
     ]
   },
   {
@@ -765,7 +781,8 @@
     "gene": "EPC1",
     "partner_genes": [
       "PHC2",
-      "PHF1"
+      "PHF1",
+      "SUZ12"
     ]
   },
   {
@@ -780,7 +797,8 @@
     "partner_genes": [
       "EWSR1",
       "FUS",
-      "NIPBL"
+      "NIPBL",
+      "TCF4"
     ]
   },
   {
@@ -834,9 +852,12 @@
       "PATZ1",
       "PBX1",
       "PBX3",
+      "POU2AF3",
       "POU5F1",
       "SMAD3",
       "SMARCA5",
+      "SSX1",
+      "SSX4",
       "TFCP2",
       "UBP1",
       "WT1",
@@ -911,6 +932,12 @@
     ]
   },
   {
+    "gene": "FGL2",
+    "partner_genes": [
+      "PDGFD"
+    ]
+  },
+  {
     "gene": "FILIP1L",
     "partner_genes": [
       "USP6"
@@ -958,6 +985,7 @@
       "MALAT1",
       "MERTK",
       "NTRK1",
+      "PDGFRB",
       "PRG4",
       "ROS1",
       "TEK",
@@ -1003,11 +1031,14 @@
   {
     "gene": "FOXO1",
     "partner_genes": [
+      "ATP7B",
       "GATA6",
+      "JRK",
       "MEIS1",
       "OGT",
       "PAX3",
       "PAX7",
+      "PIK3R4",
       "SRF"
     ]
   },
@@ -1021,6 +1052,7 @@
     "gene": "FOXO4",
     "partner_genes": [
       "CIC",
+      "GLI1",
       "MEIS2",
       "OGT"
     ]
@@ -1056,6 +1088,7 @@
       "ETV5",
       "FEV",
       "FLI1",
+      "KLF17",
       "NACC1",
       "NFATC2",
       "NR4A3",
@@ -1114,9 +1147,11 @@
     "gene": "GLI1",
     "partner_genes": [
       "ACTB",
+      "FOXO4",
       "MALAT1",
       "PAMR1",
       "PTCH1",
+      "TNFAIP3",
       "TUBA1B",
       "TXNIP"
     ]
@@ -1249,6 +1284,7 @@
   {
     "gene": "HSPA8",
     "partner_genes": [
+      "NR4A2",
       "NR4A3"
     ]
   },
@@ -1297,12 +1333,25 @@
     ]
   },
   {
+    "gene": "JAK1",
+    "partner_genes": [
+      "PML"
+    ]
+  },
+  {
     "gene": "JAZF1",
     "partner_genes": [
       "GLI3",
+      "NUDT5",
       "PHF1",
       "SUZ12",
       "YWHAE"
+    ]
+  },
+  {
+    "gene": "JRK",
+    "partner_genes": [
+      "FOXO1"
     ]
   },
   {
@@ -1391,8 +1440,15 @@
     ]
   },
   {
+    "gene": "KLF17",
+    "partner_genes": [
+      "FUS"
+    ]
+  },
+  {
     "gene": "KMT2A",
     "partner_genes": [
+      "LDB1",
       "YAP1"
     ]
   },
@@ -1412,6 +1468,12 @@
     "gene": "LAMTOR1",
     "partner_genes": [
       "PRKCD"
+    ]
+  },
+  {
+    "gene": "LDB1",
+    "partner_genes": [
+      "KMT2A"
     ]
   },
   {
@@ -1527,6 +1589,12 @@
     ]
   },
   {
+    "gene": "MAZ",
+    "partner_genes": [
+      "NCOA2"
+    ]
+  },
+  {
     "gene": "MBTD1",
     "partner_genes": [
       "EZHIP"
@@ -1554,6 +1622,7 @@
   {
     "gene": "MEF2D",
     "partner_genes": [
+      "NCOA2",
       "NTRK1"
     ]
   },
@@ -1695,13 +1764,15 @@
   {
     "gene": "MXD4",
     "partner_genes": [
-      "NUTM1"
+      "NUTM1",
+      "NUTM2G"
     ]
   },
   {
     "gene": "MXI1",
     "partner_genes": [
-      "NUTM1"
+      "NUTM1",
+      "NUTM2A"
     ]
   },
   {
@@ -1769,6 +1840,8 @@
       "GTF2A1",
       "GTF2I",
       "HEY1",
+      "MAZ",
+      "MEF2D",
       "MEIS1",
       "PAX3",
       "PRRX1",
@@ -1903,6 +1976,12 @@
     ]
   },
   {
+    "gene": "NR4A2",
+    "partner_genes": [
+      "HSPA8"
+    ]
+  },
+  {
     "gene": "NR4A3",
     "partner_genes": [
       "ACTB",
@@ -1985,6 +2064,12 @@
     ]
   },
   {
+    "gene": "NUDT5",
+    "partner_genes": [
+      "JAZF1"
+    ]
+  },
+  {
     "gene": "NUMA1",
     "partner_genes": [
       "NTRK1",
@@ -2011,6 +2096,7 @@
     "gene": "NUTM2A",
     "partner_genes": [
       "CIC",
+      "MXI1",
       "YWHAE"
     ]
   },
@@ -2024,6 +2110,12 @@
     "gene": "NUTM2E",
     "partner_genes": [
       "YWHAE"
+    ]
+  },
+  {
+    "gene": "NUTM2G",
+    "partner_genes": [
+      "MXD4"
     ]
   },
   {
@@ -2135,7 +2227,8 @@
     "gene": "PDGFB",
     "partner_genes": [
       "COL1A1",
-      "COL1A2"
+      "COL1A2",
+      "TGFBI"
     ]
   },
   {
@@ -2144,6 +2237,7 @@
       "COL6A3",
       "EMILIN2",
       "FBN1",
+      "FGL2",
       "TNC"
     ]
   },
@@ -2157,7 +2251,9 @@
   {
     "gene": "PDGFRB",
     "partner_genes": [
-      "SPARC"
+      "FN1",
+      "SPARC",
+      "UBE2I"
     ]
   },
   {
@@ -2205,7 +2301,8 @@
       "FOXR2",
       "JAZF1",
       "MEAF6",
-      "TFE3"
+      "TFE3",
+      "TP53"
     ]
   },
   {
@@ -2218,6 +2315,12 @@
     "gene": "PIK3CA",
     "partner_genes": [
       "TFG"
+    ]
+  },
+  {
+    "gene": "PIK3R4",
+    "partner_genes": [
+      "FOXO1"
     ]
   },
   {
@@ -2284,6 +2387,18 @@
     "gene": "PLEKHH2",
     "partner_genes": [
       "ALK"
+    ]
+  },
+  {
+    "gene": "PML",
+    "partner_genes": [
+      "JAK1"
+    ]
+  },
+  {
+    "gene": "POU2AF3",
+    "partner_genes": [
+      "EWSR1"
     ]
   },
   {
@@ -2411,7 +2526,8 @@
   {
     "gene": "PUM1",
     "partner_genes": [
-      "PLAG1"
+      "PLAG1",
+      "RAD51B"
     ]
   },
   {
@@ -2429,14 +2545,19 @@
   {
     "gene": "RAD51B",
     "partner_genes": [
+      "CEP170",
       "HMGA2",
       "NUDT3",
-      "PLAG1"
+      "PLAG1",
+      "PUM1",
+      "RBM43",
+      "ZFYVE26"
     ]
   },
   {
     "gene": "RAF1",
     "partner_genes": [
+      "ACVR2A",
       "ATG7",
       "ERC1",
       "FMR1",
@@ -2476,6 +2597,12 @@
     "gene": "RBM27",
     "partner_genes": [
       "HBEGF"
+    ]
+  },
+  {
+    "gene": "RBM43",
+    "partner_genes": [
+      "RAD51B"
     ]
   },
   {
@@ -2544,7 +2671,8 @@
     "gene": "RREB1",
     "partner_genes": [
       "LPP",
-      "MRTFB"
+      "MRTFB",
+      "TFE3"
     ]
   },
   {
@@ -2634,7 +2762,8 @@
   {
     "gene": "SMARCA2",
     "partner_genes": [
-      "CREM"
+      "CREM",
+      "DDIT3"
     ]
   },
   {
@@ -2653,6 +2782,12 @@
     "gene": "SND1",
     "partner_genes": [
       "BRAF"
+    ]
+  },
+  {
+    "gene": "SOHLH1",
+    "partner_genes": [
+      "SRF"
     ]
   },
   {
@@ -2717,6 +2852,7 @@
       "NCOA3",
       "NFKBIE",
       "RELA",
+      "SOHLH1",
       "STAT6"
     ]
   },
@@ -2746,6 +2882,7 @@
   {
     "gene": "SSX1",
     "partner_genes": [
+      "EWSR1",
       "SS18"
     ]
   },
@@ -2758,6 +2895,7 @@
   {
     "gene": "SSX4",
     "partner_genes": [
+      "EWSR1",
       "SS18"
     ]
   },
@@ -2784,6 +2922,7 @@
   {
     "gene": "SUZ12",
     "partner_genes": [
+      "EPC1",
       "JAZF1",
       "MEAF6"
     ]
@@ -2810,6 +2949,12 @@
     "gene": "TCF12",
     "partner_genes": [
       "VGLL3"
+    ]
+  },
+  {
+    "gene": "TCF4",
+    "partner_genes": [
+      "ERG"
     ]
   },
   {
@@ -2853,7 +2998,9 @@
       "DVL2",
       "NONO",
       "PHF1",
+      "RREB1",
       "SFPQ",
+      "TRAF3",
       "WWTR1",
       "YAP1"
     ]
@@ -2872,6 +3019,12 @@
     "gene": "TGFA",
     "partner_genes": [
       "FN1"
+    ]
+  },
+  {
+    "gene": "TGFBI",
+    "partner_genes": [
+      "PDGFB"
     ]
   },
   {
@@ -2935,6 +3088,12 @@
     ]
   },
   {
+    "gene": "TNFAIP3",
+    "partner_genes": [
+      "GLI1"
+    ]
+  },
+  {
     "gene": "TNS1",
     "partner_genes": [
       "ALK"
@@ -2953,6 +3112,12 @@
     ]
   },
   {
+    "gene": "TP53",
+    "partner_genes": [
+      "PHF1"
+    ]
+  },
+  {
     "gene": "TPM3",
     "partner_genes": [
       "ALK",
@@ -2962,6 +3127,7 @@
   {
     "gene": "TPM4",
     "partner_genes": [
+      "ALK",
       "NTRK1",
       "USP6"
     ]
@@ -2971,6 +3137,12 @@
     "partner_genes": [
       "NTRK1",
       "ROS1"
+    ]
+  },
+  {
+    "gene": "TRAF3",
+    "partner_genes": [
+      "TFE3"
     ]
   },
   {
@@ -3025,6 +3197,12 @@
     "gene": "UBC",
     "partner_genes": [
       "USP6"
+    ]
+  },
+  {
+    "gene": "UBE2I",
+    "partner_genes": [
+      "PDGFRB"
     ]
   },
   {
@@ -3214,6 +3392,12 @@
     ]
   },
   {
+    "gene": "ZC3H7A",
+    "partner_genes": [
+      "BCOR"
+    ]
+  },
+  {
     "gene": "ZC3H7B",
     "partner_genes": [
       "BCOR"
@@ -3255,6 +3439,12 @@
     "partner_genes": [
       "MRTFB",
       "NCOA1"
+    ]
+  },
+  {
+    "gene": "ZFYVE26",
+    "partner_genes": [
+      "RAD51B"
     ]
   },
   {
